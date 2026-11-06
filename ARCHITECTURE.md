@@ -1,6 +1,6 @@
 # Arquitetura — implementação em andamento
 
-Este documento descreve a base existente, não uma entrega concluída. As telas e os fluxos principais estão implementados e há uma publicação do commit `d1810af`; a verificação integral dos gates permanece pendente. O enunciado preservado está em [docs/challenge-brief.md](docs/challenge-brief.md), e as decisões de implementação estão na mudança OpenSpec local.
+Este documento descreve a base existente, não uma entrega concluída. As telas e os fluxos principais estão implementados e há uma publicação na Vercel; a verificação integral dos gates permanece pendente. O enunciado preservado está em [docs/challenge-brief.md](docs/challenge-brief.md), e as decisões de implementação estão na mudança OpenSpec local.
 
 ## Inicialização e rede
 
@@ -54,4 +54,4 @@ As decisões C01–C12, L01–L27 e V01–V11, incluindo adaptações sem frame 
 
 ## Pendências de entrega
 
-Faltam concluir a cobertura de aceitação de ponta a ponta, o gate visual e de acessibilidade e a auditoria da entrega. A [publicação e suas verificações parciais](docs/delivery-verification.md) identificam a URL e o commit publicado; alterações locais posteriores ainda não integram esse deployment. As 12 medições Lighthouse locais e seus limites estão em [reports/lighthouse/README.md](reports/lighthouse/README.md); não comprovam a versão publicada. As decisões e desvios precisam ser revisados contra a implementação final antes de considerar este documento e a tarefa de documentação completos.
+Faltam concluir a cobertura de aceitação de ponta a ponta, o gate visual e de acessibilidade e a auditoria da entrega. A [publicação e suas verificações parciais](docs/delivery-verification.md) registram a URL e as versões observadas. As 12 medições Lighthouse locais e seus limites estão em [reports/lighthouse/README.md](reports/lighthouse/README.md); não comprovam a versão publicada. As decisões e desvios precisam ser revisados contra a implementação final antes de considerar este documento e a tarefa de documentação completos.
