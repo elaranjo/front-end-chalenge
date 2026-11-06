@@ -1,6 +1,6 @@
 # Revisão de acessibilidade em andamento
 
-Em 06/11/2026, o axe foi executado no preview com 14 estados em 390, 414, 768 e 1440 px, incluindo login e cadastro com erros de campos obrigatórios e carrinho vazio após a compra. Não detectou violações automáticas nos 56 casos. O relatório `axe.json` mantém 43 resultados inconclusivos; zero violações automáticas não significa aprovação integral.
+Em 06/11/2026 às 20:57 UTC, o axe foi executado no preview do build local do commit `83743ab` com 14 estados em 390, 414, 768 e 1440 px, incluindo login e cadastro com erros de campos obrigatórios e carrinho vazio após a compra. Não detectou violações automáticas nos 56 casos. O relatório `axe.json` mantém 43 resultados inconclusivos; zero violações automáticas não significa aprovação integral.
 
 ## Itens inconclusivos revisados
 

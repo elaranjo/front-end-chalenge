@@ -2,7 +2,7 @@
 
 `axe.json` registra a última execução automatizada em 56 casos: 14 estados em quatro larguras. Login e cadastro com erros de campos obrigatórios e carrinho vazio estão incluídos. Resultados `incomplete` exigem análise adicional e não são aprovação automática.
 
-Na execução mais recente de 06/11/2026, o axe registrou zero violações e 43 resultados inconclusivos nesses estados. O comando retorna erro quando encontra violações; a ausência delas não elimina a necessidade de revisar os resultados inconclusivos e os critérios não automatizados. O andamento dessa revisão está em [revisao-manual.md](revisao-manual.md).
+Na execução mais recente de 06/11/2026 às 20:57 UTC, sobre o build local do commit `83743ab`, o axe registrou zero violações e 43 resultados inconclusivos nesses estados. A coleta anterior foi preservada em [axe-20261106-anterior.json](axe-20261106-anterior.json). O comando retorna erro quando encontra violações; a ausência delas não elimina a necessidade de revisar os resultados inconclusivos e os critérios não automatizados. O andamento dessa revisão está em [revisao-manual.md](revisao-manual.md).
 
 Na tela de carteiras, os seletores de rede, tipo de carteira e sufixo ENS usam uma seta SVG como imagem de fundo, o que impede o axe de determinar o contraste. A verificação em `tests/e2e/wallets.spec.ts` calcula o contraste da cor computada do texto sobre o fundo da página em 390 e 1440 pixels, antes e depois de selecionar valores; todos ficaram acima de 4,5:1. A seta ocupa a lateral do campo, fora da área de texto. Esse resultado cobre apenas esses controles e estados, não outros alertas ou a aparência de menus nativos abertos.
 

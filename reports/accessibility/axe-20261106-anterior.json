@@ -1,0 +1,1615 @@
+{
+  "generatedAt": "2026-11-06T15:28:35.466Z",
+  "base": "http://127.0.0.1:4173",
+  "axeVersion": "4.14.0",
+  "scope": "WCAG 2 A/AA and 2.1 A/AA automated rules; manual review and other screens remain required",
+  "results": [
+    {
+      "page": "inicio",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "p:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "h1 > .home-mobile-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                ".home-hero-description > .home-mobile-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                ".home-hero-copy > a[href$=\"#catalogo\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".home-card:nth-child(1) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(2) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(3) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(4) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(5) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(6) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(7) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(8) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(9) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".detail-description"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "button[aria-label=\"Diminuir quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Aumentar quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-checkout"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "login",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "login-invalido",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro-invalido",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "perfil",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carteiras",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select[aria-label=\"Rede\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Tipo de carteira\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Sufixo ENS\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-conectado",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "label:nth-child(2) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "target": [
+                "label:nth-child(3) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-revisao",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "recibo",
+      "width": 390,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".order-close"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho-vazio",
+      "width": 390,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "inicio",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "p:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "h1 > .home-mobile-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                ".home-hero-description > .home-mobile-title"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                ".home-hero-copy > a[href$=\"#catalogo\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".home-card:nth-child(1) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(2) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(3) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(4) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(5) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(6) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(7) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(8) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(9) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".detail-description"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "button[aria-label=\"Diminuir quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Aumentar quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-checkout"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "login",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "login-invalido",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro-invalido",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "perfil",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carteiras",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select[aria-label=\"Rede\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Tipo de carteira\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Sufixo ENS\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-conectado",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "label:nth-child(2) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "target": [
+                "label:nth-child(3) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-revisao",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "recibo",
+      "width": 414,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".order-close"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho-vazio",
+      "width": 414,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "inicio",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".home-header-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(1) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(2) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(3) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(4) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(5) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(6) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(7) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(8) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(9) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".home-card:nth-child(1) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(2) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(3) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(4) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(5) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(6) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(7) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(8) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".home-card:nth-child(9) > .favorite-control[href=\"/login?returnTo=%2F\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "button[aria-label=\"Diminuir quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Aumentar quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".account-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "login",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "login-invalido",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro-invalido",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "perfil",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carteiras",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select[aria-label=\"Rede\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Tipo de carteira\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Sufixo ENS\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-conectado",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "label:nth-child(2) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            },
+            {
+              "target": [
+                "label:nth-child(3) > .checkout-provider-mark[aria-hidden=\"true\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-revisao",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "recibo",
+      "width": 768,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".order-close"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho-vazio",
+      "width": 768,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "inicio",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".home-logo"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                "nav[aria-label=\"Navegação principal\"] > a[href=\"/\"][aria-current=\"page\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                "a[href$=\"/#catalogo\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                "nav[aria-label=\"Navegação principal\"] > button[type=\"button\"]:nth-child(4)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-header-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-login"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-featured > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".home-featured > p"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(1) > div > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(1) > div > p"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(1) > div > a[href$=\"#catalogo\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(2) > div > h2"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(2) > div > p"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".home-promo:nth-child(2) > div > a[href$=\"#catalogo\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".account-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "button[aria-label=\"Diminuir quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                "button[aria-label=\"Aumentar quantidade\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".detail-favorite-desktop > .favorite-control"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".account-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(1) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(2) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(3) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(1)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            },
+            {
+              "target": [
+                ".cart-line:nth-child(4) > .cart-stepper > button[type=\"button\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "login",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "login-invalido",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "cadastro-invalido",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "page": "perfil",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carteiras",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "select[aria-label=\"Rede\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Tipo de carteira\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            },
+            {
+              "target": [
+                "select[aria-label=\"Sufixo ENS\"]"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".account-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-conectado",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".account-cart > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                "select"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "checkout-revisao",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "dialog > p:nth-child(6)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "recibo",
+      "width": 1440,
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "label-content-name-mismatch",
+          "impact": "serious",
+          "help": "Elements must have their visible text as part of their accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".order-close"
+              ],
+              "failureSummary": "Fix any of the following:\n  Unable to determine if the visible text is part of the accessible name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "carrinho-vazio",
+      "width": 1440,
+      "violations": [],
+      "incomplete": []
+    }
+  ]
+}
