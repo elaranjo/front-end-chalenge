@@ -1,6 +1,21 @@
 import { expect, test } from '@playwright/test'
 
 for (const width of [390, 1440]) {
+  test(`catálogo vazio apresenta estado coerente após acesso e refresh em ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    const catalog = page.waitForResponse((response) => new URL(response.url()).pathname === '/api/v1/nfts' && response.ok())
+    await page.goto('http://127.0.0.1:5173/?mockScenario=empty')
+    expect((await (await catalog).json()).items).toEqual([])
+    await expect(page.getByText('Nenhum NFT encontrado.')).toBeVisible()
+    await expect(page.locator('.home-grid .home-card')).toHaveCount(0)
+    const refreshed = page.waitForResponse((response) => new URL(response.url()).pathname === '/api/v1/nfts' && response.ok())
+    await page.reload()
+    expect((await (await refreshed).json()).items).toEqual([])
+    await expect(page.getByText('Nenhum NFT encontrado.')).toBeVisible()
+  })
+}
+
+for (const width of [390, 1440]) {
   test(`catálogo combina filtros, reinicia página e restaura histórico em ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/')

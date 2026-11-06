@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test'
 
 for (const width of [390, 1440]) {
   test(`favorite persists across detail and list at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
     await page.getByRole('link', { name: 'Entrar para favoritar: Emerald Ape #042' }).click()
     await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
@@ -30,7 +30,7 @@ for (const width of [390, 1440]) {
   })
 
   test(`favorite failure rolls back without hiding a newer intent at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042?mockScenario=favorite-failure')
     await page.getByRole('link', { name: 'Entrar para favoritar: Emerald Ape #042' }).click()
     await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')

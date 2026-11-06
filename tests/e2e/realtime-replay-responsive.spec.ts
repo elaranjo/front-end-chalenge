@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`duplicate and older events do not regress cart price at ${width}px`, async ({ page }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.addInitScript(() => {
       const events: Array<{ eventId: string; version: number }> = []
       ;(window as unknown as { observedNftEvents: typeof events }).observedNftEvents = events

@@ -21,3 +21,5 @@ Revisão em 06/11/2026 a partir das capturas em `F01`–`F15`, geradas por `npm 
 | F15 | Cadastro mobile em página inteira. | O teste captura formulário vazio; validação e retorno são cobertos separadamente. |
 
 As oito baselines de página completa em `tests/e2e/visual-regression.spec.ts-snapshots` representam a aplicação em Chromium/macOS nos viewports de 390 e 1440 px. Elas foram reproduzidas sem atualização no teste de regressão; não são referências do Figma nem aprovação do G05. A auditoria de contraste e acessibilidade, inclusive o conflito conhecido do hero, permanece aberta. Capturas desktop de autenticação incluem foco programático; diferenças decorrentes de estado, dados ou foco não são tratadas como defeito visual por contagem de pixels.
+
+Na conferência posterior dos arquivos de comparação, as 15 referências e capturas tiveram hashes compatíveis com `comparisons.json`, e as 15 imagens de diferença estavam presentes. As observações no manifesto foram registradas na geração das capturas e podem mencionar decisões então pendentes; esta revisão registra as decisões posteriores. Os estados do manifesto permanecem pendentes, sem aprovação automática do G05.

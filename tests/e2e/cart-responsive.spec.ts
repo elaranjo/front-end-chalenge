@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test'
 
 for (const width of [390, 1440]) {
   test(`cart quantity, coupons and removal survive refresh at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/cart?mockScenario=visual-mobile')
     await expect(page.locator('.cart-line')).toHaveCount(4)
     const changed = page.waitForResponse((response) => response.url().includes('/api/v1/cart/items/') && response.request().method() === 'PATCH' && response.ok())
@@ -35,7 +35,7 @@ for (const width of [390, 1440]) {
   })
 
   test(`visitor cart merges once across repeated login at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
     await page.getByRole('button', { name: '1/10', exact: true }).click()
     await page.getByRole('button', { name: 'Aumentar quantidade', exact: true }).click()
@@ -68,7 +68,7 @@ for (const width of [390, 1440]) {
   })
 
   test(`realtime stock, price, expired coupon and fee reconcile at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/cart?mockScenario=visual-mobile')
     const checkout = page.getByRole('button', { name: 'Conectar e finalizar' })
     const item = page.locator('.cart-line').filter({ hasText: 'Emerald Ape #042' })

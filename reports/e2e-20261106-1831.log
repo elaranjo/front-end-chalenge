@@ -1,0 +1,413 @@
+
+> frontend-challenge-vite-scaffold@0.0.0 test:e2e
+> npm run build && playwright test --workers=2
+
+
+> frontend-challenge-vite-scaffold@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.6 building client environment for production...
+transforming...
+✓ 776 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                    1.51 kB │ gzip:   0.66 kB
+dist/assets/roboto-mono-vietnamese-wght-normal-DlC-zuDL.woff2     10.30 kB
+dist/assets/roboto-mono-greek-wght-normal-BJJTbwTT.woff2          14.04 kB
+dist/assets/roboto-mono-cyrillic-wght-normal-HUlVHixE.woff2       18.59 kB
+dist/assets/roboto-mono-latin-ext-wght-normal-QAYlOegK.woff2      22.91 kB
+dist/assets/roboto-mono-latin-wght-normal-CZtBPCCa.woff2          32.79 kB
+dist/assets/roboto-mono-cyrillic-ext-wght-normal-BUDPrIko.woff2   35.91 kB
+dist/assets/ProfilePage-D5G33OvG.css                               3.56 kB │ gzip:   1.12 kB
+dist/assets/OrderPage-Bawfeb4B.css                                 5.21 kB │ gzip:   1.54 kB
+dist/assets/AuthPage-CbmXZcWX.css                                  6.71 kB │ gzip:   1.84 kB
+dist/assets/CartPage-C50QOurA.css                                  7.56 kB │ gzip:   2.07 kB
+dist/assets/CheckoutPage-DwQT76qm.css                             13.29 kB │ gzip:   3.15 kB
+dist/assets/index-ErH6rxPo.css                                    53.23 kB │ gzip:  10.65 kB
+dist/assets/queryOptions-Dfvzj6n2.js                               0.03 kB │ gzip:   0.05 kB
+dist/assets/input-AbkDJqlk.js                                      0.27 kB │ gzip:   0.21 kB
+dist/assets/rolldown-runtime-XKyaHtl9.js                           0.72 kB │ gzip:   0.42 kB
+dist/assets/cart-queries-BYD3uugI.js                               1.00 kB │ gzip:   0.60 kB
+dist/assets/FavoritesPage-C4izi2nN.js                              2.28 kB │ gzip:   1.05 kB
+dist/assets/AccountNavigation-BAqFl57P.js                          3.26 kB │ gzip:   1.04 kB
+dist/assets/ProfilePage-mpDZafWT.js                                7.59 kB │ gzip:   2.87 kB
+dist/assets/AuthPage-BveSr-mv.js                                   8.23 kB │ gzip:   3.02 kB
+dist/assets/OrderPage-w8-0qdRm.js                                  8.86 kB │ gzip:   3.01 kB
+dist/assets/WalletsPage-YHr1qYcr.js                                8.92 kB │ gzip:   3.00 kB
+dist/assets/CartPage-B0BECNcv.js                                   9.05 kB │ gzip:   2.98 kB
+dist/assets/esm-B6DvIUmM.js                                       10.52 kB │ gzip:   3.82 kB
+dist/assets/marketplace-services-C52qea8X.js                      10.58 kB │ gzip:   3.22 kB
+dist/assets/catalog-queries-DhHfD1-p.js                           17.13 kB │ gzip:   6.26 kB
+dist/assets/CheckoutPage-D96x8wDd.js                              26.89 kB │ gzip:   8.02 kB
+dist/assets/dist-C14AzkQb.js                                      40.31 kB │ gzip:  15.93 kB
+dist/assets/realtime-BIX_N1Fy.js                                  40.97 kB │ gzip:  12.46 kB
+dist/assets/session-BtkVQtCu.js                                   94.08 kB │ gzip:  31.70 kB
+dist/assets/contracts-B-ndYTzv.js                                 99.16 kB │ gzip:  28.38 kB
+dist/assets/index-CgNwzovC.js                                    396.17 kB │ gzip: 125.56 kB
+dist/assets/browser-3NyLzet5.js                                  506.86 kB │ gzip: 181.42 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 431ms
+
+Running 250 tests using 2 workers
+
+(node:93363) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+(node:93362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1/250] tests/e2e/account-menu-mobile.spec.ts:3:1 › mobile account menu contains the shared actions and restores keyboard focus
+[2/250] tests/e2e/account-responsive-flow.spec.ts:4:3 › profile and independent wallets persist and are usable at checkout at 390px
+[3/250] tests/e2e/account-menu-mobile.spec.ts:32:1 › tablet account forms remain single-column without horizontal overflow
+[4/250] tests/e2e/account-menu-mobile.spec.ts:47:3 › profile fields and save action stay reachable at 390px
+[5/250] tests/e2e/account-menu-mobile.spec.ts:67:3 › wallet fields and save action stay reachable at 390px
+[6/250] tests/e2e/account-menu-mobile.spec.ts:47:3 › profile fields and save action stay reachable at 768px
+[7/250] tests/e2e/account-responsive-flow.spec.ts:4:3 › profile and independent wallets persist and are usable at checkout at 1440px
+[8/250] tests/e2e/account-menu-mobile.spec.ts:67:3 › wallet fields and save action stay reachable at 768px
+[9/250] tests/e2e/account-menu-mobile.spec.ts:99:3 › account navigation works by keyboard at 768px
+[10/250] tests/e2e/account-menu-mobile.spec.ts:99:3 › account navigation works by keyboard at 1440px
+[11/250] tests/e2e/auth-desktop.spec.ts:3:1 › desktop auth is modal over the marketplace and closes safely
+[12/250] tests/e2e/auth-mobile.spec.ts:3:1 › unavailable sign-in and recovery options report their limitation
+[13/250] tests/e2e/auth-desktop.spec.ts:43:3 › desktop /login follows the Figma modal and field geometry
+[14/250] tests/e2e/auth-mobile.spec.ts:15:1 › mobile login authenticates and preserves a safe return path
+[15/250] tests/e2e/auth-desktop.spec.ts:43:3 › desktop /signup follows the Figma modal and field geometry
+[16/250] tests/e2e/auth-desktop.spec.ts:80:1 › desktop authentication keeps keyboard focus inside the modal
+[17/250] tests/e2e/auth-mobile.spec.ts:37:1 › mobile signup checks confirmation and keeps non-sensitive fields
+[18/250] tests/e2e/auth-desktop.spec.ts:95:1 › closing desktop authentication restores focus to its home trigger
+[19/250] tests/e2e/auth-mobile.spec.ts:52:1 › signup associates account conflicts with the affected fields
+[20/250] tests/e2e/auth-mobile.spec.ts:71:3 › signup returns to /cart without requiring a wallet
+[21/250] tests/e2e/auth-desktop.spec.ts:110:1 › direct desktop authentication close does not restore a nonexistent trigger
+[22/250] tests/e2e/auth-desktop.spec.ts:119:1 › closing authentication opened from the cart restores its trigger
+[23/250] tests/e2e/auth-mobile.spec.ts:71:3 › signup returns to /checkout without requiring a wallet
+[24/250] tests/e2e/auth-mobile.spec.ts:87:3 › mobile /login follows the reference field and action geometry
+[25/250] tests/e2e/auth-mobile.spec.ts:87:3 › mobile /signup follows the reference field and action geometry
+[26/250] tests/e2e/auth-desktop.spec.ts:138:3 › closing authentication returns focus to the favorite trigger on /
+[27/250] tests/e2e/auth-responsive-flow.spec.ts:4:3 › expired session during navigation returns to the requested page at 390px
+[28/250] tests/e2e/auth-desktop.spec.ts:138:3 › closing authentication returns focus to the favorite trigger on /nfts/emerald-ape-042
+[29/250] tests/e2e/auth-responsive-flow.spec.ts:33:3 › signup conflict, session recovery and login are observed at 390px
+[30/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 6 contrast is measurable on home at 768px
+[31/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 17 contrast is measurable on home at 768px
+[32/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 100 contrast is measurable on home at 768px
+[33/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 6 contrast is measurable on cart at 768px
+[34/250] tests/e2e/auth-responsive-flow.spec.ts:4:3 › expired session during navigation returns to the requested page at 1440px
+[35/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 17 contrast is measurable on cart at 768px
+[36/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 100 contrast is measurable on cart at 768px
+[37/250] tests/e2e/auth-responsive-flow.spec.ts:33:3 › signup conflict, session recovery and login are observed at 1440px
+[38/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 6 contrast is measurable on home at 1440px
+[39/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 17 contrast is measurable on home at 1440px
+[40/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 100 contrast is measurable on home at 1440px
+[41/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 6 contrast is measurable on cart at 1440px
+[42/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 17 contrast is measurable on cart at 1440px
+[43/250] tests/e2e/cart-contrast-review.spec.ts:4:3 › cart controls flagged by axe have identifiable states at 390px
+[44/250] tests/e2e/cart-badge-contrast.spec.ts:6:5 › cart badge 100 contrast is measurable on cart at 1440px
+[45/250] tests/e2e/cart-contrast-review.spec.ts:4:3 › cart controls flagged by axe have identifiable states at 414px
+[46/250] tests/e2e/cart-contrast-review.spec.ts:4:3 › cart controls flagged by axe have identifiable states at 768px
+[47/250] tests/e2e/cart-contrast-review.spec.ts:4:3 › cart controls flagged by axe have identifiable states at 1440px
+[48/250] tests/e2e/cart-desktop.spec.ts:5:1 › desktop cart shows navigation, cart count and catalog recommendations
+[49/250] tests/e2e/cart-merge-ui.spec.ts:3:1 › login reports stock adjustments and does not merge the visitor cart twice
+[50/250] tests/e2e/cart-desktop.spec.ts:34:1 › tablet cart keeps its controls within the viewport
+[51/250] tests/e2e/cart-mobile.spec.ts:5:1 › cart updates quantities, applies a coupon and persists removals
+[52/250] tests/e2e/cart-mobile.spec.ts:39:1 › coupon errors are associated with the input and totals follow the API
+[53/250] tests/e2e/cart-merge-ui.spec.ts:39:1 › a pending merge remains recoverable outside auth after a refresh
+[54/250] tests/e2e/cart-mobile.spec.ts:61:1 › realtime price and stock updates preserve the item and block checkout when sold out
+[55/250] tests/e2e/cart-recovery-responsive.spec.ts:4:3 › background refresh failure preserves the cart and recovers at 390px
+[56/250] tests/e2e/cart-mobile.spec.ts:76:1 › checkout stays blocked while an existing cart is refreshed after a price change
+[57/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-400 without mutations at 390px
+[58/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-409 without mutations at 390px
+[59/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-422 without mutations at 390px
+[60/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-500 without mutations at 390px
+[61/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-503 without mutations at 390px
+[62/250] tests/e2e/cart-mobile.spec.ts:96:1 › a failed background cart refresh preserves the displayed cart and recovers on retry
+[63/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from network-error without mutations at 390px
+[64/250] tests/e2e/cart-mobile.spec.ts:115:1 › reconciliation blocks an expired coupon and loads the updated network fee
+[65/250] tests/e2e/cart-responsive.spec.ts:4:3 › cart quantity, coupons and removal survive refresh at 390px
+[66/250] tests/e2e/cart-recovery-responsive.spec.ts:4:3 › background refresh failure preserves the cart and recovers at 1440px
+[67/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-400 without mutations at 1440px
+[68/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-409 without mutations at 1440px
+[69/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-422 without mutations at 1440px
+[70/250] tests/e2e/cart-responsive.spec.ts:37:3 › visitor cart merges once across repeated login at 390px
+[71/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-500 without mutations at 1440px
+[72/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from http-503 without mutations at 1440px
+[73/250] tests/e2e/cart-responsive.spec.ts:70:3 › realtime stock, price, expired coupon and fee reconcile at 390px
+[74/250] tests/e2e/cart-recovery-responsive.spec.ts:25:5 › cart recovers from network-error without mutations at 1440px
+[75/250] tests/e2e/cart-responsive.spec.ts:4:3 › cart quantity, coupons and removal survive refresh at 1440px
+[76/250] tests/e2e/catalog-combined.spec.ts:4:3 › catálogo vazio apresenta estado coerente após acesso e refresh em 390px
+[77/250] tests/e2e/catalog-combined.spec.ts:4:3 › catálogo vazio apresenta estado coerente após acesso e refresh em 1440px
+[78/250] tests/e2e/catalog-combined.spec.ts:19:3 › catálogo combina filtros, reinicia página e restaura histórico em 390px
+[79/250] tests/e2e/catalog-combined.spec.ts:19:3 › catálogo combina filtros, reinicia página e restaura histórico em 1440px
+[80/250] tests/e2e/cart-responsive.spec.ts:37:3 › visitor cart merges once across repeated login at 1440px
+[81/250] tests/e2e/catalog-combined.spec.ts:92:3 › resposta antiga não substitui busca recente em 390px
+[82/250] tests/e2e/catalog-combined.spec.ts:92:3 › resposta antiga não substitui busca recente em 1440px
+[83/250] tests/e2e/catalog-network.spec.ts:3:1 › preview initializes MSW before serving the persistent catalog
+[84/250] tests/e2e/checkout-recovery-ui.spec.ts:4:1 › a lost order response remains one attempt and is recovered on refresh at 390px
+[85/250] tests/e2e/cart-responsive.spec.ts:70:3 › realtime stock, price, expired coupon and fee reconcile at 1440px
+[86/250] tests/e2e/checkout-ui.spec.ts:3:1 › checkout requires authentication and connects a saved wallet to the current cart
+[87/250] tests/e2e/checkout-recovery-ui.spec.ts:60:1 › a declined order preserves the cart and permits an explicit new attempt at 390px
+[88/250] tests/e2e/checkout-ui.spec.ts:171:1 › mobile checkout preserves data between steps and changes simulated provider safely
+[89/250] tests/e2e/checkout-recovery-ui.spec.ts:4:1 › a lost order response remains one attempt and is recovered on refresh at 1440px
+[90/250] tests/e2e/checkout-ui.spec.ts:289:1 › an expired coupon blocks checkout and directs the collector to fix the cart
+[91/250] tests/e2e/checkout-recovery-ui.spec.ts:60:1 › a declined order preserves the cart and permits an explicit new attempt at 1440px
+[92/250] tests/e2e/checkout-visual-mobile.spec.ts:3:1 › mobile reference state uses the visual cart and the selected Polygon reserve wallet
+[93/250] tests/e2e/checkout-recovery-ui.spec.ts:100:1 › an uncommitted attempt rejected as stale returns to a recoverable checkout
+[94/250] tests/e2e/contrast-surfaces.spec.ts:4:3 › contraste do resumo e detalhe é verificável em 390px
+[95/250] tests/e2e/contrast-surfaces.spec.ts:4:3 › contraste do resumo e detalhe é verificável em 414px
+[96/250] tests/e2e/checkout-recovery-ui.spec.ts:132:1 › the visible pending order reconciles after a missed confirmation without another purchase at 390px
+[97/250] tests/e2e/database-unavailable.spec.ts:3:1 › unavailable IndexedDB stops bootstrap with a recoverable error
+[98/250] tests/e2e/detail-mobile.spec.ts:5:1 › detail adds the selected edition and quantity to the visitor cart
+[99/250] tests/e2e/detail-mobile.spec.ts:23:1 › buy navigates only after adding the selected edition and quantity
+[100/250] tests/e2e/detail-mobile.spec.ts:35:1 › buy keeps the selection on a cart failure and succeeds on retry
+[101/250] tests/e2e/checkout-recovery-ui.spec.ts:132:1 › the visible pending order reconciles after a missed confirmation without another purchase at 1440px
+[102/250] tests/e2e/detail-mobile.spec.ts:57:1 › unknown NFT displays a recoverable not-found state
+[103/250] tests/e2e/detail-mobile.spec.ts:63:1 › detail explains a live stock reduction and allows correcting quantity
+[104/250] tests/e2e/detail-mobile.spec.ts:81:3 › sold-out editions and stock limits are enforced at 390px
+[105/250] tests/e2e/detail-mobile.spec.ts:81:3 › sold-out editions and stock limits are enforced at 1440px
+[106/250] tests/e2e/detail-responsive-flow.spec.ts:4:3 › detail gallery, add and buy work through UI and network at 390px
+[107/250] tests/e2e/detail-mobile.spec.ts:113:3 › detail controls remain reachable at 390px
+[108/250] tests/e2e/detail-mobile.spec.ts:113:3 › detail controls remain reachable at 768px
+[109/250] tests/e2e/detail-mobile.spec.ts:130:1 › image dialog supports keyboard gallery navigation and restores focus
+[110/250] tests/e2e/detail-mobile.spec.ts:147:1 › detail tabs show available data and related NFTs navigate to their own pages
+[111/250] tests/e2e/detail-responsive-flow.spec.ts:4:3 › detail gallery, add and buy work through UI and network at 1440px
+[112/250] tests/e2e/detail-mobile.spec.ts:198:1 › selection cannot change while the add operation is being processed
+[113/250] tests/e2e/ens-contrast.spec.ts:15:1 › contraste dos sufixos ENS no perfil e pagamento
+[114/250] tests/e2e/favorites-realtime.spec.ts:3:1 › an active favorites query receives price changes over the real simulated transport
+[115/250] tests/e2e/detail-mobile.spec.ts:214:1 › mobile detail uses the reference hero and sheet geometry at 414px
+[116/250] tests/e2e/favorites-responsive.spec.ts:4:3 › favorite persists across detail and list at 390px
+[117/250] tests/e2e/favorites-ui.spec.ts:3:1 › favorites require a session and persist across catalog, detail and list
+[118/250] tests/e2e/favorites-ui.spec.ts:30:1 › a failed optimistic favorite is rolled back and reports the error
+[119/250] tests/e2e/favorites-responsive.spec.ts:32:3 › favorite failure rolls back without hiding a newer intent at 390px
+[120/250] tests/e2e/favorites-ui.spec.ts:48:1 › an earlier favorite failure does not report an error for a newer pending intent
+[121/250] tests/e2e/favorites-responsive.spec.ts:4:3 › favorite persists across detail and list at 1440px
+[122/250] tests/e2e/favorites-ui.spec.ts:69:1 › favorites stay isolated when switching accounts
+[123/250] tests/e2e/favorites-responsive.spec.ts:32:3 › favorite failure rolls back without hiding a newer intent at 1440px
+[124/250] tests/e2e/filter-keyboard-responsive.spec.ts:4:3 › filter dialog traps and restores keyboard focus at 390px
+[125/250] tests/e2e/filter-keyboard-responsive.spec.ts:4:3 › filter dialog traps and restores keyboard focus at 414px
+[126/250] tests/e2e/filter-keyboard-responsive.spec.ts:4:3 › filter dialog traps and restores keyboard focus at 768px
+[127/250] tests/e2e/header-ui.spec.ts:3:1 › desktop header shows cart quantity, accessible search and session entry
+[128/250] tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 320px
+  1) tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 320px 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 4.5
+    Received:    4.254461371886685
+
+      55 |     for (const result of results) {
+      56 |       expect(result.samples).toBeGreaterThan(0)
+    > 57 |       expect(result.minimum).toBeGreaterThanOrEqual(4.5)
+         |                              ^
+      58 |     }
+      59 |   })
+      60 | }
+        at /Users/ernanelaranjo/Projects/Testes/frontend-challenge/tests/e2e/hero-contrast.spec.ts:57:30
+
+    Error Context: test-results/hero-contrast-texto-do-her-798f2--sobre-o-gradiente-em-320px/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/hero-contrast-texto-do-her-798f2--sobre-o-gradiente-em-320px/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/hero-contrast-texto-do-her-798f2--sobre-o-gradiente-em-320px/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+(node:93631) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[129/250] tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 390px
+[130/250] tests/e2e/home-catalog.spec.ts:3:1 › mobile home renders the catalog and keeps search in the URL
+  2) tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 390px 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 4.5
+    Received:    4.252273853902062
+
+      55 |     for (const result of results) {
+      56 |       expect(result.samples).toBeGreaterThan(0)
+    > 57 |       expect(result.minimum).toBeGreaterThanOrEqual(4.5)
+         |                              ^
+      58 |     }
+      59 |   })
+      60 | }
+        at /Users/ernanelaranjo/Projects/Testes/frontend-challenge/tests/e2e/hero-contrast.spec.ts:57:30
+
+    Error Context: test-results/hero-contrast-texto-do-her-0805c--sobre-o-gradiente-em-390px/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/hero-contrast-texto-do-her-0805c--sobre-o-gradiente-em-390px/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/hero-contrast-texto-do-her-0805c--sobre-o-gradiente-em-390px/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+(node:93637) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[131/250] tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 414px
+[132/250] tests/e2e/home-catalog.spec.ts:31:1 › tablet search and filter retain the mobile control styles and keyboard behavior
+  3) tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 414px 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 4.5
+    Received:    4.2731809902521904
+
+      55 |     for (const result of results) {
+      56 |       expect(result.samples).toBeGreaterThan(0)
+    > 57 |       expect(result.minimum).toBeGreaterThanOrEqual(4.5)
+         |                              ^
+      58 |     }
+      59 |   })
+      60 | }
+        at /Users/ernanelaranjo/Projects/Testes/frontend-challenge/tests/e2e/hero-contrast.spec.ts:57:30
+
+    Error Context: test-results/hero-contrast-texto-do-her-ed88e--sobre-o-gradiente-em-414px/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/hero-contrast-texto-do-her-ed88e--sobre-o-gradiente-em-414px/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/hero-contrast-texto-do-her-ed88e--sobre-o-gradiente-em-414px/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+[133/250] tests/e2e/home-catalog.spec.ts:47:1 › footer newsletter validates input and reports that sending is unavailable
+(node:93646) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[134/250] tests/e2e/keyboard-viewport.spec.ts:4:3 › signup controls remain reachable with a reduced viewport at 390px
+[135/250] tests/e2e/home-catalog.spec.ts:58:1 › hero exploration targets the catalog and its indicators are decorative
+[136/250] tests/e2e/home-catalog.spec.ts:79:1 › catalog tabs support keyboard navigation and identify their result panel
+[137/250] tests/e2e/keyboard-viewport.spec.ts:4:3 › signup controls remain reachable with a reduced viewport at 768px
+[138/250] tests/e2e/home-catalog.spec.ts:98:1 › footer social controls report unavailable actions without leaving the page
+[139/250] tests/e2e/home-catalog.spec.ts:117:1 › mobile filters discard unconfirmed changes and apply network and price to the URL
+[140/250] tests/e2e/keyboard-viewport.spec.ts:4:3 › signup controls remain reachable with a reduced viewport at 1440px
+[141/250] tests/e2e/loading-ui.spec.ts:4:3 › catalog loading reserves the card grid at 390px
+[142/250] tests/e2e/home-catalog.spec.ts:144:1 › catalog normalizes invalid parameters and debounces search into the URL
+[143/250] tests/e2e/home-catalog.spec.ts:158:1 › multiple network filters survive navigation and refresh
+[144/250] tests/e2e/loading-ui.spec.ts:4:3 › catalog loading reserves the card grid at 414px
+[145/250] tests/e2e/home-catalog.spec.ts:176:1 › mobile navigation opens the cart and protects private destinations
+[146/250] tests/e2e/home-catalog.spec.ts:194:1 › desktop cart badge uses the Figma shape and the actual quantity
+[147/250] tests/e2e/loading-ui.spec.ts:4:3 › catalog loading reserves the card grid at 768px
+[148/250] tests/e2e/home-catalog.spec.ts:210:1 › desktop ordering updates the URL and persists after refresh
+[149/250] tests/e2e/home-catalog.spec.ts:222:1 › desktop home includes the featured NFT banner below the filters
+[150/250] tests/e2e/home-catalog.spec.ts:283:1 › desktop collection filters preserve checkbox semantics and keyboard operation
+[151/250] tests/e2e/loading-ui.spec.ts:4:3 › catalog loading reserves the card grid at 1440px
+[152/250] tests/e2e/home-catalog.spec.ts:295:1 › desktop price slider changes the filter by keyboard and retains precise inputs
+[153/250] tests/e2e/home-catalog.spec.ts:317:1 › invalid price ranges describe both inputs and mobile filters retain keyboard focus
+[154/250] tests/e2e/loading-ui.spec.ts:30:3 › detail loading reserves the artwork at 390px
+[155/250] tests/e2e/home-catalog.spec.ts:347:1 › desktop card favorite remains available on hover and keyboard focus
+[156/250] tests/e2e/local-fonts.spec.ts:4:1 › Roboto Mono weights load from the application origin without an external font service
+[157/250] tests/e2e/local-fonts.spec.ts:28:1 › optimized NFT images preserve every source pixel
+[158/250] tests/e2e/loading-ui.spec.ts:30:3 › detail loading reserves the artwork at 414px
+[159/250] tests/e2e/local-fonts.spec.ts:56:1 › as telas carregam imagens e fonte local sem serviços externos
+[160/250] tests/e2e/loading-ui.spec.ts:30:3 › detail loading reserves the artwork at 768px
+[161/250] tests/e2e/loading-ui.spec.ts:30:3 › detail loading reserves the artwork at 1440px
+[162/250] tests/e2e/loading-ui.spec.ts:44:3 › cart summary loading reserves the totals at 390px
+[163/250] tests/e2e/loading-ui.spec.ts:44:3 › cart summary loading reserves the totals at 768px
+[164/250] tests/e2e/loading-ui.spec.ts:44:3 › cart summary loading reserves the totals at 1440px
+[165/250] tests/e2e/loading-ui.spec.ts:60:1 › slow catalog, detail and cart expose skeletons with reduced motion at 390px
+[166/250] tests/e2e/loading-ui.spec.ts:60:1 › slow catalog, detail and cart expose skeletons with reduced motion at 414px
+[167/250] tests/e2e/marketplace-services.spec.ts:3:1 › application cart services merge a visitor cart after login
+[168/250] tests/e2e/loading-ui.spec.ts:60:1 › slow catalog, detail and cart expose skeletons with reduced motion at 768px
+[169/250] tests/e2e/marketplace-services.spec.ts:13:1 › application checkout services create and recover the same confirmed order
+[170/250] tests/e2e/marketplace-services.spec.ts:25:1 › an active checkout quote updates on an NFT event and requires a new review
+[171/250] tests/e2e/marketplace-services.spec.ts:35:1 › runtime reconciles a pending order resolved while disconnected
+[172/250] tests/e2e/loading-ui.spec.ts:60:1 › slow catalog, detail and cart expose skeletons with reduced motion at 1440px
+[173/250] tests/e2e/mock-reset.spec.ts:3:1 › default mock reset clears server state and client caches in two tabs
+[174/250] tests/e2e/order-owner-replay.spec.ts:4:3 › an old order event cannot expose account A after switching to B at 390px
+[175/250] tests/e2e/loading-ui.spec.ts:81:1 › cart summary reports a failed request and exposes retry
+[176/250] tests/e2e/loading-ui.spec.ts:90:1 › cart recovers after a failing scenario is reset
+[177/250] tests/e2e/loading-ui.spec.ts:106:3 › cart recovers from http-400 without a cart mutation
+[178/250] tests/e2e/loading-ui.spec.ts:106:3 › cart recovers from http-409 without a cart mutation
+[179/250] tests/e2e/order-owner-replay.spec.ts:4:3 › an old order event cannot expose account A after switching to B at 1440px
+[180/250] tests/e2e/loading-ui.spec.ts:106:3 › cart recovers from http-422 without a cart mutation
+[181/250] tests/e2e/loading-ui.spec.ts:106:3 › cart recovers from http-500 without a cart mutation
+[182/250] tests/e2e/loading-ui.spec.ts:106:3 › cart recovers from network-error without a cart mutation
+[183/250] tests/e2e/order-reference.spec.ts:3:1 › three-item confirmed receipt retains the reference quantities and totals
+[184/250] tests/e2e/loading-ui.spec.ts:135:1 › reset while a slow cart request is in flight preserves the new fixture owner
+[185/250] tests/e2e/loading-ui.spec.ts:163:1 › reset during a failed-cart retry does not assign the fixture to a stale visitor
+[186/250] tests/e2e/order-two-tabs-ui.spec.ts:4:3 › simultaneous checkout tabs create at most one order at 390px
+[187/250] tests/e2e/order-two-tabs.spec.ts:3:1 › simultaneous tabs use the same persisted order attempt
+[188/250] tests/e2e/pending-cart-responsive.spec.ts:5:3 › confirmation preserves addition during a pending order at 390px
+[189/250] tests/e2e/order-two-tabs-ui.spec.ts:4:3 › simultaneous checkout tabs create at most one order at 1440px
+[190/250] tests/e2e/pending-disconnect.spec.ts:4:1 › a pending order resolves during disconnection and is recovered without another purchase
+[191/250] tests/e2e/preview-realtime.spec.ts:4:1 › optimized preview exchanges events and reconnects over Socket.IO
+[192/250] tests/e2e/pending-cart-responsive.spec.ts:5:3 › confirmation preserves recreated during a pending order at 390px
+[193/250] tests/e2e/preview-realtime.spec.ts:81:1 › optimized preview delivers an outbox event to a socket in another tab
+[194/250] tests/e2e/profile-avatar.spec.ts:3:1 › profile rejects a truncated image and stores a decoded image
+[195/250] tests/e2e/profile-ui.spec.ts:3:1 › profile validates an atomic save and persists the staged avatar and new password
+[196/250] tests/e2e/pending-cart-responsive.spec.ts:5:3 › confirmation preserves addition during a pending order at 1440px
+[197/250] tests/e2e/profile-ui.spec.ts:80:1 › mobile account menu contains keyboard focus and restores its trigger
+[198/250] tests/e2e/promo-contrast.spec.ts:3:1 › desktop header, featured and promotional text have measurable contrast over rendered backgrounds
+[199/250] tests/e2e/purchase-responsive.spec.ts:4:3 › collector completes a simulated purchase through the UI at 390px
+[200/250] tests/e2e/pending-cart-responsive.spec.ts:5:3 › confirmation preserves recreated during a pending order at 1440px
+[201/250] tests/e2e/purchase-responsive.spec.ts:4:3 › collector completes a simulated purchase through the UI at 1440px
+[202/250] tests/e2e/quote-responsive.spec.ts:4:3 › price and fee updates require a fresh checkout review at 390px
+[203/250] tests/e2e/quote-responsive.spec.ts:4:3 › price and fee updates require a fresh checkout review at 1440px
+[204/250] tests/e2e/realtime-network.spec.ts:3:1 › real Socket.IO receives catalog and authorized order changes from REST commits
+[205/250] tests/e2e/realtime-network.spec.ts:78:1 › rebinding a socket discards the previous catalog subscription
+[206/250] tests/e2e/realtime-network.spec.ts:111:1 › technical disconnect closes the real transport and permits reconnection
+[207/250] tests/e2e/realtime-replay-responsive.spec.ts:4:3 › duplicate and older events do not regress cart price at 390px
+[208/250] tests/e2e/realtime-runtime.spec.ts:3:1 › realtime runtime rebinds when session changes
+[209/250] tests/e2e/realtime-runtime.spec.ts:28:1 › focus suspends confirmation until active resources are reconciled
+[210/250] tests/e2e/realtime-runtime.spec.ts:37:1 › repeated runtime start and stop does not accumulate focus listeners
+[211/250] tests/e2e/realtime-replay-responsive.spec.ts:4:3 › duplicate and older events do not regress cart price at 1440px
+[212/250] tests/e2e/realtime-runtime.spec.ts:70:1 › StrictMode navigation releases detail subscriptions on repeated mount and unmount
+[213/250] tests/e2e/reflow.spec.ts:6:3 › a barra móvel não encobre o fim do rodapé em 390px
+[214/250] tests/e2e/reflow.spec.ts:6:3 › a barra móvel não encobre o fim do rodapé em 414px
+[215/250] tests/e2e/router-fallback.spec.ts:3:1 › an unknown direct URL offers a return to the application root
+[216/250] tests/e2e/router-fallback.spec.ts:12:1 › direct NFT route and refresh load data over the mock API in the optimized build
+[217/250] tests/e2e/reflow.spec.ts:17:1 › detalhe mantém edição e compra alcançáveis em viewport baixo
+[218/250] tests/e2e/router-fallback.spec.ts:23:1 › a direct private route requires login and retains its return path
+[219/250] tests/e2e/safe-area-zoom.spec.ts:3:1 › mobile navigation and purchase bar account for safe-area insets
+[220/250] tests/e2e/reflow.spec.ts:38:3 › home mantém conteúdo e ação principal alcançáveis em 320 px
+[221/250] tests/e2e/safe-area-zoom.spec.ts:18:1 › main detail action remains reachable with 200% page scale and keyboard
+[222/250] tests/e2e/reflow.spec.ts:38:3 › detalhe mantém conteúdo e ação principal alcançáveis em 320 px
+[223/250] tests/e2e/reflow.spec.ts:38:3 › carrinho mantém conteúdo e ação principal alcançáveis em 320 px
+[224/250] tests/e2e/scenario-selection.spec.ts:3:1 › scenario URL selects a fixture once and refresh preserves the session
+[225/250] tests/e2e/reflow.spec.ts:38:3 › login mantém conteúdo e ação principal alcançáveis em 320 px
+[226/250] tests/e2e/reflow.spec.ts:38:3 › cadastro mantém conteúdo e ação principal alcançáveis em 320 px
+[227/250] tests/e2e/scenario-selection.spec.ts:21:1 › visual cart does not change when the viewport is resized
+[228/250] tests/e2e/reflow.spec.ts:51:1 › pagamento e recibo confirmado mantêm ações alcançáveis em 320 px
+[229/250] tests/e2e/session-tabs.spec.ts:3:1 › logout reports an unconfirmed remote revocation after clearing local state
+[230/250] tests/e2e/session-tabs.spec.ts:26:1 › a delayed logout failure cannot redirect or warn a newly authenticated account
+[231/250] tests/e2e/session-tabs.spec.ts:59:1 › another tab changes session without leaking private client state
+[232/250] tests/e2e/session-tabs.spec.ts:83:1 › simultaneous expired requests clear the session once and retain the checkout attempt
+[233/250] tests/e2e/reflow.spec.ts:92:1 › cartão de carteira mantém nomes longos e opções alcançáveis em 320 px
+[234/250] tests/e2e/session-tabs.spec.ts:112:1 › private routes require login and a restored session survives a direct refresh
+[235/250] tests/e2e/session-tabs.spec.ts:129:1 › logout keeps the private cart with its owner and starts an empty visitor cart
+[236/250] tests/e2e/reflow.spec.ts:152:3 › perfil mantém ação alcançável em 320 px
+[237/250] tests/e2e/reflow.spec.ts:152:3 › carteiras mantém ação alcançável em 320 px
+[238/250] tests/e2e/reflow.spec.ts:152:3 › favoritos mantém ação alcançável em 320 px
+[239/250] tests/e2e/reflow.spec.ts:152:3 › pagamento mantém ação alcançável em 320 px
+[240/250] tests/e2e/socket-probe.spec.ts:3:1 › MSW binding exchanges Socket.IO messages with a real browser client
+[241/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression home mobile
+[242/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression detail mobile
+[243/250] tests/e2e/wallets.spec.ts:3:1 › wallets require login and both independently saved drafts survive refresh
+[244/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression cart mobile
+[245/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression checkout mobile
+[246/250] tests/e2e/wallets.spec.ts:67:1 › wallet selectors preserve readable text contrast before and after selection
+[247/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression home desktop
+[248/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression detail desktop
+[249/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression cart desktop
+[250/250] tests/e2e/visual-regression.spec.ts:7:5 › visual regression checkout desktop
+  3 failed
+    tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 320px 
+    tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 390px 
+    tests/e2e/hero-contrast.spec.ts:4:3 › texto do hero mantém contraste sobre o gradiente em 414px 
+  247 passed (8.3m)

@@ -1,6 +1,6 @@
 # Execução da base em desenvolvimento
 
-O marketplace está em implementação: as telas e fluxos principais já existem, mas os gates de verificação e a publicação ainda não foram concluídos. O Figma é referência para identidade, composição e comportamento; equivalência pixel perfect não é requisito desta entrega, por decisão do usuário. Os comandos abaixo executam a aplicação e os testes disponíveis. O enunciado original está preservado em [challenge-brief.md](challenge-brief.md).
+O marketplace está em implementação: as telas e fluxos principais já existem e o commit `d1810af` foi publicado, mas os gates de verificação e a auditoria da entrega permanecem abertos. O Figma é referência para identidade, composição e comportamento; equivalência pixel perfect não é requisito desta entrega, por decisão do usuário. Os comandos abaixo executam a aplicação e os testes disponíveis. O enunciado original está preservado em [challenge-brief.md](challenge-brief.md).
 
 ## Ambiente
 
@@ -26,6 +26,8 @@ Em 06/11/2026, uma cópia isolada do estado de trabalho, sem `node_modules` ou b
 
 Posteriormente, um checkout isolado do commit `6c664d8` passou em `npm ci`, cópia de `.env.example` para `.env`, typecheck, lint, build e 106 testes focados. Um smoke do preview em 4175 observou o service worker, resposta REST, evento `nft.updated` via cliente Socket.IO e acesso direto/refresh do detalhe. Essa verificação não executou todos os E2E nem testou uma URL pública.
 
+Uma clonagem nova do repositório de entrega no commit publicado `d1810af` também passou em `npm ci`, typecheck, lint, build e 106 testes focados; no preview, detalhe direto e refresh, service worker e API simulada foram verificados. As limitações e a verificação da URL pública estão em [delivery-verification.md](delivery-verification.md).
+
 Para repetir as 12 medições Lighthouse em um preview de produção, siga o procedimento e consulte as limitações em [reports/lighthouse/README.md](../reports/lighthouse/README.md).
 
 Com o preview ativo na porta 4173, `npm run audit:accessibility` executa as regras automatizadas WCAG 2 A/AA e 2.1 A/AA do axe nas telas principais, incluindo erros de autenticação, carrinho vazio, revisão e recibo, em 390, 414, 768 e 1440 pixels, e grava `reports/accessibility/axe.json`. O comando retorna código de erro quando encontra violações; resultados inconclusivos exigem revisão manual. Essa coleta não substitui os testes manuais e a revisão dos estados adicionais.
@@ -38,7 +40,7 @@ Uma execução posterior, após os ajustes de interface e os novos cenários de 
 
 `npm run check:figma-assets` verifica a integridade do snapshot, dos 15 PNGs de referência, dos SVGs inventariados, das imagens NFT e da fonte local. Confere os IDs dos frames e suas dimensões arredondadas contra o inventário de propriedades, além de procurar cópias de bytes idênticos das referências nos arquivos públicos. Também confronta os 67 vínculos de imagem no inventário com os nós, dimensões, modos de escala e transformações do JSON extraído do snapshot. Os inventários registram hashes e informações de licença disponíveis. A checagem de hashes não detecta cópias alteradas de capturas nem prova que todos os assets necessários foram extraídos ou que a fidelidade visual foi aprovada.
 
-`npm run capture:visual` reproduz os estados atualmente preparados e atualiza as comparações em `docs/visual-verification/`. `npm run test:visual` compila e compara oito capturas de página completa para regressão da aplicação: início, detalhe, carrinho e pagamento em viewports de 390 × 844 e 1440 × 900, com fixtures controladas e movimento reduzido. As baselines de Chromium no macOS estão em `tests/e2e/visual-regression.spec.ts-snapshots/`; são referências de regressão da aplicação, não uma aprovação pixel perfect do Figma. Outros sistemas operacionais precisam de baselines próprias e revisão antes de atualizar imagens. A comparação independente dos 15 frames e o registro das diferenças relevantes permanecem no G05.
+`npm run capture:visual` reproduz os estados atualmente preparados e atualiza as comparações em `docs/visual-verification/`. `npm run test:visual` compila e compara oito capturas de página completa para regressão da aplicação: início, detalhe, carrinho e pagamento em viewports de 390 × 844 e 1440 × 900, com fixtures controladas e movimento reduzido. As baselines de Chromium no macOS estão em `tests/e2e/visual-regression.spec.ts-snapshots/`; são referências de regressão da aplicação, não uma aprovação pixel perfect do Figma. Outros sistemas operacionais precisam de baselines próprias e revisão antes de atualizar imagens. A [revisão dos 15 frames](visual-verification/revisao.md) registra as diferenças observadas; ela não aprova o G05, que ainda depende das verificações de acessibilidade.
 
 ## Contas e cenários simulados
 

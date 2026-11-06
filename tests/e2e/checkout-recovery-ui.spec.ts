@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
 test(`a lost order response remains one attempt and is recovered on refresh at ${width}px`, async ({ page }) => {
   test.setTimeout(60000)
-  await page.setViewportSize({ width, height: 900 })
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.goto('http://127.0.0.1:5173/login?returnTo=%2Fcheckout&mockScenario=timeout-after-order-create')
   await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
   await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
@@ -58,7 +58,7 @@ test(`a lost order response remains one attempt and is recovered on refresh at $
 })
 
 test(`a declined order preserves the cart and permits an explicit new attempt at ${width}px`, async ({ page }) => {
-  await page.setViewportSize({ width, height: 900 })
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.goto('http://127.0.0.1:5173/login?returnTo=%2Fcheckout&mockScenario=payment-declined')
   await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
   await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
@@ -97,7 +97,9 @@ test(`a declined order preserves the cart and permits an explicit new attempt at
 
 }
 
-test('an uncommitted attempt rejected as stale returns to a recoverable checkout', async ({ page }) => {
+for (const width of [390, 1440]) {
+test(`an uncommitted attempt rejected as stale returns to a recoverable checkout at ${width}px`, async ({ page }) => {
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.goto('http://127.0.0.1:5173/login?returnTo=%2Fcheckout')
   await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
   await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
@@ -121,17 +123,25 @@ test('an uncommitted attempt rejected as stale returns to a recoverable checkout
     const fee = await fetch('/api/v1/__mock/actions', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'updateFee', payload: { amount: '0.04' } }) })
     if (!fee.ok) throw new Error(`fee ${fee.status}`)
   })
+  const savedKey = await page.evaluate(() => JSON.parse(localStorage.getItem('kurio.order-attempt')!).key)
+  const posts: string[] = []
+  page.on('request', (request) => { if (request.url().endsWith('/api/v1/orders') && request.method() === 'POST') posts.push(request.headers()['idempotency-key']) })
   await page.reload()
-  await page.getByRole('button', { name: 'Reenviar a mesma tentativa' }).click()
+  const resend = page.getByRole('button', { name: 'Reenviar a mesma tentativa' })
+  await expect(resend).toBeVisible()
+  expect(posts).toEqual([])
+  await resend.click()
   await expect(page.getByRole('alert')).toContainText('A tentativa foi recusada antes da criação do pedido')
+  expect(posts).toEqual([savedKey])
   expect(await page.evaluate(() => localStorage.getItem('kurio.order-attempt'))).toBeNull()
   await expect(page.getByLabel(/Carteira principal — Principal/)).toBeVisible()
 })
+}
 
 for (const width of [390, 1440]) {
 test(`the visible pending order reconciles after a missed confirmation without another purchase at ${width}px`, async ({ page }) => {
   test.setTimeout(60000)
-  await page.setViewportSize({ width, height: 900 })
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
   await page.addInitScript(() => {
     const sockets = new Set<EventTarget>()
     ;(window as unknown as { observedOpenSockets: () => number }).observedOpenSockets = () => sockets.size

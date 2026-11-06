@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`an old order event cannot expose account A after switching to B at ${width}px`, async ({ page }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/')
     await expect(page.locator('.home-card').first()).toBeVisible()
     expect(await page.evaluate(async () => (await fetch('/api/v1/__mock/reset', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ scenario: 'pending-disconnect', clockMode: 'manual' }) })).ok)).toBe(true)

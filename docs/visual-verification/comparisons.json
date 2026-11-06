@@ -1,6 +1,7 @@
 {
   "generatedAt": "2026-11-06T14:26:22.369Z",
   "method": "diferença absoluta sem máscara; qualquer variação de canal conta; dados e antialiasing podem diferir",
+  "subsequentReview": "As observações e estados por frame abaixo refletem o momento da captura. A revisão posterior de identidade, composição, conteúdo e desvios está em revisao.md; o usuário dispensou pixel perfect e escolheu manter as cores do hero. Os estados permanecem review-pending porque o G05 ainda não está aprovado.",
   "comparisons": [
     {
       "id": "F01",

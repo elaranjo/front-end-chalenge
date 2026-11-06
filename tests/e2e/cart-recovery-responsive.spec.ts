@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test'
 
 for (const width of [390, 1440]) {
   test(`background refresh failure preserves the cart and recovers at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/cart?mockScenario=visual-mobile')
     const checkout = page.getByRole('button', { name: 'Conectar e finalizar' })
     const item = page.locator('.cart-line').filter({ hasText: 'Emerald Ape #042' })
@@ -24,7 +24,7 @@ for (const width of [390, 1440]) {
   for (const scenario of ['http-400', 'http-409', 'http-422', 'http-500', 'http-503', 'network-error']) {
     test(`cart recovers from ${scenario} without mutations at ${width}px`, async ({ page }) => {
       test.setTimeout(60000)
-      await page.setViewportSize({ width, height: 900 })
+      await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
       const mutations: string[] = []
       page.on('request', (request) => {
         const url = new URL(request.url())

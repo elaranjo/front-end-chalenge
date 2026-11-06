@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`simultaneous checkout tabs create at most one order at ${width}px`, async ({ page, context }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/login?returnTo=%2Fcheckout&mockScenario=pending-disconnect')
     await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
     await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
@@ -20,7 +20,7 @@ for (const width of [390, 1440]) {
     })
     await page.reload()
     const other = await context.newPage()
-    await other.setViewportSize({ width, height: 900 })
+    await other.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await other.goto('http://127.0.0.1:5173/checkout')
     for (const tab of [page, other]) {
       await expect(tab.getByLabel('Nome de exibição')).toBeVisible()

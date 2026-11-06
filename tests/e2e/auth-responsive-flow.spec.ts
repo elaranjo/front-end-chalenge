@@ -1,6 +1,35 @@
 import { expect, test } from '@playwright/test'
 
 for (const width of [390, 1440]) {
+  test(`expired session during navigation returns to the requested page at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    await page.goto('http://127.0.0.1:5173/login?returnTo=%2Fprofile')
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    await expect(page).toHaveURL(/\/profile$/)
+    await expect(page.getByRole('heading', { name: 'Perfil do colecionador' })).toBeVisible()
+
+    const expired = await page.evaluate(async () => {
+      const token = localStorage.getItem('kurio.session-token')!
+      const session = await (await fetch('/api/v1/auth/session', { headers: { Authorization: `Bearer ${token}` } })).json()
+      const response = await fetch('/api/v1/__mock/actions', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'expireSession', payload: { sessionId: session.sessionId } }),
+      })
+      const check = await fetch('/api/v1/auth/session', { headers: { Authorization: `Bearer ${token}` } })
+      return { expired: response.ok, status: check.status }
+    })
+    expect(expired).toEqual({ expired: true, status: 401 })
+    await page.goto('http://127.0.0.1:5173/wallets')
+    await expect(page).toHaveURL(/\/login\?returnTo=%2Fwallets/)
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    await expect(page).toHaveURL(/\/wallets$/)
+    await expect(page.getByText('Carteira principal', { exact: true }).first()).toBeVisible()
+  })
+
   test(`signup conflict, session recovery and login are observed at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/signup?returnTo=%2Fprofile')

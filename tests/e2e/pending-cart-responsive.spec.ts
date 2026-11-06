@@ -4,7 +4,7 @@ for (const width of [390, 1440]) {
   for (const change of ['addition', 'recreated'] as const) {
   test(`confirmation preserves ${change} during a pending order at ${width}px`, async ({ page, context }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/')
     await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true)
     const reset = await page.evaluate(async () => (await fetch('/api/v1/__mock/reset', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ scenario: 'pending-disconnect', clockMode: 'manual' }) })).ok)
@@ -31,7 +31,7 @@ for (const width of [390, 1440]) {
     await page.getByRole('button', { name: 'Confirmar compra', exact: true }).click()
     await expect(page.getByRole('heading', { name: 'Compra em processamento' })).toBeVisible()
     const cart = await context.newPage()
-    await cart.setViewportSize({ width, height: 900 })
+    await cart.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await cart.goto('http://127.0.0.1:5173/cart')
     const line = cart.locator('.cart-line').filter({ hasText: 'Emerald Ape #042' })
     await expect(line.locator('.cart-stepper > span')).toHaveText('2')

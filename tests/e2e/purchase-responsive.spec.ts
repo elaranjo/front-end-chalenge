@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`collector completes a simulated purchase through the UI at ${width}px`, async ({ page }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/')
     await page.getByRole('link', { name: /Emerald Ape #042/ }).first().click()
     await expect(page).toHaveURL(/\/nfts\/emerald-ape-042$/)
@@ -35,13 +35,23 @@ for (const width of [390, 1440]) {
     if (width < 1280) await page.getByRole('button', { name: 'Continuar', exact: true }).click()
     await page.getByRole('button', { name: 'Conectar carteira', exact: true }).click()
     await expect(page.getByRole('button', { name: 'Confirmar compra', exact: true })).toBeEnabled()
-    await page.getByRole('button', { name: 'Revisar dados' }).click()
+    const reviewTrigger = page.getByRole('button', { name: 'Revisar dados' })
+    await reviewTrigger.click()
     const review = page.getByRole('dialog', { name: 'Revisão dos dados' })
     await expect(review).toContainText('Emerald Ape #042')
     await expect(review).toContainText('Subtotal')
     await expect(review).toContainText('Taxa de rede')
     await expect(review).toContainText('Total')
-    await review.getByRole('button', { name: 'Fechar' }).click()
+    await expect(review.getByRole('heading', { name: 'Revisar dados' })).toBeFocused()
+    const closeReview = review.getByRole('button', { name: 'Fechar' })
+    await closeReview.focus()
+    await page.keyboard.press('Tab')
+    await expect(closeReview).toBeFocused()
+    await page.keyboard.press('Shift+Tab')
+    await expect(closeReview).toBeFocused()
+    await page.keyboard.press('Escape')
+    await expect(review).not.toBeVisible()
+    await expect(reviewTrigger).toBeFocused()
     const order = page.waitForResponse((response) => response.url().endsWith('/api/v1/orders') && response.request().method() === 'POST' && response.ok())
     await page.getByRole('button', { name: 'Confirmar compra', exact: true }).click()
     await order
@@ -49,6 +59,35 @@ for (const width of [390, 1440]) {
     await expect(page.locator('.order-item')).toContainText('Emerald Ape #042')
     await expect(page.locator('.order-item')).toContainText('2.38 ETH')
     await expect(page.getByText(/Nenhuma transação blockchain real/)).toBeVisible()
+    const receiptUrl = page.url()
+    const receiptTotal = await page.locator('.order-totals').innerText()
+    const receiptImage = await page.locator('.order-item img').getAttribute('src')
+    const changed = await page.evaluate(async () => {
+      const token = localStorage.getItem('kurio.session-token')!
+      const auth = { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }
+      const wallets = await (await fetch('/api/v1/wallets', { headers: auth })).json()
+      const primary = wallets.items.find((wallet: { slot: string }) => wallet.slot === 'primary')
+      if (!primary) throw new Error('Primary wallet missing')
+      const wallet = await fetch('/api/v1/wallets/primary', {
+        method: 'PUT', headers: { ...auth, 'If-Match': String(primary.version) },
+        body: JSON.stringify({ ...primary, nickname: 'Alterada', address: `0x${'c'.repeat(40)}` }),
+      })
+      const nft = await fetch('/api/v1/__mock/actions', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'updateNft', payload: { nftId: 'emerald-ape-042', editionId: 'one-of-ten', unitPrice: '9.50' } }),
+      })
+      return { wallet: wallet.status, nft: nft.status }
+    })
+    expect(changed).toEqual({ wallet: 200, nft: 200 })
+    await page.reload()
+    await expect(page).toHaveURL(receiptUrl)
+    await expect(page.getByRole('heading', { name: 'Seus NFTs agora estão na sua carteira' })).toBeVisible()
+    await expect(page.locator('.order-item')).toContainText('2.38 ETH')
+    await expect(page.locator('.order-item img')).toHaveAttribute('src', receiptImage!)
+    await expect.poll(() => page.locator('.order-totals').innerText()).toBe(receiptTotal)
+    await page.getByText('Dados do colecionador', { exact: true }).click()
+    await expect(page.locator('.order-collector')).toContainText('Principal')
+    await expect(page.locator('.order-collector')).not.toContainText('Alterada')
     await page.goto('http://127.0.0.1:5173/cart')
     await expect(page.getByText('Seu carrinho está vazio.')).toBeVisible()
   })

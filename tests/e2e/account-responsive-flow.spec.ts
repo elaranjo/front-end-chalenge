@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`profile and independent wallets persist and are usable at checkout at ${width}px`, async ({ page }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.goto('http://127.0.0.1:5173/profile')
     await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
     await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')

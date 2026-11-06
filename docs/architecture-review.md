@@ -40,3 +40,7 @@ Esta revisão relaciona as decisões de `decisions.md` aos pontos de implementa�
 Em 06/11/2026, a revisão dos handlers confirmou as famílias REST listadas em [ARCHITECTURE.md](../ARCHITECTURE.md), inclusive perfil/avatar, carteiras/conexões, pedidos, catálogo, favoritos, carrinho e sessão. `src/app/query-client.ts` confirma os valores documentados de `staleTime`, `gcTime`, retry e backoff padrão; os recursos com política específica estão em `src/shared/cart-queries.ts`, `private-queries.ts` e `checkout-quote.ts`. `src/shared/http.ts` fixa o timeout Axios em 10 segundos.
 
 Essa conferência é estática. A entrega ainda requer revisão integral requisito por requisito e execução dos gates pendentes; ela não substitui um checkout do commit final nem testes da URL pública.
+
+## Conferência documental de decisões
+
+Em 06/11/2026, a conferência dos identificadores verificou que as 50 decisões C01–C12, L01–L27 e V01–V11 de `decisions.md` aparecem individualmente nesta revisão. Essa checagem prova apenas a presença dos identificadores, não a correção das evidências ou a conclusão da tarefa 12.2.

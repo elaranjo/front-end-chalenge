@@ -34,6 +34,14 @@ for (const width of [390, 1440]) {
 
     await page.goto('http://127.0.0.1:5173/nfts/inexistente')
     await expect(page.getByRole('alert')).toHaveText('Não foi possível encontrar este NFT.')
-    await expect(page.getByRole('link', { name: 'Voltar ao início' })).toBeVisible()
+    await page.getByRole('link', { name: 'Voltar ao início' }).click()
+    await expect(page).toHaveURL('http://127.0.0.1:5173/')
+
+    await page.goto('http://127.0.0.1:4173/rota-inexistente')
+    await expect(page.getByRole('heading', { name: 'Página não encontrada' })).toBeVisible()
+    await page.reload()
+    await expect(page.getByRole('heading', { name: 'Página não encontrada' })).toBeVisible()
+    await page.getByRole('link', { name: 'Voltar ao início' }).click()
+    await expect(page).toHaveURL('http://127.0.0.1:4173/')
   })
 }

@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 for (const width of [390, 1440]) {
   test(`price and fee updates require a fresh checkout review at ${width}px`, async ({ page }) => {
     test.setTimeout(60000)
-    await page.setViewportSize({ width, height: 900 })
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     await page.addInitScript(() => {
       const events: string[] = []
       ;(window as unknown as { observedSocketFrames: string[] }).observedSocketFrames = events
