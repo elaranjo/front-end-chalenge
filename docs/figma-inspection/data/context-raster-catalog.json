@@ -1,0 +1,322 @@
+{
+  "source": "Cópia Figma kChvpMLrhHxfKHjyzqWV3B; get_design_context dos 15 frames",
+  "date": "2026-11-06",
+  "note": "Igualdade de bytes com as imagens originais; nodeCandidate e recortes de cada uso requerem revisão.",
+  "entries": [
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame136",
+      "nodeCandidate": "70342:2673",
+      "stagingIndex": 0,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork18",
+      "nodeCandidate": "70410:3798",
+      "stagingIndex": 1,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork05",
+      "nodeCandidate": "4:164",
+      "stagingIndex": 2,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork09",
+      "nodeCandidate": "4:286",
+      "stagingIndex": 3,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork04",
+      "nodeCandidate": "11:1181",
+      "stagingIndex": 4,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork06",
+      "nodeCandidate": "11:1177",
+      "stagingIndex": 5,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork08",
+      "nodeCandidate": "11:1179",
+      "stagingIndex": 6,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork09",
+      "nodeCandidate": "11:1180",
+      "stagingIndex": 7,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork6",
+      "nodeCandidate": "11:1900",
+      "stagingIndex": 8,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork7",
+      "nodeCandidate": "11:2092",
+      "stagingIndex": 9,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork8",
+      "nodeCandidate": "11:2094",
+      "stagingIndex": 10,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork4",
+      "nodeCandidate": "11:1985",
+      "stagingIndex": 11,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork1",
+      "nodeCandidate": "I70522:3321;70504:3128",
+      "stagingIndex": 12,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork2",
+      "nodeCandidate": "I70522:3321;70504:3137",
+      "stagingIndex": 13,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork3",
+      "nodeCandidate": "I70522:3321;70504:3146",
+      "stagingIndex": 14,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork1",
+      "nodeCandidate": "I70522:3496;70504:3128",
+      "stagingIndex": 15,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork2",
+      "nodeCandidate": "I70522:3496;70504:3137",
+      "stagingIndex": 16,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork3",
+      "nodeCandidate": "I70522:3496;70504:3146",
+      "stagingIndex": 17,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork1",
+      "nodeCandidate": "I70522:3671;70504:3225",
+      "stagingIndex": 18,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork3",
+      "nodeCandidate": "I70522:3671;70504:3274",
+      "stagingIndex": 19,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork4",
+      "nodeCandidate": "I70522:3671;70504:3275",
+      "stagingIndex": 20,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork6",
+      "nodeCandidate": "I70522:3671;70504:3290",
+      "stagingIndex": 21,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork1",
+      "nodeCandidate": "I70522:3841;70504:3225",
+      "stagingIndex": 22,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork3",
+      "nodeCandidate": "I70522:3841;70504:3274",
+      "stagingIndex": 23,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork4",
+      "nodeCandidate": "I70522:3841;70504:3275",
+      "stagingIndex": 24,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork6",
+      "nodeCandidate": "I70522:3841;70504:3290",
+      "stagingIndex": 25,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork1",
+      "nodeCandidate": "14:5238",
+      "stagingIndex": 26,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork2",
+      "nodeCandidate": "14:5239",
+      "stagingIndex": 27,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork5",
+      "nodeCandidate": "15:5416",
+      "stagingIndex": 28,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork6",
+      "nodeCandidate": "15:5431",
+      "stagingIndex": 29,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgMobileNftHeroArtwork",
+      "nodeCandidate": "15:5639",
+      "stagingIndex": 30,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle106",
+      "nodeCandidate": "22:1315",
+      "stagingIndex": 31,
+      "sha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "public/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.png"
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle108",
+      "nodeCandidate": "22:1318",
+      "stagingIndex": 32,
+      "sha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "public/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.png"
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle110",
+      "nodeCandidate": "22:1332",
+      "stagingIndex": 33,
+      "sha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "public/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.png"
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle112",
+      "nodeCandidate": "22:1346",
+      "stagingIndex": 34,
+      "sha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "public/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png"
+    }
+  ]
+}

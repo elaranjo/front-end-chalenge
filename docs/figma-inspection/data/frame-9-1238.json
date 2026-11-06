@@ -1,0 +1,678 @@
+{
+  "id": "9:1238",
+  "name": "Desktop / Perfil do Colecionador",
+  "rawNodeIds": [
+    "9:1238",
+    "70386:264",
+    "70522:3267",
+    "70386:263",
+    "70420:4536",
+    "70420:4537",
+    "70420:4538",
+    "70420:4539",
+    "70420:4540",
+    "70420:4541",
+    "70420:4542",
+    "70420:4543",
+    "70420:4544",
+    "70420:4545",
+    "70420:4546",
+    "70420:4547",
+    "70420:4548",
+    "70420:4549",
+    "70420:4550",
+    "70420:4551",
+    "70420:4552",
+    "70420:4553",
+    "70420:4554",
+    "70420:4555",
+    "70420:4556",
+    "70420:4557",
+    "70420:4558",
+    "70420:4559",
+    "70420:4560",
+    "70420:4561",
+    "70420:4562",
+    "70420:4563",
+    "70420:4564",
+    "70420:4565",
+    "70420:4566",
+    "70386:239",
+    "9:1569",
+    "70386:240",
+    "70386:241",
+    "70386:242",
+    "70304:398",
+    "9:1508",
+    "9:1516",
+    "9:1509",
+    "70410:4356",
+    "70386:243",
+    "70386:244",
+    "70410:4355",
+    "9:1510",
+    "70410:4354",
+    "9:1517",
+    "9:1511",
+    "70386:245",
+    "70386:246",
+    "70304:399",
+    "9:1578",
+    "9:1579",
+    "9:1580",
+    "70386:247",
+    "70410:4357",
+    "9:1518",
+    "9:1519",
+    "70386:249",
+    "9:1587",
+    "9:1588",
+    "9:1589",
+    "9:1590",
+    "9:1522",
+    "70386:250",
+    "70386:251",
+    "70304:400",
+    "9:1521",
+    "9:1520",
+    "9:1523",
+    "70386:252",
+    "70386:253",
+    "9:1536",
+    "70386:254",
+    "70410:4359",
+    "9:1581",
+    "9:1560",
+    "9:1582",
+    "9:1540",
+    "9:1548",
+    "9:1547",
+    "70386:255",
+    "9:1586",
+    "70386:256",
+    "9:1529",
+    "70522:3144",
+    "70386:258",
+    "9:1532",
+    "70522:3158",
+    "70386:260",
+    "9:1534",
+    "70522:3172",
+    "70386:262",
+    "9:1646"
+  ],
+  "componentReferences": [
+    "2:36",
+    "70486:529",
+    "70504:2973",
+    "70504:3017",
+    "9:1443",
+    "9:1467",
+    "9:1477",
+    "9:1487",
+    "9:1550",
+    "9:1592",
+    "9:1651"
+  ],
+  "directTexts": [
+    {
+      "id": "70420:4538",
+      "text": "Meu perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4542",
+      "text": "Dados do perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4545",
+      "text": "Carteiras",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4549",
+      "text": "Atividade",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4553",
+      "text": "Lista de interesse",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4556",
+      "text": "Ofertas",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4559",
+      "text": "Arquivos baixados",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4562",
+      "text": "Suporte",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4566",
+      "text": "Sair",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1569",
+      "text": "Perfil do colecionador",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1508",
+      "text": "Nome de exibição",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1516",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1510",
+      "text": "Nome de usuário",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1517",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1578",
+      "text": "E-mail",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1579",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1518",
+      "text": "Nome ENS",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1519",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1588",
+      "text": ".eth",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1521",
+      "text": "Apelido da carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1520",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1536",
+      "text": "Avatar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1548",
+      "text": "Remover",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1547",
+      "text": "Alterar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1586",
+      "text": "Alterar senha",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1529",
+      "text": "Senha atual",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1532",
+      "text": "Nova senha",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1534",
+      "text": "Confirmar nova senha",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1646",
+      "text": "Salvar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70486:529",
+      "id": "70486:510",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:513",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:515",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:516",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:517",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:523",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:528",
+      "text": "Entrar"
+    }
+  ]
+}

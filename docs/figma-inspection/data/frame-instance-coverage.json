@@ -1,0 +1,1662 @@
+{
+  "source": "docs/figma-inspection/data/source-nodes.json",
+  "method": "Instâncias diretamente presentes nos 15 frames e instâncias aninhadas em suas definições; candidatos diretos por ID, símbolo compartilhado ou grupo pequeno. A expansão não resolve visibilidade, overrides nem transformações propagados; candidato não comprova correspondência visual ou uso na aplicação.",
+  "instances": [
+    {
+      "frame": "F01",
+      "instanceId": "4:152",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:153",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2",
+      "candidates": [
+        {
+          "file": "arrow-down-2-figma.svg",
+          "nodeId": "4:153",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "home-sort-chevron-figma.svg",
+          "nodeId": "4:152",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F01",
+      "instanceId": "4:392",
+      "name": "Iconly/Curved/Arrow - Right 2",
+      "symbolId": "4:393",
+      "symbolName": "Iconly/Curved/Arrow - Right 2",
+      "candidates": [
+        {
+          "file": "arrow-right-2-figma.svg",
+          "nodeId": "4:393",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "home-page-next-figma.svg",
+          "nodeId": "4:392",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F01",
+      "instanceId": "5:99",
+      "name": "Iconly/Curved/Arrow - Right",
+      "symbolId": "5:100",
+      "symbolName": "Iconly/Curved/Arrow - Right",
+      "candidates": [
+        {
+          "file": "arrow-right-figma.svg",
+          "nodeId": "5:100",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "home-promo-arrow-figma.svg",
+          "nodeId": "5:99",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F01",
+      "instanceId": "70304:393",
+      "name": "Iconly/Curved/Arrow - Right",
+      "symbolId": "5:100",
+      "symbolName": "Iconly/Curved/Arrow - Right",
+      "candidates": [
+        {
+          "file": "arrow-right-figma.svg",
+          "nodeId": "5:100",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "home-promo-arrow-figma.svg",
+          "nodeId": "5:99",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F01",
+      "instanceId": "70485:382",
+      "name": "Filters",
+      "symbolId": "70485:381",
+      "symbolName": "Filters",
+      "candidates": []
+    },
+    {
+      "frame": "F01",
+      "instanceId": "70492:696",
+      "name": "Footer",
+      "symbolId": "70491:1286",
+      "symbolName": "Footer",
+      "candidates": []
+    },
+    {
+      "frame": "F01",
+      "instanceId": "70522:3240",
+      "name": "Header With Divider",
+      "symbolId": "70504:3017",
+      "symbolName": "Header With Divider",
+      "candidates": [
+        {
+          "file": "login-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "cart-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "search-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "11:1195",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "11:1198",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "11:1201",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "11:1204",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "11:1207",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F02",
+      "instanceId": "70488:626",
+      "name": "Header Row",
+      "symbolId": "70486:555",
+      "symbolName": "Active=Market",
+      "candidates": []
+    },
+    {
+      "frame": "F02",
+      "instanceId": "70493:1151",
+      "name": "Footer",
+      "symbolId": "70491:1286",
+      "symbolName": "Footer",
+      "candidates": []
+    },
+    {
+      "frame": "F03",
+      "instanceId": "11:2029",
+      "name": "Iconly/Curved/Delete",
+      "symbolId": "11:2030",
+      "symbolName": "Iconly/Curved/Delete",
+      "candidates": [
+        {
+          "file": "cart-remove.svg",
+          "nodeId": "16:463",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "cart-remove-desktop.svg",
+          "nodeId": "11:2029 / 11:2069 / 11:2086",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F03",
+      "instanceId": "11:2069",
+      "name": "Iconly/Curved/Delete",
+      "symbolId": "11:2030",
+      "symbolName": "Iconly/Curved/Delete",
+      "candidates": [
+        {
+          "file": "cart-remove.svg",
+          "nodeId": "16:463",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "cart-remove-desktop.svg",
+          "nodeId": "11:2029 / 11:2069 / 11:2086",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F03",
+      "instanceId": "11:2086",
+      "name": "Iconly/Curved/Delete",
+      "symbolId": "11:2030",
+      "symbolName": "Iconly/Curved/Delete",
+      "candidates": [
+        {
+          "file": "cart-remove.svg",
+          "nodeId": "16:463",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "cart-remove-desktop.svg",
+          "nodeId": "11:2029 / 11:2069 / 11:2086",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F03",
+      "instanceId": "70488:651",
+      "name": "Header Row",
+      "symbolId": "70486:555",
+      "symbolName": "Active=Market",
+      "candidates": []
+    },
+    {
+      "frame": "F03",
+      "instanceId": "70493:1607",
+      "name": "Footer",
+      "symbolId": "70491:1286",
+      "symbolName": "Footer",
+      "candidates": []
+    },
+    {
+      "frame": "F04",
+      "instanceId": "70493:2063",
+      "name": "Footer",
+      "symbolId": "70491:1286",
+      "symbolName": "Footer",
+      "candidates": []
+    },
+    {
+      "frame": "F04",
+      "instanceId": "70522:3321",
+      "name": "Checkout Page",
+      "symbolId": "70504:3190",
+      "symbolName": "Checkout Page",
+      "candidates": []
+    },
+    {
+      "frame": "F05",
+      "instanceId": "12:5223",
+      "name": "X",
+      "symbolId": "9:947",
+      "symbolName": "X",
+      "candidates": [
+        {
+          "file": "auth-close.svg",
+          "nodeId": "9:947 / 9:948",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F05",
+      "instanceId": "70493:2519",
+      "name": "Footer",
+      "symbolId": "70491:1286",
+      "symbolName": "Footer",
+      "candidates": []
+    },
+    {
+      "frame": "F05",
+      "instanceId": "70522:3496",
+      "name": "Checkout Page",
+      "symbolId": "70504:3190",
+      "symbolName": "Checkout Page",
+      "candidates": []
+    },
+    {
+      "frame": "F06",
+      "instanceId": "9:963",
+      "name": "Iconly/Curved/Hide",
+      "symbolId": "9:964",
+      "symbolName": "Iconly/Curved/Hide",
+      "candidates": [
+        {
+          "file": "password-hide-mobile.svg",
+          "nodeId": "16:1191",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F06",
+      "instanceId": "70484:240",
+      "name": "Social Button",
+      "symbolId": "70483:262",
+      "symbolName": "Provider=Facebook",
+      "candidates": []
+    },
+    {
+      "frame": "F06",
+      "instanceId": "70484:260",
+      "name": "Social Button",
+      "symbolId": "70483:256",
+      "symbolName": "Provider=Google",
+      "candidates": []
+    },
+    {
+      "frame": "F06",
+      "instanceId": "70522:3671",
+      "name": "Marketplace Page",
+      "symbolId": "70504:3297",
+      "symbolName": "Marketplace Page",
+      "candidates": []
+    },
+    {
+      "frame": "F07",
+      "instanceId": "9:1147",
+      "name": "X",
+      "symbolId": "9:947",
+      "symbolName": "X",
+      "candidates": [
+        {
+          "file": "auth-close.svg",
+          "nodeId": "9:947 / 9:948",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F07",
+      "instanceId": "9:1167",
+      "name": "Iconly/Curved/Hide",
+      "symbolId": "9:964",
+      "symbolName": "Iconly/Curved/Hide",
+      "candidates": [
+        {
+          "file": "password-hide-mobile.svg",
+          "nodeId": "16:1191",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F07",
+      "instanceId": "70484:245",
+      "name": "Social Button",
+      "symbolId": "70483:262",
+      "symbolName": "Provider=Facebook",
+      "candidates": []
+    },
+    {
+      "frame": "F07",
+      "instanceId": "70484:276",
+      "name": "Social Button",
+      "symbolId": "70483:256",
+      "symbolName": "Provider=Google",
+      "candidates": []
+    },
+    {
+      "frame": "F07",
+      "instanceId": "70522:3841",
+      "name": "Marketplace Page",
+      "symbolId": "70504:3297",
+      "symbolName": "Marketplace Page",
+      "candidates": []
+    },
+    {
+      "frame": "F08",
+      "instanceId": "9:1560",
+      "name": "Iconly/Curved/Image 2",
+      "symbolId": "9:1550",
+      "symbolName": "Iconly/Curved/Image 2",
+      "candidates": [
+        {
+          "file": "profile-avatar.svg",
+          "nodeId": "9:1560",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-avatar-figma.svg",
+          "nodeId": "9:1560",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4541",
+      "name": "User",
+      "symbolId": "9:1443",
+      "symbolName": "User",
+      "candidates": [
+        {
+          "file": "account-profile.svg",
+          "nodeId": "70420:4541",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "account-profile-inactive.svg",
+          "nodeId": "70420:4541",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-user-figma.svg",
+          "nodeId": "70420:4541",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-user-figma.svg",
+          "nodeId": "70420:4599",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4544",
+      "name": "Iconly/Light-Outline/Location",
+      "symbolId": "9:1651",
+      "symbolName": "Iconly/Light-Outline/Location",
+      "candidates": [
+        {
+          "file": "account-wallets.svg",
+          "nodeId": "70420:4544",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "account-wallets-active.svg",
+          "nodeId": "70420:4544",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-wallet-figma.svg",
+          "nodeId": "70420:4544",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-wallet-figma.svg",
+          "nodeId": "70420:4602",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4555",
+      "name": "Iconly/Curved/Activity",
+      "symbolId": "9:1467",
+      "symbolName": "Iconly/Curved/Activity",
+      "candidates": [
+        {
+          "file": "account-offers.svg",
+          "nodeId": "70420:4555",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-offers-figma.svg",
+          "nodeId": "70420:4555",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-offers-figma.svg",
+          "nodeId": "70420:4613",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4558",
+      "name": "Iconly/Curved/Download",
+      "symbolId": "9:1477",
+      "symbolName": "Iconly/Curved/Download",
+      "candidates": [
+        {
+          "file": "account-downloads.svg",
+          "nodeId": "70420:4558",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-download-figma.svg",
+          "nodeId": "70420:4558",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-download-figma.svg",
+          "nodeId": "70420:4616",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4561",
+      "name": "Iconly/Curved/Danger Triangle",
+      "symbolId": "9:1487",
+      "symbolName": "Iconly/Curved/Danger Triangle",
+      "candidates": [
+        {
+          "file": "account-support.svg",
+          "nodeId": "70420:4561",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-support-figma.svg",
+          "nodeId": "70420:4561",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-support-figma.svg",
+          "nodeId": "70420:4619",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70420:4565",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout",
+      "candidates": [
+        {
+          "file": "account-logout.svg",
+          "nodeId": "70420:4565",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "profile-nav-logout-figma.svg",
+          "nodeId": "70420:4565",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-nav-logout-figma.svg",
+          "nodeId": "70420:4623",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70522:3144",
+      "name": "Password Input",
+      "symbolId": "70504:2973",
+      "symbolName": "Password Input",
+      "candidates": []
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70522:3158",
+      "name": "Password Input",
+      "symbolId": "70504:2973",
+      "symbolName": "Password Input",
+      "candidates": []
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70522:3172",
+      "name": "Password Input",
+      "symbolId": "70504:2973",
+      "symbolName": "Password Input",
+      "candidates": []
+    },
+    {
+      "frame": "F08",
+      "instanceId": "70522:3267",
+      "name": "Header With Divider",
+      "symbolId": "70504:3017",
+      "symbolName": "Header With Divider",
+      "candidates": [
+        {
+          "file": "login-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "cart-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "search-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "9:1758",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down",
+      "candidates": [
+        {
+          "file": "profile-ens-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow-figma.svg",
+          "nodeId": "9:1837",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "9:1837",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down",
+      "candidates": [
+        {
+          "file": "profile-ens-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow-figma.svg",
+          "nodeId": "9:1837",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "9:1854",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down",
+      "candidates": [
+        {
+          "file": "profile-ens-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow.svg",
+          "nodeId": "9:1589",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "wallet-select-arrow-figma.svg",
+          "nodeId": "9:1837",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4599",
+      "name": "User",
+      "symbolId": "9:1443",
+      "symbolName": "User",
+      "candidates": [
+        {
+          "file": "account-profile.svg",
+          "nodeId": "70420:4541",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "account-profile-inactive.svg",
+          "nodeId": "70420:4541",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-user-figma.svg",
+          "nodeId": "70420:4541",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-user-figma.svg",
+          "nodeId": "70420:4599",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4602",
+      "name": "Iconly/Light-Outline/Location",
+      "symbolId": "9:1651",
+      "symbolName": "Iconly/Light-Outline/Location",
+      "candidates": [
+        {
+          "file": "account-wallets.svg",
+          "nodeId": "70420:4544",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "account-wallets-active.svg",
+          "nodeId": "70420:4544",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-wallet-figma.svg",
+          "nodeId": "70420:4544",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-wallet-figma.svg",
+          "nodeId": "70420:4602",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4613",
+      "name": "Iconly/Curved/Activity",
+      "symbolId": "9:1467",
+      "symbolName": "Iconly/Curved/Activity",
+      "candidates": [
+        {
+          "file": "account-offers.svg",
+          "nodeId": "70420:4555",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-offers-figma.svg",
+          "nodeId": "70420:4555",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-offers-figma.svg",
+          "nodeId": "70420:4613",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4616",
+      "name": "Iconly/Curved/Download",
+      "symbolId": "9:1477",
+      "symbolName": "Iconly/Curved/Download",
+      "candidates": [
+        {
+          "file": "account-downloads.svg",
+          "nodeId": "70420:4558",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-download-figma.svg",
+          "nodeId": "70420:4558",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-download-figma.svg",
+          "nodeId": "70420:4616",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4619",
+      "name": "Iconly/Curved/Danger Triangle",
+      "symbolId": "9:1487",
+      "symbolName": "Iconly/Curved/Danger Triangle",
+      "candidates": [
+        {
+          "file": "account-support.svg",
+          "nodeId": "70420:4561",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-support-figma.svg",
+          "nodeId": "70420:4561",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-support-figma.svg",
+          "nodeId": "70420:4619",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70420:4623",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout",
+      "candidates": [
+        {
+          "file": "account-logout.svg",
+          "nodeId": "70420:4565",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "profile-nav-logout-figma.svg",
+          "nodeId": "70420:4565",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "wallet-nav-logout-figma.svg",
+          "nodeId": "70420:4623",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F09",
+      "instanceId": "70522:3294",
+      "name": "Header With Divider",
+      "symbolId": "70504:3017",
+      "symbolName": "Header With Divider",
+      "candidates": [
+        {
+          "file": "login-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "cart-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "search-desktop.svg",
+          "nodeId": "70522:3240",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F10",
+      "instanceId": "15:5295",
+      "name": "Iconly/Curved/Arrow - Right",
+      "symbolId": "5:100",
+      "symbolName": "Iconly/Curved/Arrow - Right",
+      "candidates": [
+        {
+          "file": "arrow-right-figma.svg",
+          "nodeId": "5:100",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "home-promo-arrow-figma.svg",
+          "nodeId": "5:99",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F10",
+      "instanceId": "15:5488",
+      "name": "Iconly/Curved/Filter",
+      "symbolId": "15:5313",
+      "symbolName": "Iconly/Curved/Filter",
+      "candidates": [
+        {
+          "file": "home-filter-mobile.svg",
+          "nodeId": "15:5313",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F10",
+      "instanceId": "15:5519",
+      "name": "Iconly/Bold/Home",
+      "symbolId": "15:5516",
+      "symbolName": "Iconly/Bold/Home",
+      "candidates": [
+        {
+          "file": "home-tab-bar.svg",
+          "nodeId": "70395:245",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F11",
+      "instanceId": "15:5663",
+      "name": "Iconly/Bold/Star",
+      "symbolId": "11:1192",
+      "symbolName": "Iconly/Bold/Star",
+      "candidates": [
+        {
+          "file": "detail-rating-star.svg",
+          "nodeId": "11:1192",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "detail-star-selected-figma.svg",
+          "nodeId": "11:1195",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "detail-star-inactive-figma.svg",
+          "nodeId": "11:1207",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F11",
+      "instanceId": "15:5745",
+      "name": "Iconly/Curved/Arrow - Left 2",
+      "symbolId": "15:5746",
+      "symbolName": "Iconly/Curved/Arrow - Left 2",
+      "candidates": [
+        {
+          "file": "back-detail-mobile.svg",
+          "nodeId": "15:5754",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F11",
+      "instanceId": "16:357",
+      "name": "Shop",
+      "symbolId": "15:5524",
+      "symbolName": "Shop",
+      "candidates": [
+        {
+          "file": "cart-detail-mobile.svg",
+          "nodeId": "16:357",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F12",
+      "instanceId": "16:395",
+      "name": "Iconly/Curved/Arrow - Left 2",
+      "symbolId": "15:5746",
+      "symbolName": "Iconly/Curved/Arrow - Left 2",
+      "candidates": [
+        {
+          "file": "back-detail-mobile.svg",
+          "nodeId": "15:5754",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F12",
+      "instanceId": "16:463",
+      "name": "Iconly/Curved/Delete",
+      "symbolId": "11:2030",
+      "symbolName": "Iconly/Curved/Delete",
+      "candidates": [
+        {
+          "file": "cart-remove.svg",
+          "nodeId": "16:463",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "cart-remove-desktop.svg",
+          "nodeId": "11:2029 / 11:2069 / 11:2086",
+          "relation": "shared-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F13",
+      "instanceId": "16:759",
+      "name": "Iconly/Curved/Arrow - Left 2",
+      "symbolId": "15:5746",
+      "symbolName": "Iconly/Curved/Arrow - Left 2",
+      "candidates": [
+        {
+          "file": "back-detail-mobile.svg",
+          "nodeId": "15:5754",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F13",
+      "instanceId": "23:1379",
+      "name": "Iconly/Curved/Wallet",
+      "symbolId": "23:1373",
+      "symbolName": "Iconly/Curved/Wallet",
+      "candidates": [
+        {
+          "file": "checkout-coinbase-wallet.svg",
+          "nodeId": "23:1379",
+          "relation": "direct-or-ancestor"
+        }
+      ]
+    },
+    {
+      "frame": "F14",
+      "instanceId": "16:1191",
+      "name": "Iconly/Curved/Hide",
+      "symbolId": "9:964",
+      "symbolName": "Iconly/Curved/Hide",
+      "candidates": [
+        {
+          "file": "password-hide-mobile.svg",
+          "nodeId": "16:1191",
+          "relation": "direct-or-ancestor"
+        },
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F14",
+      "instanceId": "70522:3186",
+      "name": "Mobile Social Block",
+      "symbolId": "70504:2994",
+      "symbolName": "Mobile Social Block",
+      "candidates": [
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F15",
+      "instanceId": "16:1292",
+      "name": "Iconly/Curved/Hide",
+      "symbolId": "9:964",
+      "symbolName": "Iconly/Curved/Hide",
+      "candidates": [
+        {
+          "file": "password-hide-mobile.svg",
+          "nodeId": "16:1191",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F15",
+      "instanceId": "16:1302",
+      "name": "Iconly/Curved/Hide",
+      "symbolId": "9:964",
+      "symbolName": "Iconly/Curved/Hide",
+      "candidates": [
+        {
+          "file": "password-hide-mobile.svg",
+          "nodeId": "16:1191",
+          "relation": "shared-symbol"
+        },
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    },
+    {
+      "frame": "F15",
+      "instanceId": "70522:3213",
+      "name": "Mobile Social Block",
+      "symbolId": "70504:2994",
+      "symbolName": "Mobile Social Block",
+      "candidates": [
+        {
+          "file": "google-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        },
+        {
+          "file": "facebook-mobile.svg",
+          "nodeId": "16:1228",
+          "relation": "group-containing-symbol"
+        }
+      ]
+    }
+  ],
+  "nestedInstances": [
+    {
+      "frame": "F01",
+      "rootInstanceId": "4:152",
+      "symbolPath": [
+        "4:153"
+      ],
+      "instanceId": "4:154",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:149",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2"
+    },
+    {
+      "frame": "F01",
+      "rootInstanceId": "70522:3240",
+      "symbolPath": [
+        "70504:3017"
+      ],
+      "instanceId": "70504:3015",
+      "name": "Header Row",
+      "symbolId": "70486:529",
+      "symbolName": "Active=Home"
+    },
+    {
+      "frame": "F01",
+      "rootInstanceId": "70522:3240",
+      "symbolPath": [
+        "70504:3017",
+        "70486:529"
+      ],
+      "instanceId": "70486:527",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F02",
+      "rootInstanceId": "70488:626",
+      "symbolPath": [
+        "70486:555"
+      ],
+      "instanceId": "70486:553",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F03",
+      "rootInstanceId": "70488:651",
+      "symbolPath": [
+        "70486:555"
+      ],
+      "instanceId": "70486:553",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F04",
+      "rootInstanceId": "70522:3321",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3110",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F04",
+      "rootInstanceId": "70522:3321",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3078",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F04",
+      "rootInstanceId": "70522:3321",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3064",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F04",
+      "rootInstanceId": "70522:3321",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3043",
+      "name": "Header Row",
+      "symbolId": "70486:555",
+      "symbolName": "Active=Market"
+    },
+    {
+      "frame": "F04",
+      "rootInstanceId": "70522:3321",
+      "symbolPath": [
+        "70504:3190",
+        "70486:555"
+      ],
+      "instanceId": "70486:553",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F05",
+      "rootInstanceId": "70522:3496",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3110",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F05",
+      "rootInstanceId": "70522:3496",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3078",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F05",
+      "rootInstanceId": "70522:3496",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3064",
+      "name": "Arrow-Down",
+      "symbolId": "9:1589",
+      "symbolName": "Arrow-Down"
+    },
+    {
+      "frame": "F05",
+      "rootInstanceId": "70522:3496",
+      "symbolPath": [
+        "70504:3190"
+      ],
+      "instanceId": "70504:3043",
+      "name": "Header Row",
+      "symbolId": "70486:555",
+      "symbolName": "Active=Market"
+    },
+    {
+      "frame": "F05",
+      "rootInstanceId": "70522:3496",
+      "symbolPath": [
+        "70504:3190",
+        "70486:555"
+      ],
+      "instanceId": "70486:553",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70529:3617",
+      "name": "Header With Divider",
+      "symbolId": "70504:3017",
+      "symbolName": "Header With Divider"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297",
+        "70504:3017"
+      ],
+      "instanceId": "70504:3015",
+      "name": "Header Row",
+      "symbolId": "70486:529",
+      "symbolName": "Active=Home"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297",
+        "70504:3017",
+        "70486:529"
+      ],
+      "instanceId": "70486:527",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70504:3296",
+      "name": "Filters",
+      "symbolId": "70485:381",
+      "symbolName": "Filters"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70504:3243",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:153",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2"
+    },
+    {
+      "frame": "F06",
+      "rootInstanceId": "70522:3671",
+      "symbolPath": [
+        "70504:3297",
+        "4:153"
+      ],
+      "instanceId": "4:154",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:149",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70529:3617",
+      "name": "Header With Divider",
+      "symbolId": "70504:3017",
+      "symbolName": "Header With Divider"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297",
+        "70504:3017"
+      ],
+      "instanceId": "70504:3015",
+      "name": "Header Row",
+      "symbolId": "70486:529",
+      "symbolName": "Active=Home"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297",
+        "70504:3017",
+        "70486:529"
+      ],
+      "instanceId": "70486:527",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70504:3296",
+      "name": "Filters",
+      "symbolId": "70485:381",
+      "symbolName": "Filters"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297"
+      ],
+      "instanceId": "70504:3243",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:153",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2"
+    },
+    {
+      "frame": "F07",
+      "rootInstanceId": "70522:3841",
+      "symbolPath": [
+        "70504:3297",
+        "4:153"
+      ],
+      "instanceId": "4:154",
+      "name": "Iconly/Two-tone/Arrow - Down 2",
+      "symbolId": "4:149",
+      "symbolName": "Iconly/Two-tone/Arrow - Down 2"
+    },
+    {
+      "frame": "F08",
+      "rootInstanceId": "70522:3144",
+      "symbolPath": [
+        "70504:2973"
+      ],
+      "instanceId": "70504:2972",
+      "name": "Iconly/Light-Outline/Hide",
+      "symbolId": "9:1592",
+      "symbolName": "Iconly/Light-Outline/Hide"
+    },
+    {
+      "frame": "F08",
+      "rootInstanceId": "70522:3158",
+      "symbolPath": [
+        "70504:2973"
+      ],
+      "instanceId": "70504:2972",
+      "name": "Iconly/Light-Outline/Hide",
+      "symbolId": "9:1592",
+      "symbolName": "Iconly/Light-Outline/Hide"
+    },
+    {
+      "frame": "F08",
+      "rootInstanceId": "70522:3172",
+      "symbolPath": [
+        "70504:2973"
+      ],
+      "instanceId": "70504:2972",
+      "name": "Iconly/Light-Outline/Hide",
+      "symbolId": "9:1592",
+      "symbolName": "Iconly/Light-Outline/Hide"
+    },
+    {
+      "frame": "F08",
+      "rootInstanceId": "70522:3267",
+      "symbolPath": [
+        "70504:3017"
+      ],
+      "instanceId": "70504:3015",
+      "name": "Header Row",
+      "symbolId": "70486:529",
+      "symbolName": "Active=Home"
+    },
+    {
+      "frame": "F08",
+      "rootInstanceId": "70522:3267",
+      "symbolPath": [
+        "70504:3017",
+        "70486:529"
+      ],
+      "instanceId": "70486:527",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F09",
+      "rootInstanceId": "70522:3294",
+      "symbolPath": [
+        "70504:3017"
+      ],
+      "instanceId": "70504:3015",
+      "name": "Header Row",
+      "symbolId": "70486:529",
+      "symbolName": "Active=Home"
+    },
+    {
+      "frame": "F09",
+      "rootInstanceId": "70522:3294",
+      "symbolPath": [
+        "70504:3017",
+        "70486:529"
+      ],
+      "instanceId": "70486:527",
+      "name": "Iconly/Curved/Logout",
+      "symbolId": "2:36",
+      "symbolName": "Iconly/Curved/Logout"
+    },
+    {
+      "frame": "F14",
+      "rootInstanceId": "70522:3186",
+      "symbolPath": [
+        "70504:2994"
+      ],
+      "instanceId": "70504:2993",
+      "name": "Social Button",
+      "symbolId": "70483:262",
+      "symbolName": "Provider=Facebook"
+    },
+    {
+      "frame": "F14",
+      "rootInstanceId": "70522:3186",
+      "symbolPath": [
+        "70504:2994"
+      ],
+      "instanceId": "70504:2992",
+      "name": "Social Button",
+      "symbolId": "70483:256",
+      "symbolName": "Provider=Google"
+    },
+    {
+      "frame": "F15",
+      "rootInstanceId": "70522:3213",
+      "symbolPath": [
+        "70504:2994"
+      ],
+      "instanceId": "70504:2993",
+      "name": "Social Button",
+      "symbolId": "70483:262",
+      "symbolName": "Provider=Facebook"
+    },
+    {
+      "frame": "F15",
+      "rootInstanceId": "70522:3213",
+      "symbolPath": [
+        "70504:2994"
+      ],
+      "instanceId": "70504:2992",
+      "name": "Social Button",
+      "symbolId": "70483:256",
+      "symbolName": "Provider=Google"
+    }
+  ],
+  "unresolvedDefinitions": []
+}

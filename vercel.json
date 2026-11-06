@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "VITE_ENABLE_MOCKS=true npm run build",
+  "rewrites": [
+    { "source": "/((?!assets/|api/|socket\\.io/|mockServiceWorker\\.js|favicon\\.svg|icons\\.svg).*)", "destination": "/index.html" }
+  ]
+}

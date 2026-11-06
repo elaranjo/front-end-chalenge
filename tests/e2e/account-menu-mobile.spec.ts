@@ -1,0 +1,122 @@
+import { expect, test } from '@playwright/test'
+
+test('mobile account menu contains the shared actions and restores keyboard focus', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('http://127.0.0.1:5173/profile')
+  await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+  await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+  await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Perfil do colecionador' })).toBeVisible()
+  const trigger = page.getByRole('button', { name: 'Meu perfil', exact: true })
+  await trigger.click()
+  const menu = page.getByRole('dialog', { name: 'Menu do perfil' })
+  await expect(menu).toBeVisible()
+  await expect(menu.getByRole('button', { name: 'Fechar menu' })).toBeFocused()
+  await expect(menu.getByRole('link', { name: 'Dados do perfil' })).toHaveAttribute('aria-current', 'page')
+  await page.keyboard.press('Escape')
+  await expect(menu).not.toBeVisible()
+  await expect(trigger).toBeFocused()
+  await trigger.click()
+  await menu.getByRole('button', { name: 'Atividade' }).click()
+  await expect(menu).not.toBeVisible()
+  await expect(page.getByRole('status')).toContainText('Esta opção não está disponível')
+  await trigger.click()
+  await menu.getByRole('link', { name: 'Carteiras' }).click()
+  await expect(page).toHaveURL(/\/wallets$/)
+  await page.getByRole('button', { name: 'Meu perfil', exact: true }).click()
+  await expect(page.getByRole('dialog', { name: 'Menu do perfil' }).getByRole('link', { name: 'Carteiras' })).toHaveAttribute('aria-current', 'page')
+  await page.getByRole('dialog', { name: 'Menu do perfil' }).getByRole('button', { name: 'Sair', exact: true }).click()
+  await expect(page).toHaveURL('http://127.0.0.1:5173/')
+})
+
+test('tablet account forms remain single-column without horizontal overflow', async ({ page }) => {
+  await page.setViewportSize({ width: 768, height: 1024 })
+  await page.goto('http://127.0.0.1:5173/profile')
+  await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+  await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+  await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+  const first = await page.getByLabel('Nome de exibição').boundingBox()
+  const second = await page.getByLabel('Nome de usuário').boundingBox()
+  expect(first).not.toBeNull()
+  expect(second).not.toBeNull()
+  expect(second!.y).toBeGreaterThan(first!.y + first!.height)
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true)
+})
+
+for (const width of [390, 768]) {
+  test(`profile fields and save action stay reachable at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 844 })
+    await page.goto('http://127.0.0.1:5173/profile')
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    await expect(page.getByRole('heading', { name: 'Perfil do colecionador' })).toBeVisible()
+    const controls = [
+      ...['displayName', 'username', 'email', 'ensName', 'walletNickname'].map((key) => page.locator(`#profile-${key}`)),
+      ...['Sufixo ENS', 'Senha atual', 'Nova senha', 'Confirmar nova senha'].map((name) => page.getByLabel(name, { exact: true })),
+    ]
+    for (const control of controls) {
+      await control.scrollIntoViewIfNeeded()
+      await expect(control).toBeInViewport()
+    }
+    await page.getByRole('button', { name: 'Salvar', exact: true }).scrollIntoViewIfNeeded()
+    await expect(page.getByRole('button', { name: 'Salvar', exact: true })).toBeInViewport()
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width)
+  })
+
+  test(`wallet fields and save action stay reachable at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 844 })
+    await page.goto('http://127.0.0.1:5173/wallets')
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    const form = page.getByRole('form', { name: 'Carteira principal' })
+    await expect(form.getByLabel('Sufixo ENS')).toHaveValue('.eth')
+    for (const name of ['Nome de exibição', 'Apelido da carteira', 'Rede', 'Nome do perfil', 'Endereço da carteira', 'ENS ou carteira secundária (opcional)', 'Tipo de carteira', 'Código de indicação', 'E-mail', 'Nome ENS', 'Sufixo ENS']) {
+      const control = form.getByLabel(name, { exact: true })
+      await control.scrollIntoViewIfNeeded()
+      await expect(control).toBeInViewport()
+    }
+    await form.getByRole('button', { name: 'Salvar carteira' }).scrollIntoViewIfNeeded()
+    await expect(form.getByRole('button', { name: 'Salvar carteira' })).toBeInViewport()
+    await form.getByLabel('Apelido da carteira').fill('Carteira de teste')
+    await page.getByRole('button', { name: 'Igual à carteira principal' }).click()
+    const secondary = page.getByRole('form', { name: 'Carteira secundária' })
+    await expect(secondary.getByLabel('Apelido da carteira')).toHaveValue('Carteira de teste')
+    await secondary.getByLabel('Nome ENS', { exact: true }).scrollIntoViewIfNeeded()
+    await expect(secondary.getByLabel('Nome ENS', { exact: true })).toBeInViewport()
+    await secondary.getByRole('button', { name: 'Salvar carteira' }).scrollIntoViewIfNeeded()
+    await expect(secondary.getByRole('button', { name: 'Salvar carteira' })).toBeInViewport()
+    await page.getByRole('button', { name: 'Recolher' }).click()
+    await expect(secondary).toHaveCount(0)
+    await page.getByRole('button', { name: 'Adicionar', exact: true }).last().click()
+    await expect(secondary.getByLabel('Apelido da carteira')).toHaveValue('Carteira de teste')
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width)
+  })
+}
+
+for (const width of [768, 1440]) {
+  test(`account navigation works by keyboard at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 })
+    await page.goto('http://127.0.0.1:5173/profile')
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    const menu = page.getByRole('complementary', { name: 'Navegação da conta' })
+    await expect(menu.getByRole('link', { name: 'Dados do perfil' })).toHaveAttribute('aria-current', 'page')
+    const unsupported = menu.getByRole('button', { name: 'Suporte' })
+    await unsupported.focus()
+    await page.keyboard.press('Enter')
+    await expect(page.getByRole('status')).toContainText('Esta opção não está disponível')
+    await expect(page).toHaveURL(/\/profile$/)
+    const favorites = menu.getByRole('link', { name: 'Lista de interesse' })
+    await favorites.focus()
+    await page.keyboard.press('Enter')
+    await expect(page).toHaveURL(/\/favorites$/)
+    const favoritesMenu = page.getByRole('complementary', { name: 'Navegação da conta' })
+    await expect(favoritesMenu.getByRole('link', { name: 'Lista de interesse' })).toHaveAttribute('aria-current', 'page')
+    await favoritesMenu.getByRole('button', { name: 'Sair', exact: true }).focus()
+    await page.keyboard.press('Enter')
+    await expect(page).toHaveURL('http://127.0.0.1:5173/')
+  })
+}

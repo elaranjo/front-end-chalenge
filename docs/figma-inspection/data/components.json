@@ -1,0 +1,757 @@
+[
+  {
+    "id": "2:36",
+    "name": "Iconly/Curved/Logout",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "2:37"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "4:149",
+    "name": "Iconly/Two-tone/Arrow - Down 2",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "4:150"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "4:153",
+    "name": "Iconly/Two-tone/Arrow - Down 2",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "4:154"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "4:393",
+    "name": "Iconly/Curved/Arrow - Right 2",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "4:394"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "5:100",
+    "name": "Iconly/Curved/Arrow - Right",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "5:101"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:947",
+    "name": "X",
+    "type": "SYMBOL",
+    "size": {
+      "x": 18,
+      "y": 18
+    },
+    "description": "",
+    "parentId": "70381:239",
+    "children": [
+      "9:948"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:964",
+    "name": "Iconly/Curved/Hide",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:965"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1443",
+    "name": "User",
+    "type": "SYMBOL",
+    "size": {
+      "x": 18,
+      "y": 18
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1444"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1467",
+    "name": "Iconly/Curved/Activity",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1468"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1477",
+    "name": "Iconly/Curved/Download",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1478"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1487",
+    "name": "Iconly/Curved/Danger Triangle",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1488"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1550",
+    "name": "Iconly/Curved/Image 2",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1551"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1589",
+    "name": "Arrow-Down",
+    "type": "SYMBOL",
+    "size": {
+      "x": 20,
+      "y": 20
+    },
+    "description": "",
+    "parentId": "70386:249",
+    "children": [
+      "9:1590"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1592",
+    "name": "Iconly/Light-Outline/Hide",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1593"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "9:1651",
+    "name": "Iconly/Light-Outline/Location",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "9:1652"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "11:1192",
+    "name": "Iconly/Bold/Star",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "11:1193"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "11:1248",
+    "name": "Message",
+    "type": "SYMBOL",
+    "size": {
+      "x": 18,
+      "y": 18
+    },
+    "description": "",
+    "parentId": "70342:2760",
+    "children": [
+      "11:1249"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "11:2030",
+    "name": "Iconly/Curved/Delete",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "11:2031"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5313",
+    "name": "Iconly/Curved/Filter",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "15:5314"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5331",
+    "name": "Search",
+    "type": "SYMBOL",
+    "size": {
+      "x": 22,
+      "y": 22
+    },
+    "description": "",
+    "parentId": "70410:4123",
+    "children": [
+      "15:5332"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5516",
+    "name": "Iconly/Bold/Home",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "15:5517"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5522",
+    "name": "User",
+    "type": "SYMBOL",
+    "size": {
+      "x": 20,
+      "y": 20
+    },
+    "description": "",
+    "parentId": "70395:245",
+    "children": [
+      "15:5523"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5524",
+    "name": "Shop",
+    "type": "SYMBOL",
+    "size": {
+      "x": 20,
+      "y": 20
+    },
+    "description": "",
+    "parentId": "70395:245",
+    "children": [
+      "15:5525"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "15:5746",
+    "name": "Iconly/Curved/Arrow - Left 2",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "15:5747"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "23:1373",
+    "name": "Iconly/Curved/Wallet",
+    "type": "SYMBOL",
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "description": "",
+    "parentId": "0:2",
+    "children": [
+      "23:1374"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70483:256",
+    "name": "Provider=Google",
+    "type": "SYMBOL",
+    "size": {
+      "x": 340,
+      "y": 40
+    },
+    "description": "",
+    "parentId": "70483:263",
+    "children": [
+      "70483:241"
+    ],
+    "properties": null,
+    "variants": [
+      {
+        "propDefId": {
+          "sessionID": 3190512225,
+          "localID": 4091801212
+        },
+        "value": "Google"
+      }
+    ]
+  },
+  {
+    "id": "70483:262",
+    "name": "Provider=Facebook",
+    "type": "SYMBOL",
+    "size": {
+      "x": 340,
+      "y": 40
+    },
+    "description": "",
+    "parentId": "70483:263",
+    "children": [
+      "70483:258"
+    ],
+    "properties": null,
+    "variants": [
+      {
+        "propDefId": {
+          "sessionID": 3190512225,
+          "localID": 4091801212
+        },
+        "value": "Facebook"
+      }
+    ]
+  },
+  {
+    "id": "70483:263",
+    "name": "Social Button",
+    "type": "FRAME",
+    "size": {
+      "x": 380,
+      "y": 160
+    },
+    "description": "Third-party sign-in button. Provider picks the brand mark and label. Always FILL width — the parent container owns the horizontal inset (80px inside the auth modals, 0 on the mobile screens).",
+    "parentId": "0:2",
+    "children": [
+      "70483:256",
+      "70483:262"
+    ],
+    "properties": [
+      {
+        "id": {
+          "sessionID": 3190512225,
+          "localID": 4091801212
+        },
+        "name": "Provider",
+        "initialValue": {},
+        "sortPosition": "\"",
+        "type": "VARIANT",
+        "preferredValues": {},
+        "varValue": {
+          "value": {
+            "textValue": ""
+          },
+          "dataType": "STRING",
+          "resolvedDataType": "STRING"
+        }
+      }
+    ],
+    "variants": null
+  },
+  {
+    "id": "70485:381",
+    "name": "Filters",
+    "type": "SYMBOL",
+    "size": {
+      "x": 310,
+      "y": 785
+    },
+    "description": "Marketplace sidebar filter panel, 310 wide: collection checkboxes with counts, price range with Apply, and network checkboxes. Fixed 310 width — the host column owns the placement. Content is identical on every screen; no per-instance overrides expected.",
+    "parentId": "0:2",
+    "children": [
+      "70485:317"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70486:529",
+    "name": "Active=Home",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1200.0009765625,
+      "y": 46.000003814697266
+    },
+    "description": "",
+    "parentId": "70486:560",
+    "children": [
+      "70486:509",
+      "70486:511",
+      "70486:518"
+    ],
+    "properties": [
+      {
+        "id": {
+          "sessionID": 70486,
+          "localID": 0
+        },
+        "parentPropDefId": {
+          "sessionID": 70486,
+          "localID": 2
+        }
+      }
+    ],
+    "variants": [
+      {
+        "propDefId": {
+          "sessionID": 3022254546,
+          "localID": 163066790
+        },
+        "value": "Home"
+      }
+    ]
+  },
+  {
+    "id": "70486:555",
+    "name": "Active=Market",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1200.0009765625,
+      "y": 46.000003814697266
+    },
+    "description": "",
+    "parentId": "70486:560",
+    "children": [
+      "70486:535",
+      "70486:537",
+      "70486:544"
+    ],
+    "properties": [
+      {
+        "id": {
+          "sessionID": 70486,
+          "localID": 1
+        },
+        "parentPropDefId": {
+          "sessionID": 70486,
+          "localID": 2
+        }
+      }
+    ],
+    "variants": [
+      {
+        "propDefId": {
+          "sessionID": 3022254546,
+          "localID": 163066790
+        },
+        "value": "Market"
+      }
+    ]
+  },
+  {
+    "id": "70486:560",
+    "name": "Header Row",
+    "type": "FRAME",
+    "size": {
+      "x": 1240.0009765625,
+      "y": 172
+    },
+    "description": "Desktop header row, 1200 wide: KURIO wordmark, 4-item nav with one active item, search, cart with count badge, and the sign-in button. Set Active to match the screen (Home on Início/Entrar/Criar conta/Perfil do colecionador/Carteiras, Market on the four Mercado-flow screens). Badge Count is the cart item count. Drop at index 0 of the screen Top or Header frame with FILL width and HUG height. The hairline rule under the header belongs to the host Header frame, not to this component.",
+    "parentId": "0:2",
+    "children": [
+      "70486:529",
+      "70486:555"
+    ],
+    "properties": [
+      {
+        "id": {
+          "sessionID": 70486,
+          "localID": 2
+        },
+        "name": "Badge Count",
+        "initialValue": {
+          "textValue": {
+            "characters": "6",
+            "lines": [
+              {
+                "lineType": "PLAIN",
+                "styleId": 0,
+                "indentationLevel": 0,
+                "sourceDirectionality": "AUTO",
+                "listStartOffset": 0,
+                "isFirstLineOfList": false
+              }
+            ]
+          }
+        },
+        "sortPosition": "\"",
+        "type": "TEXT",
+        "preferredValues": {},
+        "varValue": {
+          "value": {
+            "textDataValue": {
+              "characters": "6",
+              "lines": [
+                {
+                  "lineType": "PLAIN",
+                  "styleId": 0,
+                  "indentationLevel": 0,
+                  "sourceDirectionality": "AUTO",
+                  "listStartOffset": 0,
+                  "isFirstLineOfList": false
+                }
+              ]
+            }
+          },
+          "dataType": "TEXT_DATA",
+          "resolvedDataType": "TEXT_DATA"
+        }
+      },
+      {
+        "id": {
+          "sessionID": 3022254546,
+          "localID": 163066790
+        },
+        "name": "Active",
+        "initialValue": {},
+        "sortPosition": "\"",
+        "type": "VARIANT",
+        "preferredValues": {},
+        "varValue": {
+          "value": {
+            "textValue": ""
+          },
+          "dataType": "STRING",
+          "resolvedDataType": "STRING"
+        }
+      }
+    ],
+    "variants": null
+  },
+  {
+    "id": "70491:1286",
+    "name": "Footer",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1200,
+      "y": 610
+    },
+    "description": "Desktop footer, 1200 wide: three feature medallions with a newsletter signup, the brand band with contact details, and four link columns with social and wallet chips. Drop as the last child of the screen with FILL width and HUG height. On screens with a modal scrim the footer must stay BELOW the scrim in paint order. Content is identical on every screen; no per-instance overrides expected.",
+    "parentId": "0:2",
+    "children": [
+      "70491:697",
+      "70491:1242"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70504:2973",
+    "name": "Password Input",
+    "type": "SYMBOL",
+    "size": {
+      "x": 417,
+      "y": 40
+    },
+    "description": "Bordered password field with a visibility toggle. Used in the Change Password block on the collector profile screen. It has no text child: to give the three fields placeholder or value text, add a TEXT node plus a TEXT component property here rather than detaching an instance.",
+    "parentId": "0:2",
+    "children": [
+      "70504:2972"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70504:2994",
+    "name": "Mobile Social Block",
+    "type": "SYMBOL",
+    "size": {
+      "x": 358,
+      "y": 124
+    },
+    "description": "Mobile social sign-in block: labelled divider plus Google and Facebook buttons. Desktop variants differ in spacing and are intentionally not instances of this.",
+    "parentId": "0:2",
+    "children": [
+      "70504:2987",
+      "70504:2991"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70504:3017",
+    "name": "Header With Divider",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1200.0009765625,
+      "y": 46.000003814697266
+    },
+    "description": "Header Row plus the hairline divider beneath it. Used on the five sites that already show the divider: the home, collector profile and wallets screens, and inside Marketplace Page, which the two auth screens instance. Market screens intentionally use a bare Header Row with no divider.",
+    "parentId": "0:2",
+    "children": [
+      "70504:3015",
+      "70504:3016"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70504:3190",
+    "name": "Checkout Page",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1200,
+      "y": 900
+    },
+    "description": "Full checkout page content: header, breadcrumb and wallet payment form. Shared by the payment screen and the order-confirmation screen behind its modal. Dependency: its Arrow-Down instances resolve to the local main component 9:1589, which is parented inside the \"ENS Input\" frame on the collector profile screen — deleting or detaching that frame orphans them.",
+    "parentId": "0:2",
+    "children": [
+      "70504:3043",
+      "70504:3044"
+    ],
+    "properties": null,
+    "variants": null
+  },
+  {
+    "id": "70504:3297",
+    "name": "Marketplace Page",
+    "type": "SYMBOL",
+    "size": {
+      "x": 1206,
+      "y": 1958
+    },
+    "description": "Full marketplace home page content shown behind the sign-in and sign-up modals: banner, sort row, product grid and filters panel. Its header is an instance of Header With Divider. Known unfixed defects frozen here: an orphan duplicate price label \"2.29 ETH\" overlapping a card, and a square-cornered RARO chip overhanging a rounded card corner — fixing either one here now updates both auth screens at once.",
+    "parentId": "0:2",
+    "children": [
+      "70529:3617",
+      "70504:3222"
+    ],
+    "properties": null,
+    "variants": null
+  }
+]

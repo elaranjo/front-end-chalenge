@@ -1,0 +1,698 @@
+{
+  "id": "16:360",
+  "name": "Mobile / Carrinho de NFTs",
+  "rawNodeIds": [
+    "16:360",
+    "70397:239",
+    "70397:240",
+    "16:393",
+    "16:394",
+    "16:395",
+    "16:415",
+    "70397:241",
+    "70397:242",
+    "16:657",
+    "22:1315",
+    "22:1330",
+    "16:429",
+    "22:1316",
+    "16:435",
+    "16:658",
+    "16:398",
+    "16:399",
+    "16:400",
+    "16:401",
+    "16:402",
+    "16:403",
+    "16:404",
+    "70397:243",
+    "22:1317",
+    "22:1318",
+    "22:1344",
+    "22:1327",
+    "22:1328",
+    "22:1329",
+    "22:1319",
+    "22:1320",
+    "22:1321",
+    "22:1322",
+    "22:1323",
+    "22:1324",
+    "22:1325",
+    "22:1326",
+    "22:1359",
+    "22:1331",
+    "22:1332",
+    "16:665",
+    "16:539",
+    "16:540",
+    "16:541",
+    "16:542",
+    "16:543",
+    "16:544",
+    "16:545",
+    "22:1341",
+    "22:1342",
+    "22:1343",
+    "22:1358",
+    "16:463",
+    "70397:244",
+    "22:1345",
+    "22:1346",
+    "16:553",
+    "22:1355",
+    "22:1356",
+    "22:1357",
+    "22:1347",
+    "22:1348",
+    "22:1349",
+    "22:1350",
+    "22:1351",
+    "22:1352",
+    "22:1353",
+    "22:1354",
+    "70397:245",
+    "70410:4217",
+    "70397:246",
+    "16:1018",
+    "70410:4215",
+    "16:1019",
+    "70397:247",
+    "16:1009",
+    "16:1015",
+    "70397:248",
+    "16:1010",
+    "16:1011",
+    "70397:249",
+    "70410:4216",
+    "16:1012",
+    "16:1016",
+    "16:1013",
+    "70397:250",
+    "16:1014",
+    "16:1017",
+    "70397:251",
+    "16:1008"
+  ],
+  "componentReferences": [
+    "11:2030",
+    "15:5746"
+  ],
+  "directTexts": [
+    {
+      "id": "16:415",
+      "text": "Carrinho de NFTs",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:429",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1316",
+      "text": "Edição: 1/50",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:435",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:398",
+      "text": "1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 10,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:404",
+      "text": "+",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 21,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1327",
+      "text": "Violet Nomad #314",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1328",
+      "text": "Edição: 1/1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1329",
+      "text": "1.39 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1320",
+      "text": "1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 10,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1326",
+      "text": "+",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 21,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:539",
+      "text": "2",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 10,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:545",
+      "text": "+",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 21,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1341",
+      "text": "Ivory Baron #088",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1342",
+      "text": "Edição: 1/10",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1343",
+      "text": "3.58 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1355",
+      "text": "Golden Beat #207",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1356",
+      "text": "Edição: 1/50",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1357",
+      "text": "1.98 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1348",
+      "text": "2",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 10,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "22:1354",
+      "text": "+",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 21,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1018",
+      "text": "Digite o código promocional...",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1019",
+      "text": "Aplicar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1009",
+      "text": "Subtotal",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1015",
+      "text": "8.92 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1010",
+      "text": "Desconto do lançamento",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1011",
+      "text": "(-) 00.00",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1012",
+      "text": "Taxa de rede",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1016",
+      "text": "0.016 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1013",
+      "text": "Taxa estimada",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1014",
+      "text": "Total",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1017",
+      "text": "8.936 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1008",
+      "text": "Conectar e finalizar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": []
+}

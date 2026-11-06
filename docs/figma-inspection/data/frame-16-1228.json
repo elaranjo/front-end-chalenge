@@ -1,0 +1,201 @@
+{
+  "id": "16:1228",
+  "name": "Mobile / Cadastro",
+  "rawNodeIds": [
+    "16:1228",
+    "70410:4345",
+    "70410:4346",
+    "70399:249",
+    "16:1241",
+    "70399:250",
+    "70410:4348",
+    "16:1286",
+    "70410:4349",
+    "16:1245",
+    "70410:4351",
+    "16:1291",
+    "70410:4350",
+    "16:1290",
+    "16:1292",
+    "70410:4353",
+    "16:1299",
+    "16:1301",
+    "70410:4352",
+    "16:1300",
+    "16:1302",
+    "70399:251",
+    "16:1256",
+    "70522:3213",
+    "70399:255",
+    "16:1243"
+  ],
+  "componentReferences": [
+    "70483:256",
+    "70483:262",
+    "70504:2994",
+    "9:964"
+  ],
+  "directTexts": [
+    {
+      "id": "70410:4346",
+      "text": "KURIO",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 32,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 10,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1241",
+      "text": "Criar perfil de colecionador",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1286",
+      "text": "Nome de usuário",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1245",
+      "text": "Digite seu e-mail",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1290",
+      "text": "Senha",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1300",
+      "text": "Confirmar senha",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1256",
+      "text": "Criar perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1243",
+      "text": "Já tem uma conta? Entre",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70483:262",
+      "id": "70483:261",
+      "text": "Continuar com Facebook"
+    },
+    {
+      "componentId": "70483:256",
+      "id": "70483:255",
+      "text": "Continuar com Google"
+    },
+    {
+      "componentId": "70504:2994",
+      "id": "70504:2989",
+      "text": "Ou continue com"
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "description": "Derivados WebP sem perda dos PNGs originais preservados do arquivo Figma; pixels comparados em Chromium.",
+  "encoder": "libwebp via @jsquash/webp, lossless=1, exact=1, method=6",
+  "assets": [
+    {
+      "source": "2986a7cb16d09de8970824d2dd58bf0bb021702c.png",
+      "sourceSha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "file": "2986a7cb16d09de8970824d2dd58bf0bb021702c.webp",
+      "sha256": "488cf2eeda77a85e4e65c4d4fdc5cd06303c63f1d659f373df41e5dc2b7dabc5",
+      "originalBytes": 2068526,
+      "optimizedBytes": 1346392,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sourceNodes": [
+        {
+          "nodeId": "4:162",
+          "name": "NFT Artwork 04",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:280",
+          "name": "NFT Artwork 06",
+          "size": {
+            "x": 224,
+            "y": 286
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:282",
+          "name": "NFT Artwork 07",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1177",
+          "name": "NFT Collection Artwork 06",
+          "size": {
+            "x": 190,
+            "y": 243
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1178",
+          "name": "NFT Collection Artwork 07",
+          "size": {
+            "x": 212,
+            "y": 212
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1976",
+          "name": "NFT Cart Artwork 1",
+          "size": {
+            "x": 190,
+            "y": 243
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1979",
+          "name": "NFT Cart Artwork 2",
+          "size": {
+            "x": 212,
+            "y": 212
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:2092",
+          "name": "NFT Cart Artwork 7",
+          "size": {
+            "x": 70,
+            "y": 70
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:5208",
+          "name": "NFT Receipt Artwork 5",
+          "size": {
+            "x": 66,
+            "y": 66
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "14:5239",
+          "name": "Mobile NFT Artwork 2",
+          "size": {
+            "x": 58,
+            "y": 58
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "15:5415",
+          "name": "Mobile NFT Artwork 4",
+          "size": {
+            "x": 168,
+            "y": 168
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1318",
+          "name": "Rectangle 108",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1344",
+          "name": "Mobile Cart NFT 3",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70343:277",
+          "name": "Image",
+          "size": {
+            "x": 268,
+            "y": 195
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70410:3798",
+          "name": "NFT Artwork 18",
+          "size": {
+            "x": 310,
+            "y": 368
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3137",
+          "name": "NFT Receipt Artwork 2",
+          "size": {
+            "x": 66,
+            "y": 66
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3290",
+          "name": "NFT Auth Artwork 6",
+          "size": {
+            "x": 224,
+            "y": 286
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3294",
+          "name": "NFT Auth Artwork 10",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "8459204731e6eba9d474cbc8ebc37071360d3ba5.png",
+      "sourceSha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "file": "8459204731e6eba9d474cbc8ebc37071360d3ba5.webp",
+      "sha256": "cf0477164343d90401334a64944795df0354a6aa37d34da5320e21c8ea1eab82",
+      "originalBytes": 1885435,
+      "optimizedBytes": 1246548,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sourceNodes": [
+        {
+          "nodeId": "4:137",
+          "name": "NFT Artwork 03",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:428",
+          "name": "NFT Artwork 17",
+          "size": {
+            "x": 292,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1161",
+          "name": "NFT Collection Artwork 01",
+          "size": {
+            "x": 404,
+            "y": 404
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1181",
+          "name": "NFT Collection Artwork 04",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1188",
+          "name": "NFT Collection Artwork 02",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1189",
+          "name": "NFT Collection Artwork 05",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1190",
+          "name": "NFT Collection Artwork 03",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1900",
+          "name": "NFT Cart Artwork 6",
+          "size": {
+            "x": 70,
+            "y": 70
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:5194",
+          "name": "NFT Receipt Artwork 4",
+          "size": {
+            "x": 70,
+            "y": 70
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "14:5238",
+          "name": "Mobile NFT Artwork 1",
+          "size": {
+            "x": 138,
+            "y": 138
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "15:5639",
+          "name": "Mobile NFT Hero Artwork",
+          "size": {
+            "x": 361,
+            "y": 356
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1315",
+          "name": "Rectangle 106",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1330",
+          "name": "Mobile Cart NFT 2",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70342:2673",
+          "name": "Frame 136",
+          "size": {
+            "x": 450,
+            "y": 450
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70343:268",
+          "name": "Image",
+          "size": {
+            "x": 268,
+            "y": 195
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70410:4135",
+          "name": "Frame 411",
+          "size": {
+            "x": 168,
+            "y": 168
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3128",
+          "name": "NFT Receipt Artwork 1",
+          "size": {
+            "x": 70,
+            "y": 70
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3225",
+          "name": "NFT Auth Artwork 1",
+          "size": {
+            "x": 450,
+            "y": 450
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3226",
+          "name": "NFT Auth Artwork 2",
+          "size": {
+            "x": 120,
+            "y": 120
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3276",
+          "name": "NFT Auth Artwork 5",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3293",
+          "name": "NFT Auth Artwork 9",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png",
+      "sourceSha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "file": "87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.webp",
+      "sha256": "59a826ad439fdc15a1fa6f128c95e73f205c264120eeca6e1f8e8c5e72f84bd2",
+      "originalBytes": 1978600,
+      "optimizedBytes": 1331456,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sourceNodes": [
+        {
+          "nodeId": "4:286",
+          "name": "NFT Artwork 09",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:289",
+          "name": "NFT Artwork 10",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:291",
+          "name": "NFT Artwork 11",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1180",
+          "name": "NFT Collection Artwork 09",
+          "size": {
+            "x": 213,
+            "y": 213
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1182",
+          "name": "NFT Collection Artwork 10",
+          "size": {
+            "x": 213,
+            "y": 213
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1985",
+          "name": "NFT Cart Artwork 4",
+          "size": {
+            "x": 213,
+            "y": 213
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1988",
+          "name": "NFT Cart Artwork 5",
+          "size": {
+            "x": 213,
+            "y": 213
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "15:5431",
+          "name": "Mobile NFT Artwork 6",
+          "size": {
+            "x": 168,
+            "y": 168
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "16:553",
+          "name": "Mobile Cart NFT 1",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1346",
+          "name": "Rectangle 112",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70343:286",
+          "name": "Image",
+          "size": {
+            "x": 268,
+            "y": 195
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3274",
+          "name": "NFT Auth Artwork 3",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3291",
+          "name": "NFT Auth Artwork 7",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3295",
+          "name": "NFT Auth Artwork 11",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "9df2ff42dd27ba657621c304557d1a855a4be6a5.png",
+      "sourceSha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "file": "9df2ff42dd27ba657621c304557d1a855a4be6a5.webp",
+      "sha256": "f026fddd444ddada65045e658113397fbb986dc8e3f337356822340617aa7f25",
+      "originalBytes": 2027336,
+      "optimizedBytes": 1358518,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sourceNodes": [
+        {
+          "nodeId": "4:164",
+          "name": "NFT Artwork 05",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:284",
+          "name": "NFT Artwork 08",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "4:423",
+          "name": "NFT Artwork 16",
+          "size": {
+            "x": 287,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1179",
+          "name": "NFT Collection Artwork 08",
+          "size": {
+            "x": 212,
+            "y": 212
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:1982",
+          "name": "NFT Cart Artwork 3",
+          "size": {
+            "x": 212,
+            "y": 212
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:2094",
+          "name": "NFT Cart Artwork 8",
+          "size": {
+            "x": 70,
+            "y": 70
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "11:5209",
+          "name": "NFT Receipt Artwork 6",
+          "size": {
+            "x": 65,
+            "y": 65
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "15:5416",
+          "name": "Mobile NFT Artwork 5",
+          "size": {
+            "x": 168,
+            "y": 168
+          },
+          "scaleMode": "STRETCH",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1332",
+          "name": "Rectangle 110",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "22:1358",
+          "name": "Mobile Cart NFT 4",
+          "size": {
+            "x": 100,
+            "y": 100
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70343:259",
+          "name": "Image",
+          "size": {
+            "x": 268,
+            "y": 195
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3146",
+          "name": "NFT Receipt Artwork 3",
+          "size": {
+            "x": 65,
+            "y": 65
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3275",
+          "name": "NFT Auth Artwork 4",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        },
+        {
+          "nodeId": "70504:3292",
+          "name": "NFT Auth Artwork 8",
+          "size": {
+            "x": 250,
+            "y": 250
+          },
+          "scaleMode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          }
+        }
+      ]
+    }
+  ],
+  "sourceSnapshotSha256": "7017e04fa195974ae22a27c78dc88413eb5292a849bf4defbe295062813e0dbd",
+  "sourceLicense": "Não especificada nas fontes disponibilizadas para o desafio.",
+  "nodeNote": "Nós e transformações brutas do snapshot; o recorte renderizado também depende das propriedades e máscaras ancestrais."
+}

@@ -1,0 +1,22 @@
+.home-card { position: relative; }
+.favorite-control { position: absolute; top: 12px; right: 12px; z-index: 1; color: #f5f1eb; }
+.favorite-control button, a.favorite-control { border: 0; border-radius: 50%; background: #241612; color: inherit; font: 24px/1 'Roboto Mono Variable', monospace; padding: 8px; cursor: pointer; text-decoration: none; }
+.favorite-control [role=alert] { position: absolute; top: 44px; right: 0; width: 220px; padding: 8px; background: #241612; color: #fff; font-size: 12px; }
+.favorite-detail, a.favorite-control.favorite-detail { top: 24px; right: 28px; padding: 0; background: none; }
+.favorite-detail button { padding: 0; background: none; }
+.favorite-detail img { display: block; width: 35px; height: 35px; }
+.favorite-detail button[aria-pressed=true] { outline: 2px solid #e89b55; outline-offset: 2px; }
+.favorites-grid { margin-top: 24px; }
+@media (max-width: 767px) {
+  .home-card .favorite-control { right: 9px; }
+  .home-card .favorite-control button:not([aria-pressed='true']), .home-card a.favorite-control {
+    width: 28px; height: 28px; padding: 0; background: url('/assets/icons/home-favorite.svg') center / 28px 28px no-repeat; font-size: 0;
+  }
+}
+
+@media (min-width: 1280px) and (hover: hover) {
+  .home-card .favorite-control { opacity: 0; }
+  .home-card:hover .favorite-control,
+  .home-card:focus-within .favorite-control,
+  .home-card .favorite-control:has([aria-pressed='true']) { opacity: 1; }
+}

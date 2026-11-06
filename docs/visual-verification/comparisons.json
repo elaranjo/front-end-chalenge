@@ -1,0 +1,341 @@
+{
+  "generatedAt": "2026-11-06T14:26:22.369Z",
+  "method": "diferença absoluta sem máscara; qualquer variação de canal conta; dados e antialiasing podem diferir",
+  "comparisons": [
+    {
+      "id": "F01",
+      "width": 1440,
+      "height": 3668,
+      "referenceDimensions": [
+        1440,
+        3668
+      ],
+      "captureDimensions": [
+        1440,
+        3668
+      ],
+      "changedPixels": 1353098,
+      "totalPixels": 5281920,
+      "referenceSha256": "9e12fae446693a3b57020d769ef1ca159822cd3baa1ce7bd3c75f85c62413e44",
+      "captureSha256": "deb4987555a19b36dd653c5a85983d07c2cf4c9ccc9a2a3ec32ce7a700f582df",
+      "knownDeviations": [],
+      "reviewObservations": [
+        "Na terceira fileira, o frame exibe oito nomes/preços e uma imagem adicional sem nome/preço; a fixture funcional apresenta nove resultados reais (L07). Revisar o posicionamento e registrar individualmente as diferenças antes de aprovar o frame."
+      ],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F02",
+      "width": 1440,
+      "height": 2246,
+      "referenceDimensions": [
+        1440,
+        2246
+      ],
+      "captureDimensions": [
+        1440,
+        2246
+      ],
+      "changedPixels": 568457,
+      "totalPixels": 3234240,
+      "referenceSha256": "a99b15d1ce7035741932ba2a0defb0cb24d587a0d6f55ede3859e1bc5ef3b01c",
+      "captureSha256": "bf8bc2a23d5e6f08e902e3b0271ef050e42351c8e4d8a9ab979b9d172a26c593",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F03",
+      "width": 1440,
+      "height": 1754,
+      "referenceDimensions": [
+        1440,
+        1754
+      ],
+      "captureDimensions": [
+        1440,
+        1754
+      ],
+      "changedPixels": 342698,
+      "totalPixels": 2525760,
+      "referenceSha256": "7978e770a1341288340c413db4b9c2c7f9cf2af9190a9f60b435cc5e63dcc360",
+      "captureSha256": "6b9e5c774e2171d920843a5a4ecd9bb557695d094b3a1a967417ed5d19c79f3e",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F04",
+      "width": 1440,
+      "height": 1762,
+      "referenceDimensions": [
+        1440,
+        1657
+      ],
+      "captureDimensions": [
+        1440,
+        1762
+      ],
+      "changedPixels": 790316,
+      "totalPixels": 2537280,
+      "referenceSha256": "6ffc1ab21c7cb2223b67326722fa3da1d5b9a691fc8e5364f09763c9edf629e9",
+      "captureSha256": "ef8ba96dfb71229417d978846ea46e7f7770dfcb807ceddc87700f93a5c0ac4d",
+      "knownDeviations": [],
+      "reviewObservations": [
+        "A captura usa sessão autenticada, campos preenchidos e botões de desconexão e revisão exigidos pelo fluxo; o frame mostra campos vazios e não desenha essas ações. A extensão vertical e demais diferenças ainda precisam de revisão localizada."
+      ],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F05",
+      "width": 1440,
+      "height": 1657,
+      "referenceDimensions": [
+        1440,
+        1657
+      ],
+      "captureDimensions": [
+        1440,
+        1657
+      ],
+      "changedPixels": 174728,
+      "totalPixels": 2386080,
+      "referenceSha256": "8e8b3ec99360e913c337f908b2a4417281a769388d5d9dadc7c6204ecef1e23f",
+      "captureSha256": "5ed285a6bac090852e00b40d75b89f96b9fef391bbcb0b0ea3c721222e9e0091",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F06",
+      "width": 1440,
+      "height": 1981,
+      "referenceDimensions": [
+        1440,
+        1981
+      ],
+      "captureDimensions": [
+        1440,
+        1981
+      ],
+      "changedPixels": 791418,
+      "totalPixels": 2852640,
+      "referenceSha256": "c5d23ae3a7eb4e98be77607c4a2feb59400be543c5641dbcd112fd105ab02f10",
+      "captureSha256": "dc93b0f84b0302d1736467f075bbe3f4327463944b4a2c7693cc8e533b307b9f",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F07",
+      "width": 1440,
+      "height": 1981,
+      "referenceDimensions": [
+        1440,
+        1981
+      ],
+      "captureDimensions": [
+        1440,
+        1981
+      ],
+      "changedPixels": 774914,
+      "totalPixels": 2852640,
+      "referenceSha256": "29dad5abed9054459b1de8ce7b53029719625c41ac141fcdb0b4dbb8ddfa3c16",
+      "captureSha256": "dac31373b447b3be891d6ba7662991fc00c9bcdb49e5c74ec36e10825d95b825",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F08",
+      "width": 1440,
+      "height": 1080,
+      "referenceDimensions": [
+        1440,
+        1080
+      ],
+      "captureDimensions": [
+        1440,
+        1080
+      ],
+      "changedPixels": 43773,
+      "totalPixels": 1555200,
+      "referenceSha256": "96350da04dbcf5f9004bad29ef84d991aff72006cc64259b477421058e022c85",
+      "captureSha256": "73df417e5649aadfcfb5e4dfe75aedb2d924838a74126e2bc4821e7ddb80d3ba",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F09",
+      "width": 1440,
+      "height": 1080,
+      "referenceDimensions": [
+        1440,
+        1080
+      ],
+      "captureDimensions": [
+        1440,
+        1080
+      ],
+      "changedPixels": 48217,
+      "totalPixels": 1555200,
+      "referenceSha256": "20a2148c1d9adf8bd7e91f3db28d73275b147a9d2938223a99a855317e37ffb5",
+      "captureSha256": "62a9bd6e35697c38f166aa2e1de85ed2b0e02aa7dbfb3165be9620a3aeee3571",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F10",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 199448,
+      "totalPixels": 370944,
+      "referenceSha256": "732da72801b34d17199b095e85e8608eb9ecb091040b06beb42503a53e13e732",
+      "captureSha256": "efe1e8a767ce396f61c31a60b673eca036805b4add88d9b01a9bc4c6a5016266",
+      "knownDeviations": [
+        "C04: a arte do quarto card segue a identidade canônica do NFT exibido; no frame mobile a imagem difere do nome repetido na camada. Revisão visual completa pendente."
+      ],
+      "reviewObservations": [
+        "As cores do hero seguem o Figma; o teste de contraste aponta valores abaixo de 4,5:1. Conflito de requisitos pendente."
+      ],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F11",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 175970,
+      "totalPixels": 370944,
+      "referenceSha256": "2e848b455b3d5423d417c6ed48bdd907e913e20fed3926aa89a3149846f11b52",
+      "captureSha256": "5142d0975cd63bd79ad58c118a216a85b23cb1cadac048a25df87191164bb62e",
+      "knownDeviations": [
+        "C03: primeiro chip de edição mostra 1/1; o frame repete 1/10."
+      ],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F12",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 118981,
+      "totalPixels": 370944,
+      "referenceSha256": "b0b9ba4bdf17cdbdba68c077f8ba7ecba8068a0db2df7e97be6caec3aa5d1dfb",
+      "captureSha256": "a9f0d4858e9ab3de12b9db596d377f62076347223ba5d2b32f2a674460fe2b04",
+      "knownDeviations": [
+        "C01: subtotal 8.14 e total 8.156 ETH refletem a soma e a taxa; o frame mostra 8.92 e 8.936 ETH.",
+        "Remoção disponível em todos os cards, conforme a matriz F12; o frame mostra apenas um ícone sobreposto ao controle de quantidade."
+      ],
+      "reviewObservations": [
+        "A aparência mais escura das artes vem de uma segunda camada da mesma imagem com blend MULTIPLY: 22:1330, 22:1344, 22:1358 e 16:553. Reprodução implementada; comparação integral dos cards ainda pendente."
+      ],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F13",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 109822,
+      "totalPixels": 370944,
+      "referenceSha256": "9f444475e113e7c199dfa16786f7138e70acef09d36c63f76ed8b17f484a352b",
+      "captureSha256": "ed59b6a57c05449e926085ee3ec8f05ff0ca85769198e407a6ddfc72657d308b",
+      "knownDeviations": [
+        "C01: total 8.156 ETH segue a cotação coerente com os itens; o frame mostra 8.936 ETH.",
+        "L03/L17: ações de revisão e desconexão ficam acessíveis no estado conectado, sem equivalente desenhado no frame."
+      ],
+      "reviewObservations": [
+        "Dados das carteiras vêm da fixture e podem diferir dos textos ilustrativos do frame; geometria e demais diferenças permanecem em revisão."
+      ],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F14",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 12333,
+      "totalPixels": 370944,
+      "referenceSha256": "189ae8cff66e02bbd96964cc3e163d5e45449598cf05708667b298d77b523b96",
+      "captureSha256": "c19f714b02fc43a6af176175dca89870fc9378c9b7e6b51bef354379be09d008",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    },
+    {
+      "id": "F15",
+      "width": 414,
+      "height": 896,
+      "referenceDimensions": [
+        414,
+        896
+      ],
+      "captureDimensions": [
+        414,
+        896
+      ],
+      "changedPixels": 16357,
+      "totalPixels": 370944,
+      "referenceSha256": "5b6dfd323d775439bb992dab6b4e66c33dcd65077be50609d78fdc978e6b4aec",
+      "captureSha256": "9f550008aa8d91bab3c370cb6b5f77c4d412d9fdd946edd416c6e3d1a8a6c752",
+      "knownDeviations": [],
+      "reviewObservations": [],
+      "status": "review-pending",
+      "notes": "A revisão visual e o registro individual dos desvios de dados e de acessibilidade ainda estão pendentes; imagens de tamanhos diferentes usam canvas ampliado, sem recorte."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "collectedAt": "2026-11-06T10:09:41.397Z",
+  "base": "http://127.0.0.1:4173",
+  "browser": "/Users/ernanelaranjo/Library/Caches/ms-playwright/chromium-1248/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+  "throttled": false,
+  "note": "Tamanhos codificados observados em perfis limpos com Service Worker ativo. transferSize zero não significa ausência de transferência; duração local sem limitação de rede não representa produção.",
+  "results": [
+    {
+      "page": "inicio",
+      "profile": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "serviceWorkerControlled": true,
+      "images": [
+        {
+          "path": "/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.webp",
+          "encodedBodySize": 1246548,
+          "decodedBodySize": 1246548,
+          "transferSize": 0,
+          "workerStart": 121.79999999701977,
+          "durationMs": 29.099999997764826
+        },
+        {
+          "path": "/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.webp",
+          "encodedBodySize": 1346392,
+          "decodedBodySize": 1346392,
+          "transferSize": 0,
+          "workerStart": 121.79999999701977,
+          "durationMs": 29.699999999254942
+        },
+        {
+          "path": "/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.webp",
+          "encodedBodySize": 1358518,
+          "decodedBodySize": 1358518,
+          "transferSize": 0,
+          "workerStart": 121.79999999701977,
+          "durationMs": 29.600000001490116
+        },
+        {
+          "path": "/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.webp",
+          "encodedBodySize": 1331456,
+          "decodedBodySize": 1331456,
+          "transferSize": 0,
+          "workerStart": 121.79999999701977,
+          "durationMs": 34.70000000298023
+        }
+      ]
+    },
+    {
+      "page": "inicio",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "serviceWorkerControlled": true,
+      "images": [
+        {
+          "path": "/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.webp",
+          "encodedBodySize": 1246548,
+          "decodedBodySize": 1246548,
+          "transferSize": 0,
+          "workerStart": 121.89999999850988,
+          "durationMs": 31.300000000745058
+        },
+        {
+          "path": "/assets/nft/2986a7cb16d09de8970824d2dd58bf0bb021702c.webp",
+          "encodedBodySize": 1346392,
+          "decodedBodySize": 1346392,
+          "transferSize": 0,
+          "workerStart": 122,
+          "durationMs": 36.100000001490116
+        },
+        {
+          "path": "/assets/nft/9df2ff42dd27ba657621c304557d1a855a4be6a5.webp",
+          "encodedBodySize": 1358518,
+          "decodedBodySize": 1358518,
+          "transferSize": 0,
+          "workerStart": 122,
+          "durationMs": 36.69999999925494
+        },
+        {
+          "path": "/assets/nft/87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.webp",
+          "encodedBodySize": 1331456,
+          "decodedBodySize": 1331456,
+          "transferSize": 0,
+          "workerStart": 122.09999999776483,
+          "durationMs": 37
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "profile": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "serviceWorkerControlled": true,
+      "images": [
+        {
+          "path": "/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.webp",
+          "encodedBodySize": 1246548,
+          "decodedBodySize": 1246548,
+          "transferSize": 0,
+          "workerStart": 315.5,
+          "durationMs": 22.5
+        }
+      ]
+    },
+    {
+      "page": "detalhe",
+      "profile": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "serviceWorkerControlled": true,
+      "images": [
+        {
+          "path": "/assets/nft/8459204731e6eba9d474cbc8ebc37071360d3ba5.webp",
+          "encodedBodySize": 1246548,
+          "decodedBodySize": 1246548,
+          "transferSize": 0,
+          "workerStart": 308.0999999977648,
+          "durationMs": 31
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1805 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B",
+  "date": "2026-11-06",
+  "method": "Constantes SVG retornadas pelos contextos dos 15 frames; nodeCandidate é o ID mais próximo no trecho gerado e exige conferência. URLs temporárias omitidas.",
+  "references": [
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgEllipse5",
+      "nodeCandidate": "70485:361",
+      "stagingIndex": 0
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgLine6",
+      "nodeCandidate": "70485:362",
+      "stagingIndex": 1
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgLine5",
+      "nodeCandidate": "70485:364",
+      "stagingIndex": 2
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3240;70504:3015;70486:514",
+      "stagingIndex": 3
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3240;70504:3015;70486:519",
+      "stagingIndex": 4
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3240;70504:3015;70486:521",
+      "stagingIndex": 5
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3240;70504:3015;70486:522",
+      "stagingIndex": 6
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3240;70504:3015;70486:527;29221:4777",
+      "stagingIndex": 7
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgLine1",
+      "nodeCandidate": "I70522:3240;70504:3016",
+      "stagingIndex": 8
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgRectangle3",
+      "nodeCandidate": "2:104",
+      "stagingIndex": 9
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgGroup4",
+      "nodeCandidate": "3:131",
+      "stagingIndex": 10
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgArrowDown2",
+      "nodeCandidate": "I4:152;16162:1094;0:4170",
+      "stagingIndex": 11
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgLine3",
+      "nodeCandidate": "4:146",
+      "stagingIndex": 12
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgArrowRight2",
+      "nodeCandidate": "4:392",
+      "stagingIndex": 13,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgArrowRight",
+      "nodeCandidate": "5:99",
+      "stagingIndex": 14,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgMaskGroup",
+      "nodeCandidate": "5:134",
+      "stagingIndex": 15
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame108",
+      "nodeCandidate": "I70492:696;70491:1269",
+      "stagingIndex": 16
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame109",
+      "nodeCandidate": "I70492:696;70491:1271",
+      "stagingIndex": 17
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame110",
+      "nodeCandidate": "I70492:696;70491:1273",
+      "stagingIndex": 18
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame111",
+      "nodeCandidate": "I70492:696;70491:1275",
+      "stagingIndex": 19
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame112",
+      "nodeCandidate": "I70492:696;70491:1277",
+      "stagingIndex": 20
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgMessage",
+      "nodeCandidate": "11:1248",
+      "stagingIndex": 21
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70488:626;70486:541",
+      "stagingIndex": 22
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70488:626;70486:545",
+      "stagingIndex": 23
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70488:626;70486:547",
+      "stagingIndex": 24
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70488:626;70486:548",
+      "stagingIndex": 25
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70488:626;70486:553;29221:4777",
+      "stagingIndex": 26
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame238",
+      "nodeCandidate": "70380:2856",
+      "stagingIndex": 27
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgStar",
+      "nodeCandidate": "I11:1195;11:1193",
+      "stagingIndex": 28
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgStar1",
+      "nodeCandidate": "I11:1207;11:1193",
+      "stagingIndex": 29
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgLine2",
+      "nodeCandidate": "11:1211",
+      "stagingIndex": 30
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgEllipse24",
+      "nodeCandidate": "11:1217",
+      "stagingIndex": 31
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgEllipse25",
+      "nodeCandidate": "11:1220",
+      "stagingIndex": 32
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgEllipse26",
+      "nodeCandidate": "11:1222",
+      "stagingIndex": 33
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgEllipse27",
+      "nodeCandidate": "11:1224",
+      "stagingIndex": 34
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame",
+      "nodeCandidate": "70410:4191",
+      "stagingIndex": 35
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame1",
+      "nodeCandidate": "70410:4195",
+      "stagingIndex": 36
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgHeart1",
+      "nodeCandidate": "70410:3940",
+      "stagingIndex": 37
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgLinkedin",
+      "nodeCandidate": "11:1245",
+      "stagingIndex": 38
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgTwitter",
+      "nodeCandidate": "11:1247",
+      "stagingIndex": 39
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgLine6",
+      "nodeCandidate": "11:1252",
+      "stagingIndex": 40
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgLine5",
+      "nodeCandidate": "11:1250",
+      "stagingIndex": 41
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgCarouselDots",
+      "nodeCandidate": "70364:240",
+      "stagingIndex": 42
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame108",
+      "nodeCandidate": "I70493:1151;70491:1269",
+      "stagingIndex": 43
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame109",
+      "nodeCandidate": "I70493:1151;70491:1271",
+      "stagingIndex": 44
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame110",
+      "nodeCandidate": "I70493:1151;70491:1273",
+      "stagingIndex": 45
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame111",
+      "nodeCandidate": "I70493:1151;70491:1275",
+      "stagingIndex": 46
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgFrame112",
+      "nodeCandidate": "I70493:1151;70491:1277",
+      "stagingIndex": 47
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70488:651;70486:541",
+      "stagingIndex": 48
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70488:651;70486:545",
+      "stagingIndex": 49
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70488:651;70486:547",
+      "stagingIndex": 50
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70488:651;70486:548",
+      "stagingIndex": 51
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70488:651;70486:553;29221:4777",
+      "stagingIndex": 52
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgLine2",
+      "nodeCandidate": "11:1919",
+      "stagingIndex": 53
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame",
+      "nodeCandidate": "70402:3304",
+      "stagingIndex": 54
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame1",
+      "nodeCandidate": "70402:3308",
+      "stagingIndex": 55
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgDelete",
+      "nodeCandidate": "I11:2029;29221:4602",
+      "stagingIndex": 56
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgLine3",
+      "nodeCandidate": "11:2856",
+      "stagingIndex": 57
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgLine7",
+      "nodeCandidate": "11:1962",
+      "stagingIndex": 58
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgCarouselDots",
+      "nodeCandidate": "70371:249",
+      "stagingIndex": 59
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame108",
+      "nodeCandidate": "I70493:1607;70491:1269",
+      "stagingIndex": 60
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame109",
+      "nodeCandidate": "I70493:1607;70491:1271",
+      "stagingIndex": 61
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame110",
+      "nodeCandidate": "I70493:1607;70491:1273",
+      "stagingIndex": 62
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame111",
+      "nodeCandidate": "I70493:1607;70491:1275",
+      "stagingIndex": 63
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgFrame112",
+      "nodeCandidate": "I70493:1607;70491:1277",
+      "stagingIndex": 64
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3321;70504:3043;70486:541",
+      "stagingIndex": 65
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3321;70504:3043;70486:545",
+      "stagingIndex": 66
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3321;70504:3043;70486:547",
+      "stagingIndex": 67
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3321;70504:3043;70486:548",
+      "stagingIndex": 68
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3321;70504:3043;70486:553;29221:4777",
+      "stagingIndex": 69
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgArrowDown",
+      "nodeCandidate": "I70522:3321;70504:3064",
+      "stagingIndex": 70
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgArrowDown1",
+      "nodeCandidate": "I70522:3321;70504:3110",
+      "stagingIndex": 71
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgEllipse31",
+      "nodeCandidate": "I70522:3321;70504:3112",
+      "stagingIndex": 72
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgLine2",
+      "nodeCandidate": "I70522:3321;70504:3124",
+      "stagingIndex": 73
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgLine3",
+      "nodeCandidate": "I70522:3321;70504:3165",
+      "stagingIndex": 74
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgEllipse32",
+      "nodeCandidate": "I70522:3321;70504:3175",
+      "stagingIndex": 75
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame323",
+      "nodeCandidate": "I70522:3321;70504:3184",
+      "stagingIndex": 76
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame108",
+      "nodeCandidate": "I70493:2063;70491:1269",
+      "stagingIndex": 77
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame109",
+      "nodeCandidate": "I70493:2063;70491:1271",
+      "stagingIndex": 78
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame110",
+      "nodeCandidate": "I70493:2063;70491:1273",
+      "stagingIndex": 79
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame111",
+      "nodeCandidate": "I70493:2063;70491:1275",
+      "stagingIndex": 80
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgFrame112",
+      "nodeCandidate": "I70493:2063;70491:1277",
+      "stagingIndex": 81
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3496;70504:3043;70486:541",
+      "stagingIndex": 82
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3496;70504:3043;70486:545",
+      "stagingIndex": 83
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3496;70504:3043;70486:547",
+      "stagingIndex": 84
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3496;70504:3043;70486:548",
+      "stagingIndex": 85
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3496;70504:3043;70486:553;29221:4777",
+      "stagingIndex": 86
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgArrowDown",
+      "nodeCandidate": "I70522:3496;70504:3064",
+      "stagingIndex": 87
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgArrowDown1",
+      "nodeCandidate": "I70522:3496;70504:3110",
+      "stagingIndex": 88
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgEllipse31",
+      "nodeCandidate": "I70522:3496;70504:3112",
+      "stagingIndex": 89
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgLine2",
+      "nodeCandidate": "I70522:3496;70504:3124",
+      "stagingIndex": 90
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgLine3",
+      "nodeCandidate": "I70522:3496;70504:3165",
+      "stagingIndex": 91
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgEllipse32",
+      "nodeCandidate": "I70522:3496;70504:3175",
+      "stagingIndex": 92
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame323",
+      "nodeCandidate": "I70522:3496;70504:3184",
+      "stagingIndex": 93
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame108",
+      "nodeCandidate": "I70493:2519;70491:1269",
+      "stagingIndex": 94
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame109",
+      "nodeCandidate": "I70493:2519;70491:1271",
+      "stagingIndex": 95
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame110",
+      "nodeCandidate": "I70493:2519;70491:1273",
+      "stagingIndex": 96
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame111",
+      "nodeCandidate": "I70493:2519;70491:1275",
+      "stagingIndex": 97
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgFrame112",
+      "nodeCandidate": "I70493:2519;70491:1277",
+      "stagingIndex": 98
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgGroup",
+      "nodeCandidate": "11:5151",
+      "stagingIndex": 99
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgLine10",
+      "nodeCandidate": "11:5145",
+      "stagingIndex": 100
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgLine4",
+      "nodeCandidate": "11:5195",
+      "stagingIndex": 101
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgX",
+      "nodeCandidate": "12:5223",
+      "stagingIndex": 102
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgX",
+      "nodeCandidate": "9:947",
+      "stagingIndex": 103
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector",
+      "nodeCandidate": "70483:244",
+      "stagingIndex": 104
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector1",
+      "nodeCandidate": "70483:245",
+      "stagingIndex": 105
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgGroup",
+      "nodeCandidate": "70483:249",
+      "stagingIndex": 106
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector2",
+      "nodeCandidate": "70483:251",
+      "stagingIndex": 107
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector3",
+      "nodeCandidate": "70483:252",
+      "stagingIndex": 108
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector4",
+      "nodeCandidate": "70483:253",
+      "stagingIndex": 109
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgVector5",
+      "nodeCandidate": "70483:254",
+      "stagingIndex": 110
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgFacebook1",
+      "nodeCandidate": "70483:259",
+      "stagingIndex": 111
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgEllipse5",
+      "nodeCandidate": "70485:361",
+      "stagingIndex": 112
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine6",
+      "nodeCandidate": "70485:362",
+      "stagingIndex": 113
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine5",
+      "nodeCandidate": "70485:364",
+      "stagingIndex": 114
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3015;70486:514",
+      "stagingIndex": 115
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3015;70486:519",
+      "stagingIndex": 116
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3015;70486:521",
+      "stagingIndex": 117
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3015;70486:522",
+      "stagingIndex": 118
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3015;70486:527;29221:4777",
+      "stagingIndex": 119
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine1",
+      "nodeCandidate": "I70522:3671;70529:3617;70504:3016",
+      "stagingIndex": 120
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgGroup4",
+      "nodeCandidate": "I70522:3671;70504:3232",
+      "stagingIndex": 121
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine3",
+      "nodeCandidate": "I70522:3671;70504:3242",
+      "stagingIndex": 122
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgArrowDown2",
+      "nodeCandidate": "I70522:3671;70504:3243;16162:1094;0:4170",
+      "stagingIndex": 123
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine4",
+      "nodeCandidate": "I70522:3671;70504:3277",
+      "stagingIndex": 124
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgShopping1",
+      "nodeCandidate": "I70522:3671;70504:3284",
+      "stagingIndex": 125
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgHeart1",
+      "nodeCandidate": "I70522:3671;70504:3286",
+      "stagingIndex": 126
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgFrame",
+      "nodeCandidate": "I70522:3671;70504:3288",
+      "stagingIndex": 127
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgHide",
+      "nodeCandidate": "I9:963;29221:4811",
+      "stagingIndex": 128
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine7",
+      "nodeCandidate": "9:986",
+      "stagingIndex": 129
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgLine8",
+      "nodeCandidate": "9:987",
+      "stagingIndex": 130
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgX",
+      "nodeCandidate": "9:947",
+      "stagingIndex": 131
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector",
+      "nodeCandidate": "70483:244",
+      "stagingIndex": 132
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector1",
+      "nodeCandidate": "70483:245",
+      "stagingIndex": 133
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgGroup",
+      "nodeCandidate": "70483:249",
+      "stagingIndex": 134
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector2",
+      "nodeCandidate": "70483:251",
+      "stagingIndex": 135
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector3",
+      "nodeCandidate": "70483:252",
+      "stagingIndex": 136
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector4",
+      "nodeCandidate": "70483:253",
+      "stagingIndex": 137
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgVector5",
+      "nodeCandidate": "70483:254",
+      "stagingIndex": 138
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgFacebook1",
+      "nodeCandidate": "70483:259",
+      "stagingIndex": 139
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgEllipse5",
+      "nodeCandidate": "70485:361",
+      "stagingIndex": 140
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine6",
+      "nodeCandidate": "70485:362",
+      "stagingIndex": 141
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine5",
+      "nodeCandidate": "70485:364",
+      "stagingIndex": 142
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3015;70486:514",
+      "stagingIndex": 143
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3015;70486:519",
+      "stagingIndex": 144
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3015;70486:521",
+      "stagingIndex": 145
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3015;70486:522",
+      "stagingIndex": 146
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3015;70486:527;29221:4777",
+      "stagingIndex": 147
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine1",
+      "nodeCandidate": "I70522:3841;70529:3617;70504:3016",
+      "stagingIndex": 148
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgGroup4",
+      "nodeCandidate": "I70522:3841;70504:3232",
+      "stagingIndex": 149
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine3",
+      "nodeCandidate": "I70522:3841;70504:3242",
+      "stagingIndex": 150
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgArrowDown2",
+      "nodeCandidate": "I70522:3841;70504:3243;16162:1094;0:4170",
+      "stagingIndex": 151
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine4",
+      "nodeCandidate": "I70522:3841;70504:3277",
+      "stagingIndex": 152
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgShopping1",
+      "nodeCandidate": "I70522:3841;70504:3284",
+      "stagingIndex": 153
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgHeart1",
+      "nodeCandidate": "I70522:3841;70504:3286",
+      "stagingIndex": 154
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgFrame",
+      "nodeCandidate": "I70522:3841;70504:3288",
+      "stagingIndex": 155
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgHide",
+      "nodeCandidate": "I9:1167;29221:4811",
+      "stagingIndex": 156
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine7",
+      "nodeCandidate": "9:1169",
+      "stagingIndex": 157
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgLine8",
+      "nodeCandidate": "9:1170",
+      "stagingIndex": 158
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgHide",
+      "nodeCandidate": "I70504:2972;33437:4846",
+      "stagingIndex": 159
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgArrowDown",
+      "nodeCandidate": "9:1589",
+      "stagingIndex": 160
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgUser",
+      "nodeCandidate": "9:1443",
+      "stagingIndex": 161
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3267;70504:3015;70486:514",
+      "stagingIndex": 162
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3267;70504:3015;70486:519",
+      "stagingIndex": 163
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3267;70504:3015;70486:521",
+      "stagingIndex": 164
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3267;70504:3015;70486:522",
+      "stagingIndex": 165
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3267;70504:3015;70486:527;29221:4777",
+      "stagingIndex": 166
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgLine1",
+      "nodeCandidate": "I70522:3267;70504:3016",
+      "stagingIndex": 167
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgLocation",
+      "nodeCandidate": "I70420:4544;33437:4982",
+      "stagingIndex": 168
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgShopping1",
+      "nodeCandidate": "70420:4547",
+      "stagingIndex": 169
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgHeart1",
+      "nodeCandidate": "70420:4551",
+      "stagingIndex": 170
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgActivity",
+      "nodeCandidate": "I70420:4555;29221:4825",
+      "stagingIndex": 171
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgDownload",
+      "nodeCandidate": "I70420:4558;29221:4751",
+      "stagingIndex": 172
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgDangerTriangle",
+      "nodeCandidate": "I70420:4561;29221:4772",
+      "stagingIndex": 173
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgLine2",
+      "nodeCandidate": "70420:4563",
+      "stagingIndex": 174
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgLogout1",
+      "nodeCandidate": "I70420:4565;29221:4777",
+      "stagingIndex": 175
+    },
+    {
+      "frame": "F08",
+      "frameNode": "9:1238",
+      "variable": "imgImage2",
+      "nodeCandidate": "I9:1560;29221:4679",
+      "stagingIndex": 176
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgArrowDown",
+      "nodeCandidate": "9:1589",
+      "stagingIndex": 177
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgActiveUnderline",
+      "nodeCandidate": "I70522:3294;70504:3015;70486:514",
+      "stagingIndex": 178
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgSearchIcon",
+      "nodeCandidate": "I70522:3294;70504:3015;70486:519",
+      "stagingIndex": 179
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgCartIcon",
+      "nodeCandidate": "I70522:3294;70504:3015;70486:521",
+      "stagingIndex": 180
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgBadge",
+      "nodeCandidate": "I70522:3294;70504:3015;70486:522",
+      "stagingIndex": 181
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgLogout",
+      "nodeCandidate": "I70522:3294;70504:3015;70486:527;29221:4777",
+      "stagingIndex": 182
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgLine1",
+      "nodeCandidate": "I70522:3294;70504:3016",
+      "stagingIndex": 183
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgUser",
+      "nodeCandidate": "70420:4599",
+      "stagingIndex": 184
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgLocation",
+      "nodeCandidate": "I70420:4602;33437:4982",
+      "stagingIndex": 185
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgShopping1",
+      "nodeCandidate": "70420:4605",
+      "stagingIndex": 186
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgHeart1",
+      "nodeCandidate": "70420:4609",
+      "stagingIndex": 187
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgActivity",
+      "nodeCandidate": "I70420:4613;29221:4825",
+      "stagingIndex": 188
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgDownload",
+      "nodeCandidate": "I70420:4616;29221:4751",
+      "stagingIndex": 189
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgDangerTriangle",
+      "nodeCandidate": "I70420:4619;29221:4772",
+      "stagingIndex": 190
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgLine2",
+      "nodeCandidate": "70420:4621",
+      "stagingIndex": 191
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgLogout1",
+      "nodeCandidate": "I70420:4623;29221:4777",
+      "stagingIndex": 192
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgArrowDown1",
+      "nodeCandidate": "9:1837",
+      "stagingIndex": 193
+    },
+    {
+      "frame": "F09",
+      "frameNode": "9:1670",
+      "variable": "imgEllipse22",
+      "nodeCandidate": "9:1867",
+      "stagingIndex": 194
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgShop",
+      "nodeCandidate": "15:5524",
+      "stagingIndex": 195
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgUser",
+      "nodeCandidate": "15:5522",
+      "stagingIndex": 196
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgSearch",
+      "nodeCandidate": "15:5331",
+      "stagingIndex": 197
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgFilter",
+      "nodeCandidate": "I15:5488;29221:4570",
+      "stagingIndex": 198
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMaskGroup",
+      "nodeCandidate": "14:5290",
+      "stagingIndex": 199
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgArrowRight",
+      "nodeCandidate": "15:5295",
+      "stagingIndex": 200,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgFrame4",
+      "nodeCandidate": "15:5300",
+      "stagingIndex": 201
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgLine3",
+      "nodeCandidate": "15:5366",
+      "stagingIndex": 202
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgFrame410",
+      "nodeCandidate": "70410:4134",
+      "stagingIndex": 203
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgGroup58",
+      "nodeCandidate": "15:5465",
+      "stagingIndex": 204
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector",
+      "nodeCandidate": "15:5504",
+      "stagingIndex": 205
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgEllipse39",
+      "nodeCandidate": "15:5507",
+      "stagingIndex": 206
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgHome",
+      "nodeCandidate": "I15:5519;15:5517",
+      "stagingIndex": 207
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector1",
+      "nodeCandidate": "15:5527",
+      "stagingIndex": 208
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector2",
+      "nodeCandidate": "15:5530",
+      "stagingIndex": 209
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector3",
+      "nodeCandidate": "15:5531",
+      "stagingIndex": 210
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector4",
+      "nodeCandidate": "15:5532",
+      "stagingIndex": 211
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector5",
+      "nodeCandidate": "15:5533",
+      "stagingIndex": 212
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgVector6",
+      "nodeCandidate": "15:5534",
+      "stagingIndex": 213
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgGroup62",
+      "nodeCandidate": "15:5657",
+      "stagingIndex": 214
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgArrowLeft2",
+      "nodeCandidate": "15:5745",
+      "stagingIndex": 215,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgVector",
+      "nodeCandidate": "15:5642",
+      "stagingIndex": 216
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgStar",
+      "nodeCandidate": "I15:5663;11:1193",
+      "stagingIndex": 217
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgEllipse25",
+      "nodeCandidate": "15:5670",
+      "stagingIndex": 218
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgEllipse26",
+      "nodeCandidate": "15:5671",
+      "stagingIndex": 219
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgEllipse27",
+      "nodeCandidate": "15:5672",
+      "stagingIndex": 220
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgFrame",
+      "nodeCandidate": "70410:4203",
+      "stagingIndex": 221
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgFrame1",
+      "nodeCandidate": "70410:4207",
+      "stagingIndex": 222
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgShop",
+      "nodeCandidate": "16:357",
+      "stagingIndex": 223
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgEllipse38",
+      "nodeCandidate": "16:394",
+      "stagingIndex": 224
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgArrowLeft2",
+      "nodeCandidate": "16:395",
+      "stagingIndex": 225,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgGroup65",
+      "nodeCandidate": "16:399",
+      "stagingIndex": 226
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgGroup72",
+      "nodeCandidate": "16:540",
+      "stagingIndex": 227
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgDelete",
+      "nodeCandidate": "I16:463;29221:4602",
+      "stagingIndex": 228
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgEllipse38",
+      "nodeCandidate": "16:758",
+      "stagingIndex": 229
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgArrowLeft2",
+      "nodeCandidate": "16:759",
+      "stagingIndex": 230,
+      "nodeEvidence": "Instância identificada na hierarquia gerada por get_design_context."
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgGroup87",
+      "nodeCandidate": "16:990",
+      "stagingIndex": 231
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgGroup90",
+      "nodeCandidate": "16:998",
+      "stagingIndex": 232
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgEllipse46",
+      "nodeCandidate": "16:1001",
+      "stagingIndex": 233
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgEllipse44",
+      "nodeCandidate": "16:893",
+      "stagingIndex": 234
+    },
+    {
+      "frame": "F13",
+      "frameNode": "16:748",
+      "variable": "imgWallet",
+      "nodeCandidate": "I23:1379;23:1374",
+      "stagingIndex": 235
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector",
+      "nodeCandidate": "70483:244",
+      "stagingIndex": 236
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector1",
+      "nodeCandidate": "70483:245",
+      "stagingIndex": 237
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgGroup",
+      "nodeCandidate": "70483:249",
+      "stagingIndex": 238
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector2",
+      "nodeCandidate": "70483:251",
+      "stagingIndex": 239
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector3",
+      "nodeCandidate": "70483:252",
+      "stagingIndex": 240
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector4",
+      "nodeCandidate": "70483:253",
+      "stagingIndex": 241
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgVector5",
+      "nodeCandidate": "70483:254",
+      "stagingIndex": 242
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgFacebook1",
+      "nodeCandidate": "70483:259",
+      "stagingIndex": 243
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgLine7",
+      "nodeCandidate": "70504:2988",
+      "stagingIndex": 244
+    },
+    {
+      "frame": "F14",
+      "frameNode": "16:1022",
+      "variable": "imgHide",
+      "nodeCandidate": "I16:1191;29221:4811",
+      "stagingIndex": 245
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector",
+      "nodeCandidate": "70483:244",
+      "stagingIndex": 246
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector1",
+      "nodeCandidate": "70483:245",
+      "stagingIndex": 247
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgGroup",
+      "nodeCandidate": "70483:249",
+      "stagingIndex": 248
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector2",
+      "nodeCandidate": "70483:251",
+      "stagingIndex": 249
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector3",
+      "nodeCandidate": "70483:252",
+      "stagingIndex": 250
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector4",
+      "nodeCandidate": "70483:253",
+      "stagingIndex": 251
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgVector5",
+      "nodeCandidate": "70483:254",
+      "stagingIndex": 252
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgFacebook1",
+      "nodeCandidate": "70483:259",
+      "stagingIndex": 253
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgLine7",
+      "nodeCandidate": "70504:2988",
+      "stagingIndex": 254
+    },
+    {
+      "frame": "F15",
+      "frameNode": "16:1228",
+      "variable": "imgHide",
+      "nodeCandidate": "I16:1292;29221:4811",
+      "stagingIndex": 255
+    }
+  ]
+}

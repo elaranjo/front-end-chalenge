@@ -1,0 +1,33 @@
+{
+  "scope": "planning-only",
+  "validatedAt": "2026-11-05T20:02:30.652966+00:00",
+  "change": "implement-nft-marketplace-challenge",
+  "strictValidation": {
+    "command": "openspec validate implement-nft-marketplace-challenge --strict",
+    "exitCode": 0,
+    "output": "Change 'implement-nft-marketplace-challenge' is valid"
+  },
+  "capabilities": 9,
+  "requirements": 49,
+  "scenarios": 49,
+  "tasks": 49,
+  "completedTasks": 0,
+  "sourceInspectionItems": 50,
+  "decisions": 50,
+  "visualReferences": 15,
+  "checks": {
+    "everyRequirementHasScenario": true,
+    "everyRequirementMappedToTask": true,
+    "allTaskRequirementIdsExist": true,
+    "allInspectionIdsHaveUniqueDecisionAndRequirement": true,
+    "localMarkdownLinksExist": true,
+    "noUnresolvedPlanningPlaceholders": true
+  },
+  "sources": {
+    "README.md": "4f78906ab513c6999f4ff5fd18c9d9b43192be453d4a4d62ee0f6154bc11acd5",
+    "docs/figma-inspection/source/frontend-challenge.fig": "7017e04fa195974ae22a27c78dc88413eb5292a849bf4defbe295062813e0dbd",
+    "docs/figma-inspection/gaps-and-conflicts.md": "7fea4bcd0591412e7d58917cb6a1e7e64fbbe52a77e53c2f62f2560565dc50d0"
+  },
+  "implementationStatus": "not-started",
+  "evidenceStatus": "planned-not-executed"
+}

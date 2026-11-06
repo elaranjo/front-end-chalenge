@@ -1,0 +1,2 @@
+.header-login-icon { position: relative; display: block; flex: 0 0 20px; width: 20px; height: 20px; }
+.home-login .header-login-icon img, .account-login .header-login-icon img { position: absolute; left: 6.788%; top: 9.2545%; display: block; width: auto; height: auto; max-width: none; }

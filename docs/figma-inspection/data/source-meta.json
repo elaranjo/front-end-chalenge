@@ -1,0 +1,23 @@
+{
+  "client_meta": {
+    "background_color": {
+      "r": 0.11764705926179886,
+      "g": 0.11764705926179886,
+      "b": 0.11764705926179886,
+      "a": 1
+    },
+    "thumbnail_size": {
+      "width": 400,
+      "height": 373
+    },
+    "render_coordinates": {
+      "x": 0,
+      "y": -6,
+      "width": 8000,
+      "height": 7453
+    }
+  },
+  "file_name": "Frontend Challenge",
+  "developer_related_links": [],
+  "exported_at": "2026-11-05T18:53:15.103Z"
+}

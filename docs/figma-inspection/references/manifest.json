@@ -1,0 +1,141 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B",
+  "scale": "1x",
+  "frames": [
+    {
+      "id": "F01",
+      "file": "F01-desktop-inicio.png",
+      "archiveEntry": "Desktop/Início.png",
+      "width": 1440,
+      "height": 3668,
+      "sha256": "9e12fae446693a3b57020d769ef1ca159822cd3baa1ce7bd3c75f85c62413e44",
+      "nodeId": "2:2"
+    },
+    {
+      "id": "F02",
+      "file": "F02-desktop-detalhe.png",
+      "archiveEntry": "Desktop/Detalhes do NFT.png",
+      "width": 1440,
+      "height": 2246,
+      "sha256": "a99b15d1ce7035741932ba2a0defb0cb24d587a0d6f55ede3859e1bc5ef3b01c",
+      "nodeId": "10:244"
+    },
+    {
+      "id": "F03",
+      "file": "F03-desktop-carrinho.png",
+      "archiveEntry": "Desktop/Carrinho de NFTs.png",
+      "width": 1440,
+      "height": 1754,
+      "sha256": "7978e770a1341288340c413db4b9c2c7f9cf2af9190a9f60b435cc5e63dcc360",
+      "nodeId": "11:1278"
+    },
+    {
+      "id": "F04",
+      "file": "F04-desktop-pagamento.png",
+      "archiveEntry": "Desktop/Pagamento.png",
+      "width": 1440,
+      "height": 1657,
+      "sha256": "6ffc1ab21c7cb2223b67326722fa3da1d5b9a691fc8e5364f09763c9edf629e9",
+      "nodeId": "11:2862"
+    },
+    {
+      "id": "F05",
+      "file": "F05-desktop-confirmacao.png",
+      "archiveEntry": "Desktop/Confirmação de Pedido.png",
+      "width": 1440,
+      "height": 1657,
+      "sha256": "8e8b3ec99360e913c337f908b2a4417281a769388d5d9dadc7c6204ecef1e23f",
+      "nodeId": "11:4385"
+    },
+    {
+      "id": "F06",
+      "file": "F06-desktop-login.png",
+      "archiveEntry": "Desktop/Login.png",
+      "width": 1440,
+      "height": 1981,
+      "sha256": "c5d23ae3a7eb4e98be77607c4a2feb59400be543c5641dbcd112fd105ab02f10",
+      "nodeId": "9:115"
+    },
+    {
+      "id": "F07",
+      "file": "F07-desktop-cadastro.png",
+      "archiveEntry": "Desktop/Cadastro.png",
+      "width": 1440,
+      "height": 1981,
+      "sha256": "29dad5abed9054459b1de8ce7b53029719625c41ac141fcdb0b4dbb8ddfa3c16",
+      "nodeId": "9:1022"
+    },
+    {
+      "id": "F08",
+      "file": "F08-desktop-perfil.png",
+      "archiveEntry": "Desktop/Perfil do Colecionador.png",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "96350da04dbcf5f9004bad29ef84d991aff72006cc64259b477421058e022c85",
+      "nodeId": "9:1238"
+    },
+    {
+      "id": "F09",
+      "file": "F09-desktop-carteiras.png",
+      "archiveEntry": "Desktop/Carteiras.png",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "20a2148c1d9adf8bd7e91f3db28d73275b147a9d2938223a99a855317e37ffb5",
+      "nodeId": "9:1670"
+    },
+    {
+      "id": "F10",
+      "file": "F10-mobile-inicio.png",
+      "archiveEntry": "Mobile/Início.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "732da72801b34d17199b095e85e8608eb9ecb091040b06beb42503a53e13e732",
+      "nodeId": "14:5226"
+    },
+    {
+      "id": "F11",
+      "file": "F11-mobile-detalhe.png",
+      "archiveEntry": "Mobile/Detalhes do NFT.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "2e848b455b3d5423d417c6ed48bdd907e913e20fed3926aa89a3149846f11b52",
+      "nodeId": "15:5536"
+    },
+    {
+      "id": "F12",
+      "file": "F12-mobile-carrinho.png",
+      "archiveEntry": "Mobile/Carrinho de NFTs.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "b0b9ba4bdf17cdbdba68c077f8ba7ecba8068a0db2df7e97be6caec3aa5d1dfb",
+      "nodeId": "16:360"
+    },
+    {
+      "id": "F13",
+      "file": "F13-mobile-pagamento.png",
+      "archiveEntry": "Mobile/Pagamento.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "9f444475e113e7c199dfa16786f7138e70acef09d36c63f76ed8b17f484a352b",
+      "nodeId": "16:748"
+    },
+    {
+      "id": "F14",
+      "file": "F14-mobile-login.png",
+      "archiveEntry": "Mobile/Login.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "189ae8cff66e02bbd96964cc3e163d5e45449598cf05708667b298d77b523b96",
+      "nodeId": "16:1022"
+    },
+    {
+      "id": "F15",
+      "file": "F15-mobile-cadastro.png",
+      "archiveEntry": "Mobile/Cadastro.png",
+      "width": 414,
+      "height": 896,
+      "sha256": "5b6dfd323d775439bb992dab6b4e66c33dcd65077be50609d78fdc978e6b4aec",
+      "nodeId": "16:1228"
+    }
+  ]
+}

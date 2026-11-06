@@ -1,0 +1,30 @@
+import { expect, test } from '@playwright/test'
+
+test('mobile navigation and purchase bar account for safe-area insets', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const cdp = await page.context().newCDPSession(page)
+  await cdp.send('Emulation.setSafeAreaInsetsOverride', { insets: { top: 0, right: 0, bottom: 34, left: 0 } })
+  await page.goto('http://127.0.0.1:5173/')
+  const nav = page.getByRole('navigation', { name: 'Navegação mobile' })
+  await expect(nav).toBeVisible()
+  await expect(nav).toHaveCSS('bottom', '34px')
+  await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
+  const buy = page.locator('.detail-buy')
+  await expect(buy).toBeVisible()
+  await expect(buy).toHaveCSS('padding-bottom', '67px')
+  await expect(page.getByRole('button', { name: 'Comprar NFT', exact: true })).toBeVisible()
+})
+
+test('main detail action remains reachable with 200% page scale and keyboard', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 })
+  const cdp = await page.context().newCDPSession(page)
+  await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
+  const purchase = page.getByRole('button', { name: 'Comprar NFT', exact: true })
+  await expect(purchase).toBeVisible()
+  await cdp.send('Emulation.setPageScaleFactor', { pageScaleFactor: 2 })
+  expect(await page.evaluate(() => window.visualViewport?.scale)).toBe(2)
+  await purchase.focus()
+  await expect(purchase).toBeFocused()
+  await page.keyboard.press('Enter')
+  await expect(page).toHaveURL(/\/cart$/, { timeout: 10000 })
+})

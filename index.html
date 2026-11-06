@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      if (location.pathname === '/' && matchMedia('(max-width: 767px)').matches) {
+        const hero = document.createElement('link')
+        hero.rel = 'preload'
+        hero.as = 'image'
+        hero.href = '/assets/icons/home-hero-background.svg'
+        hero.fetchPriority = 'high'
+        document.head.appendChild(hero)
+      }
+    </script>
+    <meta name="description" content="Explore NFTs e coleções digitais no marketplace Kurio." />
+    <title>Kurio | Marketplace de NFTs</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

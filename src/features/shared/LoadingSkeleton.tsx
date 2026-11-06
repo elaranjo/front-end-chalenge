@@ -1,0 +1,7 @@
+import './loading.css'
+
+type Kind = 'catalog' | 'detail' | 'cart' | 'summary'
+const labels: Record<Kind, string> = { catalog: 'Carregando NFTs', detail: 'Carregando NFT', cart: 'Carregando carrinho', summary: 'Carregando resumo' }
+export function LoadingSkeleton({ kind }: { kind: Kind }) {
+  return <div className={`loading-skeleton loading-${kind}`} role="status" aria-label={labels[kind]}><span className="loading-visually-hidden">{labels[kind]}...</span><div aria-hidden="true">{kind === 'catalog' ? Array.from({ length: 9 }, (_, index) => <div className="loading-card" key={index}><span className="loading-image" /><span className="loading-line" /><span className="loading-line short" /></div>) : kind === 'detail' ? <><span className="loading-detail-image" /><div className="loading-detail-copy"><span className="loading-line" /><span className="loading-line short" /><span className="loading-line" /><span className="loading-line" /><span className="loading-button" /></div></> : kind === 'cart' ? Array.from({ length: 3 }, (_, index) => <div className="loading-cart-row" key={index}><span className="loading-cart-image" /><div><span className="loading-line" /><span className="loading-line short" /></div></div>) : <dl className="cart-totals loading-totals">{[0, 1, 2, 3].map((index) => <div key={index} className={index === 3 ? "cart-total" : undefined}><span /><span className={index === 2 ? "loading-fee" : undefined} /></div>)}</dl>}</div></div>
+}

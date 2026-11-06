@@ -1,0 +1,641 @@
+[
+  {
+    "id": "2:2",
+    "name": "Desktop / Início",
+    "width": 1440,
+    "height": 3668,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 359,
+    "componentCount": 0,
+    "instanceCount": 10,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70353:242",
+        "name": "Top",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70342:2831",
+        "name": "Products",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70353:241",
+        "name": "Promos",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70343:253",
+        "name": "Blog",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70492:696",
+        "name": "Footer",
+        "type": "INSTANCE",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "10:244",
+    "name": "Desktop / Detalhes do NFT",
+    "width": 1440,
+    "height": 2246.000244140625,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 259,
+    "componentCount": 1,
+    "instanceCount": 8,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70342:2770",
+        "name": "Top",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70342:2780",
+        "name": "Description",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70364:239",
+        "name": "Related Products",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70493:1151",
+        "name": "Footer",
+        "type": "INSTANCE",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "11:1278",
+    "name": "Desktop / Carrinho de NFTs",
+    "width": 1440,
+    "height": 1754.0001220703125,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 267,
+    "componentCount": 0,
+    "instanceCount": 6,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70371:250",
+        "name": "Top",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70371:239",
+        "name": "Related Products",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "70493:1607",
+        "name": "Footer",
+        "type": "INSTANCE",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "11:2862",
+    "name": "Desktop / Pagamento",
+    "width": 1440,
+    "height": 1657,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 252,
+    "componentCount": 0,
+    "instanceCount": 7,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70522:3321",
+        "name": "Checkout Page",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "70493:2063",
+        "name": "Footer",
+        "type": "INSTANCE",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "11:4385",
+    "name": "Desktop / Confirmação de Pedido",
+    "width": 1440,
+    "height": 1657,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 345,
+    "componentCount": 0,
+    "instanceCount": 8,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70522:3496",
+        "name": "Checkout Page",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "70493:2519",
+        "name": "Footer",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "11:5105",
+        "name": "BG",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "70376:239",
+        "name": "Order Confirmation Modal",
+        "type": "FRAME",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9:115",
+    "name": "Desktop / Login",
+    "width": 1440,
+    "height": 1981,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      0,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 226,
+    "componentCount": 1,
+    "instanceCount": 10,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70522:3671",
+        "name": "Marketplace Page",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "9:945",
+        "name": "BG",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "70381:239",
+        "name": "Sign In Modal",
+        "type": "FRAME",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9:1022",
+    "name": "Desktop / Cadastro",
+    "width": 1440,
+    "height": 1981,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      0,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 227,
+    "componentCount": 0,
+    "instanceCount": 11,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70522:3841",
+        "name": "Marketplace Page",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "9:1145",
+        "name": "BG",
+        "type": "RECTANGLE",
+        "count": 0
+      },
+      {
+        "id": "70383:239",
+        "name": "Sign Up Modal",
+        "type": "FRAME",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9:1238",
+    "name": "Desktop / Perfil do Colecionador",
+    "width": 1440,
+    "height": 1080,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 192,
+    "componentCount": 1,
+    "instanceCount": 16,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70386:264",
+        "name": "Top",
+        "type": "FRAME",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "9:1670",
+    "name": "Desktop / Carteiras",
+    "width": 1440,
+    "height": 1080,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      24,
+      120,
+      24,
+      120
+    ],
+    "gap": 96,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 171,
+    "componentCount": 0,
+    "instanceCount": 12,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70390:267",
+        "name": "Top",
+        "type": "FRAME",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "14:5226",
+    "name": "Mobile / Início",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      40,
+      24,
+      0,
+      24
+    ],
+    "gap": 16,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 107,
+    "componentCount": 3,
+    "instanceCount": 3,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70395:239",
+        "name": "Search Bar",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70395:240",
+        "name": "Hero Banner",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70395:241",
+        "name": "Tabs",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70395:242",
+        "name": "Product Grid",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70395:245",
+        "name": "Tab Bar",
+        "type": "FRAME",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "id": "15:5536",
+    "name": "Mobile / Detalhes do NFT",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "gap": -114,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 69,
+    "componentCount": 0,
+    "instanceCount": 3,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70396:241",
+        "name": "Hero",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "70396:242",
+        "name": "Details Sheet",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "70396:245",
+        "name": "Buy Bar",
+        "type": "FRAME",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "16:360",
+    "name": "Mobile / Carrinho de NFTs",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      32,
+      0,
+      0,
+      0
+    ],
+    "gap": 4,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 96,
+    "componentCount": 0,
+    "instanceCount": 2,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70397:239",
+        "name": "Content",
+        "type": "FRAME",
+        "count": 2
+      },
+      {
+        "id": "70397:245",
+        "name": "Payment Summary",
+        "type": "FRAME",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "16:748",
+    "name": "Mobile / Pagamento",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      32,
+      28,
+      32,
+      28
+    ],
+    "gap": 0,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 128,
+    "componentCount": 0,
+    "instanceCount": 2,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70398:239",
+        "name": "Content",
+        "type": "FRAME",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "16:1022",
+    "name": "Mobile / Login",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      80,
+      28,
+      24,
+      28
+    ],
+    "gap": 40,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 51,
+    "componentCount": 0,
+    "instanceCount": 4,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70399:239",
+        "name": "Logo",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70399:240",
+        "name": "Title",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70399:241",
+        "name": "Form",
+        "type": "FRAME",
+        "count": 3
+      },
+      {
+        "id": "70399:243",
+        "name": "Sign In Button",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70522:3186",
+        "name": "Mobile Social Block",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "70399:247",
+        "name": "Signup Link",
+        "type": "FRAME",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": "16:1228",
+    "name": "Mobile / Cadastro",
+    "width": 414,
+    "height": 896,
+    "layoutMode": "VERTICAL",
+    "padding": [
+      80,
+      28,
+      24,
+      28
+    ],
+    "gap": 40,
+    "clipsContent": true,
+    "overflow": "NONE",
+    "fixed": 0,
+    "nodeCount": 63,
+    "componentCount": 0,
+    "instanceCount": 5,
+    "reactionCount": 0,
+    "children": [
+      {
+        "id": "70410:4345",
+        "name": "Logo",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70399:249",
+        "name": "Title",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70399:250",
+        "name": "Form",
+        "type": "FRAME",
+        "count": 4
+      },
+      {
+        "id": "70399:251",
+        "name": "Create Profile Button",
+        "type": "FRAME",
+        "count": 1
+      },
+      {
+        "id": "70522:3213",
+        "name": "Mobile Social Block",
+        "type": "INSTANCE",
+        "count": 2
+      },
+      {
+        "id": "70399:255",
+        "name": "Login Link",
+        "type": "FRAME",
+        "count": 1
+      }
+    ]
+  }
+]

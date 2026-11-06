@@ -1,5 +1,46 @@
 # Desafio Frontend — Marketplace de NFTs
 
+**Execução da solução em andamento:** consulte [setup, testes e cenários simulados](docs/desenvolvimento-em-andamento.md) e [arquitetura e limitações](ARCHITECTURE.md). O enunciado original está preservado em [docs/challenge-brief.md](docs/challenge-brief.md).
+
+## Executar a solução
+
+Use Node 24.22.1 e npm 11.19.1. A aplicação usa dados simulados locais; copie `.env.example` para `.env` para habilitar os mocks. O comando `dev:mock` também os habilita explicitamente.
+
+```sh
+npm ci
+cp .env.example .env
+npx playwright install chromium
+npm run dev:mock
+```
+
+O Vite informa a URL local. Em outro terminal, execute as verificações e os testes:
+
+```sh
+npm run typecheck
+npm run lint
+npm test
+npm run build
+npm run test:e2e
+npm run test:visual
+```
+
+Para as duas auditorias, mantenha o build mais recente servido em um terminal separado:
+
+```sh
+npm run preview -- --host 127.0.0.1 --port 4173 --strictPort
+```
+
+Em outro terminal, execute:
+
+```sh
+npm run audit:accessibility
+npm run audit:lighthouse
+```
+
+O Playwright inicia os servidores de desenvolvimento e preview quando necessário; se já estiverem ativos nas portas configuradas, reutiliza-os. Reinicie-os após alterações para evitar testar um build ou processo anterior. A última suíte E2E, executada com dois processos (`npm run test:e2e -- --workers=2`), encerrou com código 1 por três verificações de contraste do hero mobile, cujas cores foram mantidas por decisão do usuário. O relatório Playwright de cada execução fica em `playwright-report/`, com traces para falhas; uma cópia da última execução está em [reports/e2e-html/index.html](reports/e2e-html/index.html). As auditorias sobrescrevem seus relatórios nas pastas `reports/accessibility/` e `reports/lighthouse/`. O procedimento e as condições das medições Lighthouse estão em [reports/lighthouse/README.md](reports/lighthouse/README.md). A cobertura, os resultados e as limitações atuais estão em [reports/e2e-coverage.md](reports/e2e-coverage.md) e [reports/accessibility/revisao-manual.md](reports/accessibility/revisao-manual.md).
+
+As contas fictícias são `colecionador.a@kurio.test` / `DemoA!2026` e `colecionador.b@kurio.test` / `DemoB!2026`; o cupom é `KURIO10`. Para selecionar um cenário, use, por exemplo, `/?mockScenario=empty`, `/?mockScenario=payment-declined` ou `/?mockScenario=timeout-after-order-create`. A lista completa e o comando para resetar a simulação estão nas [instruções de desenvolvimento](docs/desenvolvimento-em-andamento.md#contas-e-cenários-simulados). Essas instruções também explicam como reproduzir recusa, falha de rede e recuperação após timeout.
+
 Implemente o **NFT Marketplace** em React e TypeScript, seguindo o [layout no Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1).
 
 O desafio avalia fidelidade visual, qualidade das interações, integração com APIs, gerenciamento de estado assíncrono, tempo real, acessibilidade e performance.

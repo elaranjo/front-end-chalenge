@@ -1,0 +1,1020 @@
+{
+  "id": "10:244",
+  "name": "Desktop / Detalhes do NFT",
+  "rawNodeIds": [
+    "10:244",
+    "70342:2770",
+    "70488:626",
+    "70362:239",
+    "10:290",
+    "70342:2764",
+    "70363:239",
+    "11:1074",
+    "11:1075",
+    "11:1076",
+    "11:1077",
+    "70342:2682",
+    "11:1181",
+    "11:1188",
+    "11:1189",
+    "11:1190",
+    "70342:2683",
+    "11:1161",
+    "70410:3937",
+    "70380:2856",
+    "11:1184",
+    "70410:3935",
+    "70342:2763",
+    "70342:2686",
+    "70342:2685",
+    "11:1132",
+    "70342:2684",
+    "11:1141",
+    "11:1210",
+    "11:1195",
+    "11:1198",
+    "11:1201",
+    "11:1204",
+    "11:1207",
+    "11:1191",
+    "11:1211",
+    "70342:2687",
+    "11:1214",
+    "11:1215",
+    "70342:2696",
+    "11:1216",
+    "70342:2695",
+    "70342:2694",
+    "11:1217",
+    "11:1219",
+    "70342:2691",
+    "11:1220",
+    "11:1221",
+    "70342:2692",
+    "11:1222",
+    "11:1223",
+    "70342:2693",
+    "11:1224",
+    "11:1225",
+    "70342:2762",
+    "11:1238",
+    "70342:2700",
+    "70410:4189",
+    "70410:4190",
+    "70410:4191",
+    "70410:4192",
+    "70410:4200",
+    "70410:4194",
+    "70410:4195",
+    "70410:4196",
+    "70410:3938",
+    "70342:2756",
+    "11:1240",
+    "70342:2757",
+    "70410:3940",
+    "70410:3941",
+    "11:1242",
+    "70342:2761",
+    "70342:2759",
+    "10:291",
+    "11:1212",
+    "11:1226",
+    "70342:2760",
+    "11:1244",
+    "11:1245",
+    "11:1248",
+    "11:1249",
+    "11:1247",
+    "70342:2780",
+    "70342:2779",
+    "70342:2778",
+    "70342:2777",
+    "70342:2776",
+    "70342:2775",
+    "70342:2774",
+    "70342:2773",
+    "70342:2772",
+    "70342:2771",
+    "10:289",
+    "11:1252",
+    "11:1253",
+    "11:1250",
+    "11:1251",
+    "11:1258",
+    "11:1259",
+    "11:1260",
+    "11:1261",
+    "11:1262",
+    "11:1263",
+    "70364:239",
+    "70342:2782",
+    "11:1256",
+    "11:1254",
+    "70342:2800",
+    "70342:2799",
+    "70342:2798",
+    "11:1264",
+    "70342:2789",
+    "11:1177",
+    "70342:2783",
+    "11:1133",
+    "11:1142",
+    "70342:2797",
+    "11:1265",
+    "70342:2790",
+    "11:1178",
+    "70342:2785",
+    "11:1136",
+    "11:1145",
+    "70342:2796",
+    "11:1266",
+    "70342:2791",
+    "11:1179",
+    "70342:2786",
+    "11:1139",
+    "11:1148",
+    "70342:2795",
+    "11:1267",
+    "70342:2792",
+    "11:1180",
+    "70342:2787",
+    "11:1134",
+    "11:1143",
+    "11:1268",
+    "70342:2794",
+    "70342:2793",
+    "11:1182",
+    "70342:2788",
+    "11:1140",
+    "11:1149",
+    "70364:240",
+    "11:1269",
+    "11:1270",
+    "11:1271",
+    "70493:1151"
+  ],
+  "componentReferences": [
+    "11:1192",
+    "2:36",
+    "70486:555",
+    "70491:1286"
+  ],
+  "directTexts": [
+    {
+      "id": "10:290",
+      "text": "Início / Mercado",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1132",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 28,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1141",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1191",
+      "text": "19 avaliações de colecionadores",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1214",
+      "text": "Sobre este NFT:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1215",
+      "text": "Um colecionável digital finalizado à mão da coleção Kurio Editions, verificado na Ethereum, com arte desbloqueável e acesso para colecionadores.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1216",
+      "text": "Edição:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1219",
+      "text": "1/1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1221",
+      "text": "1/10",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1223",
+      "text": "1/50",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1225",
+      "text": "ABERTA",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70410:4200",
+      "text": "1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 28,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1240",
+      "text": "COMPRAR",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1242",
+      "text": "Favoritar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "10:291",
+      "text": "ID do token: #0042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1212",
+      "text": "Coleção: Kurio Apes",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1226",
+      "text": "Atributos: Óculos, Esmeralda, Raro",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1244",
+      "text": "Compartilhar este NFT:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "10:289",
+      "text": "Detalhes do NFT",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 17,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1253",
+      "text": "Avaliações de colecionadores (19)",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 17,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1251",
+      "text": "Emerald Ape #042 é uma obra digital 1/50 finalizada à mão da coleção Kurio Editions. Cada atributo fica armazenado nos metadados do token e verificado na Ethereum. A obra explora identidade, movimento e luz em um mundo digital sem fronteiras.\n\nA propriedade inclui a arte em alta resolução, lançamentos exclusivos para colecionadores e um registro permanente de procedência registrada na rede. Nova Sato recebe 5% de direitos autorais nas vendas secundárias, apoiando novos trabalhos e lançamentos da comunidade.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1258",
+      "text": "Rede:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1259",
+      "text": "Cunhado na Ethereum com procedência imutável e metadados armazenados no IPFS.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1260",
+      "text": "Contrato:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1261",
+      "text": "Direitos autorais do criador: 5% nas vendas secundárias, pagos automaticamente pelos mercados compatíveis.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1262",
+      "text": "Direitos autorais:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1263",
+      "text": "0x7A42...19E8 • Contrato inteligente ERC-721 verificado.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1256",
+      "text": "Mais desta coleção",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 17,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1133",
+      "text": "Cosmic Bloom #118",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1142",
+      "text": "1.29 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1136",
+      "text": "Violet Nomad #314",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1145",
+      "text": "1.39 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1139",
+      "text": "Ivory Baron #088",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1148",
+      "text": "1.79 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1134",
+      "text": "Golden Beat #207",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1143",
+      "text": "0.99 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1140",
+      "text": "Golden Signal #160",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "11:1149",
+      "text": "0.39 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70486:555",
+      "id": "70486:536",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:538",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:540",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:542",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:543",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:549",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:554",
+      "text": "Entrar"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:796",
+      "text": "W"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:797",
+      "text": "Segurança da carteira"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:798",
+      "text": "Proteja sua carteira e colecione arte digital verificada com confiança."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:845",
+      "text": "C"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:846",
+      "text": "Criadores em destaque"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:847",
+      "text": "Conheça artistas, estúdios e comunidades que moldam a cultura digital na rede."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:963",
+      "text": "D"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:964",
+      "text": "Alertas de lançamentos"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:965",
+      "text": "Receba calendários de cunhagem, novidades de listas de acesso e análises do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1235",
+      "text": "Antecipe-se ao próximo lançamento"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1238",
+      "text": "digite seu e-mail..."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1240",
+      "text": "Enviar"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1241",
+      "text": "Receba lançamentos selecionados, histórias de criadores e novidades do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1246",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1248",
+      "text": "Feito para colecionadores,\ncriadores e cultura"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1250",
+      "text": "contato@email.com"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1252",
+      "text": "+55 11 4002 8922"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1257",
+      "text": "Meu perfil"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1258",
+      "text": "Meu perfil\nMinha coleção\nAtividade\nEstúdio do criador\nLista de interesse"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1260",
+      "text": "Central de ajuda"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1261",
+      "text": "Central de ajuda\nComo comprar NFTs\nCarteira e segurança\nPolítica do mercado\nDenunciar item"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1263",
+      "text": "Coleções"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1264",
+      "text": "Arte digital\nFotografia\nMúsica\nArte 3D\nUtilidade"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1267",
+      "text": "Redes sociais"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1282",
+      "text": "Carteiras compatíveis"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1284",
+      "text": "METAMASK  •  WALLETCONNECT  •  COINBASE"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1285",
+      "text": "© 2026 Kurio. Propriedade digital para todos."
+    }
+  ]
+}

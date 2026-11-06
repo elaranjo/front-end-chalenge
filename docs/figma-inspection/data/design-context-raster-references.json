@@ -1,0 +1,252 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B",
+  "date": "2026-11-06",
+  "method": "Constantes raster retornadas pelos 15 contextos; nodeCandidate é o ID mais próximo no código gerado e exige revisão. URLs temporárias omitidas.",
+  "references": [
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgFrame136",
+      "nodeCandidate": "70342:2673",
+      "stagingIndex": 0
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork18",
+      "nodeCandidate": "70410:3798",
+      "stagingIndex": 1
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork05",
+      "nodeCandidate": "4:164",
+      "stagingIndex": 2
+    },
+    {
+      "frame": "F01",
+      "frameNode": "2:2",
+      "variable": "imgNftArtwork09",
+      "nodeCandidate": "4:286",
+      "stagingIndex": 3
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork04",
+      "nodeCandidate": "11:1181",
+      "stagingIndex": 4
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork06",
+      "nodeCandidate": "11:1177",
+      "stagingIndex": 5
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork08",
+      "nodeCandidate": "11:1179",
+      "stagingIndex": 6
+    },
+    {
+      "frame": "F02",
+      "frameNode": "10:244",
+      "variable": "imgNftCollectionArtwork09",
+      "nodeCandidate": "11:1180",
+      "stagingIndex": 7
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork6",
+      "nodeCandidate": "11:1900",
+      "stagingIndex": 8
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork7",
+      "nodeCandidate": "11:2092",
+      "stagingIndex": 9
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork8",
+      "nodeCandidate": "11:2094",
+      "stagingIndex": 10
+    },
+    {
+      "frame": "F03",
+      "frameNode": "11:1278",
+      "variable": "imgNftCartArtwork4",
+      "nodeCandidate": "11:1985",
+      "stagingIndex": 11
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork1",
+      "nodeCandidate": "I70522:3321;70504:3128",
+      "stagingIndex": 12
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork2",
+      "nodeCandidate": "I70522:3321;70504:3137",
+      "stagingIndex": 13
+    },
+    {
+      "frame": "F04",
+      "frameNode": "11:2862",
+      "variable": "imgNftReceiptArtwork3",
+      "nodeCandidate": "I70522:3321;70504:3146",
+      "stagingIndex": 14
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork1",
+      "nodeCandidate": "I70522:3496;70504:3128",
+      "stagingIndex": 15
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork2",
+      "nodeCandidate": "I70522:3496;70504:3137",
+      "stagingIndex": 16
+    },
+    {
+      "frame": "F05",
+      "frameNode": "11:4385",
+      "variable": "imgNftReceiptArtwork3",
+      "nodeCandidate": "I70522:3496;70504:3146",
+      "stagingIndex": 17
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork1",
+      "nodeCandidate": "I70522:3671;70504:3225",
+      "stagingIndex": 18
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork3",
+      "nodeCandidate": "I70522:3671;70504:3274",
+      "stagingIndex": 19
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork4",
+      "nodeCandidate": "I70522:3671;70504:3275",
+      "stagingIndex": 20
+    },
+    {
+      "frame": "F06",
+      "frameNode": "9:115",
+      "variable": "imgNftAuthArtwork6",
+      "nodeCandidate": "I70522:3671;70504:3290",
+      "stagingIndex": 21
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork1",
+      "nodeCandidate": "I70522:3841;70504:3225",
+      "stagingIndex": 22
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork3",
+      "nodeCandidate": "I70522:3841;70504:3274",
+      "stagingIndex": 23
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork4",
+      "nodeCandidate": "I70522:3841;70504:3275",
+      "stagingIndex": 24
+    },
+    {
+      "frame": "F07",
+      "frameNode": "9:1022",
+      "variable": "imgNftAuthArtwork6",
+      "nodeCandidate": "I70522:3841;70504:3290",
+      "stagingIndex": 25
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork1",
+      "nodeCandidate": "14:5238",
+      "stagingIndex": 26
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork2",
+      "nodeCandidate": "14:5239",
+      "stagingIndex": 27
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork5",
+      "nodeCandidate": "15:5416",
+      "stagingIndex": 28
+    },
+    {
+      "frame": "F10",
+      "frameNode": "14:5226",
+      "variable": "imgMobileNftArtwork6",
+      "nodeCandidate": "15:5431",
+      "stagingIndex": 29
+    },
+    {
+      "frame": "F11",
+      "frameNode": "15:5536",
+      "variable": "imgMobileNftHeroArtwork",
+      "nodeCandidate": "15:5639",
+      "stagingIndex": 30
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle106",
+      "nodeCandidate": "22:1315",
+      "stagingIndex": 31
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle108",
+      "nodeCandidate": "22:1318",
+      "stagingIndex": 32
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle110",
+      "nodeCandidate": "22:1332",
+      "stagingIndex": 33
+    },
+    {
+      "frame": "F12",
+      "frameNode": "16:360",
+      "variable": "imgRectangle112",
+      "nodeCandidate": "22:1346",
+      "stagingIndex": 34
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Revisão de acessibilidade em andamento
+
+`axe.json` registra a última execução automatizada em 56 casos: 14 estados em quatro larguras. Login e cadastro com erros de campos obrigatórios e carrinho vazio estão incluídos. Resultados `incomplete` exigem análise adicional e não são aprovação automática.
+
+Na execução mais recente de 06/11/2026, o axe registrou zero violações e 43 resultados inconclusivos nesses estados. O comando retorna erro quando encontra violações; a ausência delas não elimina a necessidade de revisar os resultados inconclusivos e os critérios não automatizados. O andamento dessa revisão está em [revisao-manual.md](revisao-manual.md).
+
+Na tela de carteiras, os seletores de rede, tipo de carteira e sufixo ENS usam uma seta SVG como imagem de fundo, o que impede o axe de determinar o contraste. A verificação em `tests/e2e/wallets.spec.ts` calcula o contraste da cor computada do texto sobre o fundo da página em 390 e 1440 pixels, antes e depois de selecionar valores; todos ficaram acima de 4,5:1. A seta ocupa a lateral do campo, fora da área de texto. Esse resultado cobre apenas esses controles e estados, não outros alertas ou a aparência de menus nativos abertos.
+
+Os seletores de sufixo ENS do perfil e do pagamento usam a mesma estratégia de seta. `tests/e2e/ens-contrast.spec.ts` mediu o contraste da cor computada do texto sobre o fundo sólido da página em 390, 414, 768 e 1440 pixels; as medições atingiram pelo menos 4,5:1. A verificação cobre o valor fechado `.eth`, não a aparência do menu nativo aberto nem os demais resultados inconclusivos.
+
+A revisão manual dos demais itens de contraste, nomes acessíveis, zoom, reflow e estados adicionais permanece pendente.
+
+No hero mobile, o axe não determinou o contraste sobre o SVG de fundo. A arte foi adaptada em larguras menores para evitar sobreposição. As cores foram temporariamente clareadas, mas a alteração foi revertida após o usuário confirmar a manutenção das cores originais do Figma. Com essas cores, `tests/e2e/hero-contrast.spec.ts` falha nos três tamanhos 320, 390 e 414 px: os mínimos medidos estão aproximadamente entre 4,25:1 e 4,28:1, abaixo de 4,5:1. A limitação permanece aberta e a decisão não transforma os testes em aprovados.
+
+`tests/e2e/contrast-surfaces.spec.ts` complementa a análise em 390 e 414 px para dois resultados inconclusivos do axe: a descrição do detalhe sobre o painel sólido e o texto do botão de checkout sobre seu gradiente. O primeiro usa cores computadas; o segundo compara pixels do texto com uma captura do fundo sem texto. Os dois cenários passaram com contraste mínimo de 4,5:1 nas amostras. Eles não cobrem outros textos, estados desabilitados ou a auditoria de contraste integral.
+
+`tests/e2e/reflow.spec.ts` verifica, em viewport de 320 × 844 CSS px, que o documento não apresenta overflow horizontal e que uma ação principal está alcançável em home, detalhe, carrinho, login, cadastro, perfil, carteiras, favoritos e pagamento. Um cenário adicional concluiu uma compra simulada nessa largura, abriu a revisão e verificou quatro itens e o botão de fechar do recibo. A execução local de 06/11/2026 passou nesses casos. A verificação não substitui zoom real de 200%/400%, não cobre todos os controles e estados, e não comprova a auditoria completa de reflow.
+
+Um cenário adicional usa apelido de carteira e ENS longos sem espaços no pagamento a 320 px: o primeiro passo não excede a largura, o cartão quebra o texto sem sobrepor o menu, a opção de edição permanece acessível e a revisão não apresenta rolagem horizontal. O cenário conclui a compra simulada e confere a largura do recibo com os dados do colecionador expandidos e do diálogo da transação. Antes das correções, a largura do documento chegava a 616 px e a revisão também transbordava; após os ajustes, o teste passou. O cenário visual de pagamento a 414 px também passou após a alteração do cartão.
+
+Tentativas anteriores em Chromium headless e no navegador integrado não alteraram as métricas observadas e não foram usadas como evidência de zoom. Posteriormente, sessões do Chrome com controle nativo confirmaram 200% e 400% e verificaram estados públicos e autenticados, incluindo compra simulada, conforme [revisao-manual.md](revisao-manual.md). A cobertura de todos os campos, estados e ações por teclado ainda está pendente.

@@ -1,0 +1,39 @@
+{
+  "package": "@fontsource-variable/roboto-mono",
+  "packageVersion": "5.3.0",
+  "family": "Roboto Mono",
+  "weights": "100–700 variáveis; 400/500/700 verificados no navegador",
+  "license": {
+    "type": "OFL-1.1",
+    "url": "https://openfontlicense.org",
+    "attribution": "Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono) RobotoMono-Italic[wght].ttf: Copyright 2015 The Roboto Mono Project Authors (https://github.com/googlefonts/robotomono)"
+  },
+  "licenseFileSha256": "b489132782690f2cc1ed23ab56d7057bbb08c42573603e8e704ae2e2ea9c8216",
+  "distributedLicensePath": "public/assets/fonts/roboto-mono-OFL.txt",
+  "files": [
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-cyrillic-ext-wght-normal.woff2",
+      "sha256": "6d72c2150c28b5305e7bfd0290edcf6038e556a9dd11a6ef15a1652548a35693"
+    },
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-cyrillic-wght-normal.woff2",
+      "sha256": "4052cc0b0f8b1b39da6cfaf90460f8b3c84dfc4b7562e9308ffa0998c3b9a005"
+    },
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-greek-wght-normal.woff2",
+      "sha256": "308f763acd5f648b0556c1f79b848102f494d0450072cfd2fd8064ddf287f4f8"
+    },
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-latin-ext-wght-normal.woff2",
+      "sha256": "4cc0d52e0fa37c28084e0cbce3589a8ab32dd21e6ea619489c5f7c6e8c43b922"
+    },
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-latin-wght-normal.woff2",
+      "sha256": "b81cd55177300649be8f95b3b747d721ce607e8ed2856e25bd0c630cfd631faf"
+    },
+    {
+      "path": "node_modules/@fontsource-variable/roboto-mono/files/roboto-mono-vietnamese-wght-normal.woff2",
+      "sha256": "a4f562a288609dcb8f13e2b52296f1f3360957f09060735d4f00b5886e5bc7e0"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B; get_design_context node 2:2",
+  "date": "2026-11-06",
+  "entries": [
+    {
+      "nodeId": "70343:262",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[normal] min-w-full relative shrink-0 text-[16px] text-[color:var(--color\\/text-primary,#f7f3ec)] w-[min-content]\" data-node-id=\"70343:262\""
+    },
+    {
+      "nodeId": "70343:265",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[14px] relative shrink-0\" data-node-id=\"70343:265\""
+    },
+    {
+      "nodeId": "70343:271",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[normal] min-w-full relative shrink-0 text-[16px] text-[color:var(--color\\/text-primary,#f7f3ec)] w-[min-content]\" data-node-id=\"70343:271\""
+    },
+    {
+      "nodeId": "70343:274",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[14px] relative shrink-0\" data-node-id=\"70343:274\""
+    },
+    {
+      "nodeId": "70343:280",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[normal] min-w-full relative shrink-0 text-[16px] text-[color:var(--color\\/text-primary,#f7f3ec)] w-[min-content]\" data-node-id=\"70343:280\""
+    },
+    {
+      "nodeId": "70343:283",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[14px] relative shrink-0\" data-node-id=\"70343:283\""
+    },
+    {
+      "nodeId": "70343:289",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[normal] min-w-full relative shrink-0 text-[16px] text-[color:var(--color\\/text-primary,#f7f3ec)] w-[min-content]\" data-node-id=\"70343:289\""
+    },
+    {
+      "nodeId": "70343:292",
+      "rawFont": "Inter / Semi Bold",
+      "resolvedFont": "Roboto Mono / Bold",
+      "evidence": "get_design_context F01, atributo de fonte e peso no texto",
+      "generatedTag": "<p className=\"font-[family-name:var(--font\\/family,'Roboto_Mono:Bold')] font-bold leading-[14px] relative shrink-0\" data-node-id=\"70343:292\""
+    }
+  ]
+}

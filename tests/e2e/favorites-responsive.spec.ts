@@ -1,0 +1,55 @@
+import { expect, test } from '@playwright/test'
+
+for (const width of [390, 1440]) {
+  test(`favorite persists across detail and list at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 })
+    await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
+    await page.getByRole('link', { name: 'Entrar para favoritar: Emerald Ape #042' }).click()
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    await expect(page).toHaveURL(/\/nfts\/emerald-ape-042$/)
+    const add = page.getByRole('button', { name: 'Adicionar aos favoritos: Emerald Ape #042' })
+    await expect(add).toBeEnabled()
+    const request = page.waitForResponse((response) => response.url().endsWith('/favorites/emerald-ape-042') && response.request().method() === 'PUT' && response.ok())
+    await add.click()
+    await request
+    await page.goto('http://127.0.0.1:5173/favorites')
+    await expect(page.getByRole('link', { name: /Emerald Ape #042/ })).toBeVisible()
+    await page.reload()
+    await expect(page.getByRole('link', { name: /Emerald Ape #042/ })).toBeVisible()
+    await page.goto('http://127.0.0.1:5173/profile')
+    if (width < 1280) await page.getByRole('button', { name: 'Meu perfil', exact: true }).click()
+    await page.getByRole('button', { name: 'Sair', exact: true }).click()
+    await page.goto('http://127.0.0.1:5173/login?returnTo=%2Ffavorites')
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.b@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoB!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    await expect(page.getByText('Você ainda não tem NFTs na lista de interesse.')).toBeVisible()
+    await expect(page.getByRole('link', { name: /Emerald Ape #042/ })).toHaveCount(0)
+  })
+
+  test(`favorite failure rolls back without hiding a newer intent at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 })
+    await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042?mockScenario=favorite-failure')
+    await page.getByRole('link', { name: 'Entrar para favoritar: Emerald Ape #042' }).click()
+    await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+    await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+    await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+    const add = page.getByRole('button', { name: 'Adicionar aos favoritos: Emerald Ape #042' })
+    await expect(add).toBeEnabled()
+    const failedPut = page.waitForResponse((response) => response.url().endsWith('/favorites/emerald-ape-042') && response.request().method() === 'PUT' && response.status() === 503)
+    await add.click()
+    const remove = page.getByRole('button', { name: 'Remover dos favoritos: Emerald Ape #042' })
+    await expect(remove).toHaveAttribute('aria-pressed', 'true')
+    const failedDelete = page.waitForResponse((response) => response.url().endsWith('/favorites/emerald-ape-042') && response.request().method() === 'DELETE' && response.status() === 503)
+    await remove.click()
+    await failedPut
+    await expect(add).toHaveAttribute('aria-pressed', 'false')
+    await expect(page.getByRole('alert').filter({ hasText: 'Não foi possível atualizar os favoritos.' })).toHaveCount(0)
+    await failedDelete
+    await expect(page.getByRole('alert').filter({ hasText: 'Não foi possível atualizar os favoritos.' })).toBeVisible()
+    await page.goto('http://127.0.0.1:5173/favorites')
+    await expect(page.getByText('Você ainda não tem NFTs na lista de interesse.')).toBeVisible()
+  })
+}

@@ -1,0 +1,535 @@
+{
+  "id": "9:115",
+  "name": "Desktop / Login",
+  "rawNodeIds": [
+    "9:115",
+    "70522:3671",
+    "9:945",
+    "70381:239",
+    "70381:240",
+    "70402:3571",
+    "9:977",
+    "9:949",
+    "70410:4120",
+    "9:950",
+    "70304:378",
+    "9:955",
+    "70381:241",
+    "70381:242",
+    "9:958",
+    "70381:243",
+    "9:959",
+    "9:963",
+    "70381:244",
+    "9:984",
+    "70381:245",
+    "70381:246",
+    "9:983",
+    "70381:247",
+    "70381:248",
+    "9:986",
+    "9:985",
+    "9:987",
+    "70402:3572",
+    "70484:260",
+    "70484:240",
+    "9:1228",
+    "9:947",
+    "9:948"
+  ],
+  "componentReferences": [
+    "2:36",
+    "4:149",
+    "4:153",
+    "70483:256",
+    "70483:262",
+    "70485:381",
+    "70486:529",
+    "70504:3017",
+    "70504:3297",
+    "9:964"
+  ],
+  "directTexts": [
+    {
+      "id": "9:949",
+      "text": "Entrar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:950",
+      "text": "Criar conta",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:955",
+      "text": "Entre para gerenciar sua carteira, coleção e perfil de criador.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 13,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:958",
+      "text": "contato@email.com",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:959",
+      "text": "***********",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:984",
+      "text": "Esqueceu a senha?",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:983",
+      "text": "Entrar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:985",
+      "text": "Ou continue com",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 13,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70486:529",
+      "id": "70486:510",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:513",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:515",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:516",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:517",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:523",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:528",
+      "text": "Entrar"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3227",
+      "text": "SEJA DONO DO FUTURO\nDA ARTE DIGITAL"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3228",
+      "text": "Bem-vindo à Kurio"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3229",
+      "text": "Descubra NFTs selecionados de criadores do mundo todo e colecione arte digital verificada."
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3231",
+      "text": "EXPLORAR"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3237",
+      "text": "Todos os NFTs"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3238",
+      "text": "Novos lançamentos"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3239",
+      "text": "Em alta"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3240",
+      "text": "Ordenar por:"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3241",
+      "text": "Listados recentemente"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3245",
+      "text": "Emerald Ape #042"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3246",
+      "text": "Cosmic Bloom #118"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3247",
+      "text": "Golden Beat #207"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3248",
+      "text": "Sage Nomad #009"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3249",
+      "text": "Violet Nomad #314"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3250",
+      "text": "Golden Frequency #071"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3251",
+      "text": "Neon Vessel #552"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3252",
+      "text": "Ivory Baron #088"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3253",
+      "text": "Golden Signal #160"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3254",
+      "text": "1.19 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3255",
+      "text": "1.29 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3256",
+      "text": "0.99 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3257",
+      "text": "1.69 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3258",
+      "text": "1.39 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3259",
+      "text": "0.59 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3260",
+      "text": "1.99 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3261",
+      "text": "1.79 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3262",
+      "text": "0.39 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3263",
+      "text": "2.29 ETH"
+    },
+    {
+      "componentId": "70504:3297",
+      "id": "70504:3279",
+      "text": "RARO"
+    },
+    {
+      "componentId": "70483:262",
+      "id": "70483:261",
+      "text": "Continuar com Facebook"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:319",
+      "text": "Coleções"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:323",
+      "text": "Arte digital"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:324",
+      "text": "(33)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:327",
+      "text": "Fotografia"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:328",
+      "text": "(12)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:331",
+      "text": "Música"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:332",
+      "text": "(65)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:335",
+      "text": "Arte 3D"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:336",
+      "text": "(39)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:339",
+      "text": "Colecionáveis"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:340",
+      "text": "(23)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:343",
+      "text": "Generativa"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:344",
+      "text": "(17)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:347",
+      "text": "Jogos"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:348",
+      "text": "(19)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:351",
+      "text": "Assinaturas"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:352",
+      "text": "(13)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:355",
+      "text": "Utilidade"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:356",
+      "text": "(18)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:358",
+      "text": "Faixa de preço"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:366",
+      "text": "Preço: 0,02 - 12,30 ETH"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:368",
+      "text": "Aplicar"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:370",
+      "text": "Rede"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:373",
+      "text": "Ethereum"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:374",
+      "text": "(119)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:376",
+      "text": "Polygon"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:377",
+      "text": "(78)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:379",
+      "text": "Solana"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:380",
+      "text": "(86)"
+    },
+    {
+      "componentId": "70483:256",
+      "id": "70483:255",
+      "text": "Continuar com Google"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "16:1022",
+  "name": "Mobile / Login",
+  "rawNodeIds": [
+    "16:1022",
+    "70399:239",
+    "70278:430",
+    "70399:240",
+    "16:1173",
+    "70399:241",
+    "70410:4221",
+    "16:1182",
+    "70410:4220",
+    "70410:4219",
+    "16:1217",
+    "16:1185",
+    "16:1191",
+    "70399:242",
+    "16:1183",
+    "70399:243",
+    "16:1192",
+    "70522:3186",
+    "70399:247",
+    "16:1227"
+  ],
+  "componentReferences": [
+    "70483:256",
+    "70483:262",
+    "70504:2994",
+    "9:964"
+  ],
+  "directTexts": [
+    {
+      "id": "70278:430",
+      "text": "KURIO",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 32,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 10,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1173",
+      "text": "Entrar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1182",
+      "text": "contato@email.com",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1185",
+      "text": "***********",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1183",
+      "text": "Esqueceu a senha?",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1192",
+      "text": "Entrar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "16:1227",
+      "text": "Novo na Kurio? Crie uma conta",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70483:262",
+      "id": "70483:261",
+      "text": "Continuar com Facebook"
+    },
+    {
+      "componentId": "70483:256",
+      "id": "70483:255",
+      "text": "Continuar com Google"
+    },
+    {
+      "componentId": "70504:2994",
+      "id": "70504:2989",
+      "text": "Ou continue com"
+    }
+  ]
+}

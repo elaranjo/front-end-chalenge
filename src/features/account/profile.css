@@ -1,0 +1,53 @@
+.profile-form { margin-top: 28px; }
+.profile-top { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 32px; }
+.profile-fields, .profile-passwords { display: grid; gap: 20px; }
+.profile-field, .profile-passwords label { display: grid; gap: 4px; }
+.profile-fields input, .profile-password input { width: 100%; height: 40px; padding: 0 12px; border: 1px solid #4a2a1d; border-radius: 3px; background: transparent; color: #f5f1eb; }
+.profile-avatar { display: flex; flex-wrap: wrap; gap: 12px; align-content: start; }
+.profile-avatar img, .profile-avatar-placeholder { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; background: #241612; }
+.profile-avatar button, .profile-avatar-change { border: 0; padding: 0; background: none; color: #d28a4c; cursor: pointer; }
+.profile-avatar-change input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.profile-avatar-change:focus-within { outline: 2px solid #f5f1eb; outline-offset: 3px; }
+.profile-form h2 { margin: 35px 0 20px; font-size: 18px; }
+.profile-passwords { max-width: 417px; }
+.profile-password { display: flex; }
+.profile-password button { border: 1px solid #4a2a1d; background: transparent; color: #d28a4c; }
+.profile-error { color: #ffb4a5; }
+@media (max-width: 767px) { .profile-top { grid-template-columns: 1fr; } .profile-avatar { grid-row: 1; } }
+.profile-top { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; row-gap: 28px; }
+.profile-fields { display: contents; }
+.profile-field { min-width: 0; }
+.profile-required { color: #e27662; }
+.profile-ens { display: flex; gap: 10px; }
+.profile-ens select { flex: 0 0 78px; width: 78px; height: 40px; padding: 0 30px 0 10px; border: 1px solid #4a2a1d; border-radius: 3px; appearance: none; background: transparent url('/assets/icons/context-bd200d44e9af2433.svg') no-repeat right 5px center / 20px; color: #f5f1eb; }
+.profile-ens select option { background: #241612; }
+.profile-ens input { min-width: 0; }
+.profile-avatar { align-items: center; align-content: start; gap: 16px 24px; }
+.profile-avatar-label { flex-basis: 100%; }
+.profile-avatar img, .profile-avatar-placeholder { width: 50px; height: 50px; }
+.profile-avatar-change { padding: 10px 25px; border-radius: 3px; background: #d28a4c; color: #140d0a; font-weight: 700; }
+.profile-avatar button { color: #f5f1eb; }
+.profile-form h2 { color: #f5f1eb; font: 700 16px/20px 'Roboto Mono Variable', monospace; }
+.profile-passwords { gap: 24px; }
+.profile-passwords label { gap: 12px; line-height: 15px; }
+.profile-password { position: relative; }
+.profile-password input { padding-right: 44px; }
+.profile-password button { position: absolute; right: 6px; top: 0; display: grid; place-items: center; width: 40px; height: 40px; padding: 0; border: 0; }
+.profile-password-icon { position: relative; display: block; width: 20px; height: 20px; }
+.profile-password-icon img { position: absolute; left: 8.33%; top: 16.67%; display: block; max-width: none; }
+.profile-form > .wallet-save { width: 131px; height: 40px; }
+@media (max-width: 767px) { .profile-top { grid-template-columns: 1fr; gap: 18px; } .profile-avatar { grid-row: auto; } }
+.profile-field { gap: 14px; }
+.profile-field > label, .profile-avatar-label { font-size: 15px; line-height: 20px; }
+.profile-passwords label { font-size: 15px; }
+.profile-form h2 { font-weight: 500; }
+.profile-avatar { row-gap: 4px; }
+.profile-avatar-placeholder { display: grid; place-items: center; border: 1px solid #3f2319; background: #2f1d15; }
+.profile-avatar-icon { position: relative; display: block; width: 24px; height: 24px; }
+.profile-avatar-placeholder .profile-avatar-icon img { position: absolute; top: 8.34%; left: 8.34%; display: block; width: auto; height: auto; max-width: none; border-radius: 0; background: transparent; }
+@media (min-width: 768px) and (max-width: 1023px) { .profile-top { grid-template-columns: 1fr; } }
+@media (min-width: 1024px) {
+  .profile-form { margin-top: 32px; }
+  .wallet-main:has(.profile-form) > .wallet-heading h1 { font-size: 16px; line-height: 20px; }
+}
+.profile-avatar-change { display: grid; place-items: center; width: 98px; height: 40px; padding: 0; }

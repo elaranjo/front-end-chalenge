@@ -1,0 +1,367 @@
+{
+  "id": "15:5536",
+  "name": "Mobile / Detalhes do NFT",
+  "rawNodeIds": [
+    "15:5536",
+    "70396:241",
+    "15:5559",
+    "15:5657",
+    "15:5653",
+    "15:5654",
+    "15:5656",
+    "70410:4159",
+    "70410:4158",
+    "15:5754",
+    "70410:4156",
+    "15:5745",
+    "15:5755",
+    "15:5640",
+    "70410:4157",
+    "15:5642",
+    "15:5639",
+    "70396:242",
+    "70396:243",
+    "15:5561",
+    "15:5690",
+    "15:5663",
+    "15:5689",
+    "15:5662",
+    "15:5687",
+    "15:5688",
+    "15:5668",
+    "15:5761",
+    "15:5660",
+    "70410:4178",
+    "70410:4166",
+    "15:5670",
+    "15:5674",
+    "70410:4173",
+    "70410:4174",
+    "70410:4175",
+    "70410:4167",
+    "15:5671",
+    "15:5675",
+    "70410:4168",
+    "15:5672",
+    "15:5676",
+    "70396:244",
+    "15:5693",
+    "15:5694",
+    "15:5695",
+    "70396:245",
+    "70410:4214",
+    "70410:4210",
+    "16:355",
+    "15:5759",
+    "70410:4179",
+    "70410:4202",
+    "70410:4203",
+    "70410:4204",
+    "15:5720",
+    "70410:4206",
+    "70410:4207",
+    "70410:4208",
+    "15:5562",
+    "70410:4213",
+    "70410:4211",
+    "15:5728",
+    "70410:4212",
+    "16:357"
+  ],
+  "componentReferences": [
+    "11:1192",
+    "15:5524",
+    "15:5746"
+  ],
+  "directTexts": [
+    {
+      "id": "15:5561",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5662",
+      "text": "(19)",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5687",
+      "text": "4.8",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5668",
+      "text": "Um colecionável digital 1/50 finalizado à mão da coleção Kurio Editions, verificado na Ethereum.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5660",
+      "text": "Edição:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5674",
+      "text": "1/10",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70410:4175",
+      "text": "1/10",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5675",
+      "text": "1/50",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5676",
+      "text": "ABERTA",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5693",
+      "text": "ID do token: #0042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5694",
+      "text": "Coleção: Kurio Apes",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5695",
+      "text": "Atributos: Óculos, Esmeralda, Raro",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5759",
+      "text": "Qtd.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5720",
+      "text": "1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 10,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5562",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 20,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5728",
+      "text": "Comprar NFT",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": []
+}

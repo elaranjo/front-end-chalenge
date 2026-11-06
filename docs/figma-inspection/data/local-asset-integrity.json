@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-11-06T05:57:13.418712+00:00",
+  "sourceFigSha256": "7017e04fa195974ae22a27c78dc88413eb5292a849bf4defbe295062813e0dbd",
+  "references": [
+    {
+      "id": "F01",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F02",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F03",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F04",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F05",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F06",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F07",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F08",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F09",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F10",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F11",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F12",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F13",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F14",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    },
+    {
+      "id": "F15",
+      "sha256Matches": true,
+      "dimensionsMatch": true
+    }
+  ],
+  "icons": [
+    {
+      "file": "home-hero-background.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "home-tab-bar.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "cart-detail-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "back-detail-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "heart-detail-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "login-desktop.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "cart-desktop.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "search-desktop.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "password-hide-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "google-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "facebook-mobile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-profile.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-wallets.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-activity.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-favorites.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-offers.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-downloads.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-support.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-logout.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "profile-avatar.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "checkout-coinbase-wallet.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "checkout-wallet-menu.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "order-thank-you.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-profile-inactive.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-wallets-active.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "account-favorites-active.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "cart-remove.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "footer-facebook.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "footer-instagram.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "footer-twitter.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "footer-linkedin.svg",
+      "sha256Matches": true
+    },
+    {
+      "file": "footer-youtube.svg",
+      "sha256Matches": true
+    }
+  ],
+  "nftImages": [
+    {
+      "file": "2986a7cb16d09de8970824d2dd58bf0bb021702c.png",
+      "sha1MatchesName": true
+    },
+    {
+      "file": "9df2ff42dd27ba657621c304557d1a855a4be6a5.png",
+      "sha1MatchesName": true
+    },
+    {
+      "file": "8459204731e6eba9d474cbc8ebc37071360d3ba5.png",
+      "sha1MatchesName": true
+    },
+    {
+      "file": "87580f2def9af0ce13f4b6f6ce17bb2449bcfc16.png",
+      "sha1MatchesName": true
+    }
+  ],
+  "scope": "Integridade local dos arquivos inventariados; não prova que todos os vetores foram extraídos nem fidelidade visual."
+}

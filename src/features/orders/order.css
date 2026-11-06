@@ -1,0 +1,82 @@
+.order-page { min-height: 100vh; padding: 48px 24px; background: #140d0a; color: #fff; font-family: 'Roboto Mono', monospace; }
+.order-panel { position: relative; max-width: 578px; margin: 118px auto 0; padding: 32px; background: #24211f; }
+.order-panel button { font: inherit; cursor: pointer; padding: 12px; }
+.order-close { position: absolute; top: 12px; right: 12px; }
+.order-metadata { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; overflow-wrap: anywhere; }
+.order-metadata dd, .order-totals dd { margin: 4px 0; }
+.order-item { display: flex; gap: 12px; margin: 16px 0; align-items: flex-start; }
+.order-item img { width: 70px; height: 70px; object-fit: cover; }
+.order-item p { margin: 5px 0; }
+.order-item > strong { margin-left: auto; white-space: nowrap; }
+.order-totals div { display: flex; justify-content: space-between; gap: 20px; }
+@media (max-width: 767px) { .order-page { padding: 20px; } .order-panel { margin: 0 auto; padding: 24px; } .order-item { flex-wrap: wrap; } }
+.order-collector summary { cursor: pointer; }
+.order-collector dl > div, .order-transaction-dialog dl > div { margin: 12px 0; }
+.order-collector dd, .order-transaction-dialog dd { margin: 4px 0; overflow-wrap: anywhere; }
+.order-transaction-dialog { position: fixed; inset: 0 0 0 auto; width: min(100%, 520px); max-width: 100%; height: 100%; max-height: 100%; margin: 0; padding: 24px; border: 0; overflow: auto; background: #241612; color: #f5f1eb; font: 14px/1.5 'Roboto Mono Variable', monospace; }
+.order-transaction-dialog::backdrop { background: #0009; }
+.order-transaction-dialog h2 { color: #f5f1eb; }
+.order-transaction-dialog button { font: inherit; padding: 10px 20px; cursor: pointer; }
+.order-page { box-sizing: border-box; color: #f5f1eb; font: 400 14px/1.45 'Roboto Mono Variable', monospace; text-align: left; }
+.order-page * { box-sizing: border-box; }
+.order-receipt { width: 100%; max-width: 578px; padding: 112px 44px 48px; border-bottom: 10px solid #d28a4c; background: #241612; }
+.order-receipt h1 { margin: 0 -20px 20px; color: #c6ac87; text-align: center; font: 700 16px/20px 'Roboto Mono Variable', monospace; letter-spacing: 0; }
+.order-receipt h2 { margin: 20px 0 12px; color: #f5f1eb; font: 700 14px/20px 'Roboto Mono Variable', monospace; letter-spacing: 0; }
+.order-receipt .order-close { top: 14px; right: 14px; padding: 0; border: 0; background: transparent; color: #d28a4c; font-size: 24px; line-height: 24px; }
+.order-metadata { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin: 0 -44px; padding: 16px 28px; border-top: 1px solid #d28a4c; border-bottom: 1px solid #d28a4c; color: #c6ac87; font-size: 12px; }
+.order-metadata > div { padding: 0 8px; min-width: 0; }
+.order-metadata > div + div { border-left: 1px solid #d28a4c; }
+.order-metadata dd { margin: 0; }
+.order-item { align-items: center; text-align: left; }
+.order-item img { flex: 0 0 70px; border-radius: 6px; }
+.order-item > div { min-width: 0; flex: 1; }
+.order-item p { color: #b89569; font-size: 12px; }
+.order-item > strong { color: #d28a4c; }
+.order-totals { border-top: 1px solid #4a2a1d; border-bottom: 1px solid #4a2a1d; padding: 10px 0; }
+.order-totals > div { margin: 8px 0; }
+.order-totals > div:last-child { font-weight: 700; }
+.order-totals > div:last-child dd { color: #d28a4c; }
+.order-receipt > p { color: #c6ac87; overflow-wrap: anywhere; }
+.order-receipt > button:not(.order-close) { display: block; margin: 24px auto 0; border: 0; border-radius: 4px; background: #d28a4c; color: #140d0a; font-weight: 700; }
+.order-receipt :focus-visible { outline: 2px solid #f5f1eb; outline-offset: 3px; }
+@media (max-width: 767px) {
+  .order-receipt { padding: 80px 24px 32px; }
+  .order-metadata { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 0; margin: 0 -24px; padding: 16px; }
+  .order-metadata > div:nth-child(3) { border-left: 0; }
+  .order-item { flex-wrap: nowrap; }
+}
+.order-receipt { padding-top: 118px; }
+.order-illustration { position: absolute; top: 22px; left: 50%; width: 80px; height: 80px; transform: translateX(-50%); }
+@media (max-width: 767px) { .order-receipt { padding-top: 118px; } }
+
+.order-item-heading, .order-item { display: grid; grid-template-columns: minmax(0, 1fr) 76px 108px; gap: 12px; align-items: center; }
+.order-item-heading { padding-bottom: 8px; border-bottom: 1px solid #4a2a1d; font-weight: 700; }
+.order-item-heading span:last-child, .order-item > strong { text-align: right; }
+.order-item-identity { display: flex; min-width: 0; gap: 12px; align-items: center; }
+.order-item-identity > div { min-width: 0; overflow-wrap: anywhere; }
+.order-item-quantity { color: #c6ac87; text-align: center; }
+@media (max-width: 767px) { .order-item-heading, .order-item { grid-template-columns: minmax(0, 1fr) 45px 78px; gap: 6px; } .order-item img { width: 48px; height: 48px; flex-basis: 48px; } .order-item-identity { gap: 8px; } .order-item > strong { white-space: normal; overflow-wrap: anywhere; } }
+
+@media (min-width: 768px) {
+  .order-metadata { grid-template-columns: 145fr 145fr 127fr 89fr; font-size: 14px; line-height: 20px; }
+}
+.order-metadata > div:first-child dt, .order-metadata > div:last-child dt { font-weight: 700; }
+
+.order-metadata { overflow-wrap: normal; }
+.order-metadata dd { overflow-wrap: anywhere; }
+@media (min-width: 768px) {
+  .order-metadata { padding-top: 12px; padding-bottom: 12px; }
+}
+.order-item-identity strong { font-size: 16px; line-height: 20px; }
+.order-item-identity p { font-size: 14px; line-height: 20px; }
+.order-item > strong { font-size: 18px; line-height: 24px; }
+@media (max-width: 767px) {
+  .order-item-identity strong { font-size: 14px; }
+  .order-item-identity p { font-size: 12px; }
+  .order-item > strong { font-size: 14px; }
+}
+
+.order-transaction-overlay { position: fixed; inset: 0; background: #0009; z-index: 50; }
+.order-transaction-dialog { z-index: 51; }
+
+.order-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }

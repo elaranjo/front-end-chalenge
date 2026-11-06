@@ -1,0 +1,22 @@
+import { expect, test } from '@playwright/test'
+
+test('desktop header shows cart quantity, accessible search and session entry', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 })
+  await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')
+  await page.getByRole('button', { name: 'Aumentar quantidade' }).click()
+  await page.getByRole('button', { name: 'Adicionar ao carrinho' }).click()
+  await expect(page.getByRole('status')).toHaveText('NFT adicionado ao carrinho.')
+  await page.goto('http://127.0.0.1:5173/')
+  await expect(page.getByRole('link', { name: 'Carrinho, 2 itens' })).toBeVisible()
+  const search = page.getByRole('button', { name: 'Buscar NFTs' })
+  await search.click()
+  await expect(page.getByRole('textbox', { name: 'Buscar NFTs' })).toBeFocused()
+  await page.keyboard.press('Escape')
+  await expect(search).toBeFocused()
+  await page.getByRole('link', { name: 'Entrar', exact: true }).click()
+  await page.getByLabel('E-mail', { exact: true }).fill('colecionador.a@kurio.test')
+  await page.getByLabel('Senha', { exact: true }).fill('DemoA!2026')
+  await page.getByRole('button', { name: 'Entrar', exact: true }).click()
+  await expect(page.getByRole('link', { name: 'Meu perfil', exact: true }).first()).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Carrinho, 2 itens' })).toBeVisible()
+})

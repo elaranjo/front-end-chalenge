@@ -1,0 +1,1976 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B and preserved original .fig snapshot (SHA-256 7017e04fa195974ae22a27c78dc88413eb5292a849bf4defbe295062813e0dbd); see each asset detail.",
+  "sourceLicense": "Não especificada nas fontes disponibilizadas para o desafio.",
+  "assets": [
+    {
+      "file": "home-hero-background.svg",
+      "nodeId": "14:5290",
+      "detail": "Mask Group do Hero Banner em Mobile / Início, exportado como SVG da cópia do Figma.",
+      "size": [
+        366,
+        190
+      ],
+      "sha256": "6c6678f98575fc16acc1fbce060c2b806e1d9d4d29d6693593fc4a5a8e224641"
+    },
+    {
+      "file": "home-tab-bar.svg",
+      "nodeId": "70395:245",
+      "detail": "Grupo Tab Bar do frame Mobile / Início, exportado integralmente como SVG da cópia do Figma; as ações e o badge são controles HTML sobrepostos.",
+      "size": [
+        414,
+        135
+      ],
+      "sha256": "d0cb06325bb1dc2e98dc04a1b45c09f0293b407e6efe37d3eba081e00400aaf6"
+    },
+    {
+      "file": "cart-detail-mobile.svg",
+      "nodeId": "16:357",
+      "detail": "Componente Shop do botão de carrinho em Mobile / Detalhes do NFT, exportado como SVG da cópia do Figma.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "89298c5b0324863320f6e7476a8bdfb231302332ebb8b02003cb397c95f54411"
+    },
+    {
+      "file": "back-detail-mobile.svg",
+      "nodeId": "15:5754",
+      "detail": "Grupo Back do frame Mobile / Detalhes do NFT, exportado integralmente como SVG da cópia do Figma.",
+      "size": [
+        35,
+        35
+      ],
+      "sha256": "99481f2069ff685b2265e2f6a7a3427bc0f50046f71ab57c3450240d6730ceb8"
+    },
+    {
+      "file": "heart-detail-mobile.svg",
+      "nodeId": "15:5755",
+      "detail": "Grupo Heart do frame Mobile / Detalhes do NFT, exportado integralmente como SVG da cópia do Figma.",
+      "size": [
+        35,
+        35
+      ],
+      "sha256": "d4c604363c9e4cb2590735fe700e94474cb3fa94849146cb039efbdde520a547"
+    },
+    {
+      "file": "login-desktop.svg",
+      "nodeId": "70522:3240",
+      "detail": "Grupo Logout selecionado dentro de Login Button Content na instância Header With Divider do frame Desktop / Início; exportação SVG direta da cópia.",
+      "size": [
+        21,
+        20
+      ],
+      "sha256": "93f246dc83458302ac002dae0adab0d31f3b5d2960938a99f525cc9aa7ec12f7"
+    },
+    {
+      "file": "cart-desktop.svg",
+      "nodeId": "70522:3240",
+      "detail": "Cart Icon selecionado dentro da instância Header With Divider no frame Desktop / Início; exportação SVG direta da cópia, sem badge.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "d9d482c082db26da515851dbb4b021cfa439d8dd14997cecc7dd6860f08a1076"
+    },
+    {
+      "file": "search-desktop.svg",
+      "nodeId": "70522:3240",
+      "detail": "Search Icon selecionado dentro da instância Header With Divider no frame Desktop / Início; exportação SVG direta da cópia.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "da8e0ce7a8a06f683f4f8b4497a49cea8685550c99422852a675e955b427da62"
+    },
+    {
+      "file": "password-hide-mobile.svg",
+      "nodeId": "16:1191",
+      "detail": "Instância Iconly/Curved/Hide de 18 × 18 no cadastro mobile.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "7addfe26fb673a159e717fe3aa52fc4537a9ca871f61b48f3364f0abe7c08a56"
+    },
+    {
+      "file": "google-mobile.svg",
+      "nodeId": "16:1228",
+      "detail": "Seven original paths isolated from the 20x20 Google logo clip in the exported mobile signup frame.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "a997e578da7cff303b133e16fc59cdbf621d126ef34ab79107d94ffd1013c604"
+    },
+    {
+      "file": "facebook-mobile.svg",
+      "nodeId": "16:1228",
+      "detail": "Original path isolated from the mobile signup frame, with the 20x20 frame and child offset from component 70483:259.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "5c15dd6bd41606a6d9c048dba1bbafe43c1bfb8e6c50ca2e42cd080e0e588d7e"
+    },
+    {
+      "file": "account-profile.svg",
+      "nodeId": "70420:4541",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "d4d3e10bf6e2d5dd4778bbde16b656027ade0e93c562c6e74d5beed3fa9e031e"
+    },
+    {
+      "file": "account-wallets.svg",
+      "nodeId": "70420:4544",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "d648e3200d41b01bdf5a4739474dc8aece490a42ba9ca4bb8974153ee8c381ef"
+    },
+    {
+      "file": "account-activity.svg",
+      "nodeId": "70420:4547",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "20acd0636c8a1342d0b6ed7d97e895c294ff9e6b2780ca78f2f38bdc804a588a"
+    },
+    {
+      "file": "account-favorites.svg",
+      "nodeId": "70420:4551",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        16.000030517578125,
+        16
+      ],
+      "sha256": "26d8229c89b36e49475659c6aacadd5f080bc8bf6e6be37d266608f40fff46ae"
+    },
+    {
+      "file": "account-offers.svg",
+      "nodeId": "70420:4555",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "5d02fe393065237934d987e4056c4050f9c44627db6ca2f406ff270b3f723937"
+    },
+    {
+      "file": "account-downloads.svg",
+      "nodeId": "70420:4558",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "36302519eedae1ffb47dce0cf5cf595cce3083b4073cd6de14a45cdfc6eab7c1"
+    },
+    {
+      "file": "account-support.svg",
+      "nodeId": "70420:4561",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "233ceae0aff23a23a88805412a46a87c07f9db4098ffff4ac590d09740032b5c"
+    },
+    {
+      "file": "account-logout.svg",
+      "nodeId": "70420:4565",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "15382fec97c9f0d0cc4c83263e54d678eae41567eb0349e3419a736205d8963d"
+    },
+    {
+      "file": "profile-avatar.svg",
+      "nodeId": "9:1560",
+      "detail": "Geometria extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "2794fa2b14339f341e91d763eb864f181a9617a2da98596f5dd5a53e95a015af"
+    },
+    {
+      "file": "checkout-coinbase-wallet.svg",
+      "nodeId": "23:1379",
+      "detail": "Geometria extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "abf035db0e8a2139d8cd23529001fc6d2a5db2357edf0925f09267c9cfd62846"
+    },
+    {
+      "file": "checkout-wallet-menu.svg",
+      "nodeId": "16:990",
+      "detail": "Geometria extraída do snapshot .fig; cor da instância aplicada no SVG.",
+      "size": [
+        3,
+        15
+      ],
+      "sha256": "9b1b424afa5e6377cae96dd0d92b706fcacf111764bb85f891106a5dd989f3eb"
+    },
+    {
+      "file": "order-thank-you.svg",
+      "nodeId": "11:5150",
+      "detail": "Geometria vetorial do envelope e letras extraída do snapshot .fig.",
+      "size": [
+        80,
+        80
+      ],
+      "sha256": "60777a9f3e2e3c3d4cfc3f24b5ee48337baf396a0778fdbe3fc7b672d297ec14"
+    },
+    {
+      "file": "account-profile-inactive.svg",
+      "nodeId": "70420:4541",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG. Variante de cor conforme estado do menu.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "54d9bcf7990554c0bb9351d3e8b6a6204ba63b3cd2f6c6685cdbfb649bd754ef"
+    },
+    {
+      "file": "account-wallets-active.svg",
+      "nodeId": "70420:4544",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG. Variante de cor conforme estado do menu.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "7ec523ad4bfe6d938439a070e67858a33d7c424006bd9435a3aebc0d0da7d1d2"
+    },
+    {
+      "file": "account-favorites-active.svg",
+      "nodeId": "70420:4551",
+      "detail": "Geometria de preenchimento/vetor extraída do snapshot .fig; cor da instância aplicada no SVG. Variante de cor conforme estado do menu.",
+      "size": [
+        16.000030517578125,
+        16
+      ],
+      "sha256": "35148bfbb8c93aa44831063785b37b1e0d186e0809615548292d1e71ce7a1aba"
+    },
+    {
+      "file": "cart-remove.svg",
+      "nodeId": "16:463",
+      "detail": "Geometria do símbolo de exclusão extraída do snapshot .fig; cor da instância resolvida.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "e53ba7cf54ff11b2aa1f0a63e9b431c59a3b0c23142b45a9452542cecc327042"
+    },
+    {
+      "file": "footer-facebook.svg",
+      "nodeId": "70491:1270",
+      "detail": "Geometria vetorial do componente Footer extraída do snapshot .fig; viewBox corresponde ao botão de 30 × 30.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "36652c200c995b06aa4975e811e15cff210c93e59b1334a3575168f2d77fbe52"
+    },
+    {
+      "file": "footer-instagram.svg",
+      "nodeId": "70491:1272",
+      "detail": "Geometria vetorial do componente Footer extraída do snapshot .fig; viewBox corresponde ao botão de 30 × 30.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "eef42cb4309bf73b73ec2fc1b76394fb061a196d436064ccedf73314982fe78d"
+    },
+    {
+      "file": "footer-twitter.svg",
+      "nodeId": "70491:1274",
+      "detail": "Geometria vetorial do componente Footer extraída do snapshot .fig; viewBox corresponde ao botão de 30 × 30.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "f3f460c0c2751c431259400e41bc46c637784d67490a3915d3c4137729189c22"
+    },
+    {
+      "file": "footer-linkedin.svg",
+      "nodeId": "70491:1276",
+      "detail": "Geometria vetorial do componente Footer extraída do snapshot .fig; viewBox corresponde ao botão de 30 × 30.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "1da15d5ef4bb8538e36dca5ae199b56c790404c101c399d2562f44b18643b166"
+    },
+    {
+      "file": "footer-youtube.svg",
+      "nodeId": "70491:1278",
+      "detail": "Geometria vetorial do componente Footer extraída do snapshot .fig; viewBox corresponde ao botão de 30 × 30.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "cfd4813c5d6c078f6fc6b496f2a5dc03346322bfd3b34b9949ed9cd99699cff7"
+    },
+    {
+      "file": "detail-rating-star.svg",
+      "nodeId": "11:1192",
+      "detail": "Geometria do símbolo Star, com a cor da instância 15:5663 no detalhe mobile.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "f4d2c49c45fb230eea6cf6aee8bb8a05d8eabea57ef1a6abc5e223722decb10a"
+    },
+    {
+      "file": "detail-zoom-desktop.svg",
+      "nodeId": "70410:3935",
+      "detail": "Geometria do ícone de ampliação na referência desktop de detalhes.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "292d26d7bbcddcdb1b35934481abcb6303c21b89e8e81b35dd72925da27cca29"
+    },
+    {
+      "file": "detail-share-linkedin.svg",
+      "nodeId": "11:1245",
+      "detail": "Geometria de compartilhamento do detalhe desktop extraída do snapshot .fig.",
+      "size": [
+        15,
+        14.375
+      ],
+      "sha256": "17544f87459257c20609a29a0e2e43bcc1bea8c680f9371ba070fc97e53507c9"
+    },
+    {
+      "file": "detail-share-twitter.svg",
+      "nodeId": "11:1247",
+      "detail": "Geometria de compartilhamento do detalhe desktop extraída do snapshot .fig.",
+      "size": [
+        15.965665817260742,
+        12.190837860107422
+      ],
+      "sha256": "34c6b385dcb5b985c76df3aa69bf532347ef4a37958299cdc54da08036518212"
+    },
+    {
+      "file": "detail-share-email.svg",
+      "nodeId": "11:1248",
+      "detail": "Geometria de compartilhamento do detalhe desktop extraída do snapshot .fig.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "1cdf6a3543b99ba89adfd5739d8faa55825bb01eee16a32633c6c6887145c92b"
+    },
+    {
+      "file": "home-filter-mobile.svg",
+      "nodeId": "15:5313",
+      "detail": "Contornos do símbolo de filtro extraídos do snapshot; cor escura conforme a referência F10.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "85700263f71c32bb7d2e174012ca89c1d9b9fb15930ba6411a73113b219ca4f8"
+    },
+    {
+      "file": "home-favorite.svg",
+      "nodeId": "15:5464",
+      "detail": "Botão e coração do card mobile, extraídos do snapshot .fig.",
+      "size": [
+        28,
+        28
+      ],
+      "sha256": "130618544970c28b97606024db93f969c245171d1bc1f63ccf2ddf9fe39c0bb9"
+    },
+    {
+      "file": "profile-password-hide.svg",
+      "nodeId": "9:1592",
+      "detail": "Símbolo Light-Outline/Hide do perfil, incluindo máscaras vetoriais do snapshot .fig.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "666155a3dbc69a284513fc78dc180288467bbdd0902d1e6ced84702d581b9526"
+    },
+    {
+      "file": "profile-ens-arrow.svg",
+      "nodeId": "9:1589",
+      "detail": "Seta do seletor ENS no perfil, extraída do snapshot .fig.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "0e71a637bdfbf765ba26e5f990c2510eeab557b93eb819a91b9cdd4263d26f3b"
+    },
+    {
+      "file": "wallet-select-arrow.svg",
+      "nodeId": "9:1589",
+      "detail": "Seta do seletor de rede e tipo da carteira, extraída do snapshot .fig e na cor da referência F09.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "456eff72203a61e447f174babbdff3d06e1c8d29e615c396f8ba187bad2c942c"
+    },
+    {
+      "file": "promo-circles.svg",
+      "nodeId": "5:134 / 5:130",
+      "detail": "Geometria e strokes das elipses do grupo de máscara dos cards promocionais, extraídos do snapshot .fig.",
+      "size": [
+        586,
+        250
+      ],
+      "sha256": "d25e686f75ce66c9e2e3359845dc9af14ef18c7ac0e601a3da227d1141772f17"
+    },
+    {
+      "file": "auth-close.svg",
+      "nodeId": "9:947 / 9:948",
+      "detail": "Geometria e cor do ícone X do modal desktop, extraídas do snapshot .fig.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "dc850c290d5c4a97c94b5944f2e26309bc76b8292483fe1079760643ab04f12e"
+    },
+    {
+      "file": "cart-remove-desktop.svg",
+      "nodeId": "11:2029 / 11:2069 / 11:2086",
+      "detail": "Geometria Iconly/Curved/Delete do snapshot; cor #b39463 observada nas instâncias do carrinho desktop.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "adf89e1da2c9e1512e9d50252d5c0045ced22b08e1f66e97484bd450aed59a9d"
+    },
+    {
+      "file": "search-mobile.svg",
+      "nodeId": "15:5331",
+      "detail": "Search do frame Mobile / Início, exportado como SVG da cópia do Figma.",
+      "size": [
+        22,
+        22
+      ],
+      "sha256": "f5e374cf1163f4deedea16f7ae0924ccb9563ee9efc403ed2c58778959af9d29"
+    },
+    {
+      "file": "heart-detail-desktop.svg",
+      "nodeId": "70410:3940",
+      "detail": "Coração do botão Favoritar no detalhe desktop, exportado como SVG da cópia do Figma.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "143785bf99fc3c769f544640848a6756f32257c56eb0159ae5dc3794b1045eb7"
+    },
+    {
+      "file": "arrow-right-figma.svg",
+      "nodeId": "5:100",
+      "detail": "Geometria de stroke do símbolo Arrow - Right (nós 5:102 e 5:103) extraída do snapshot .fig; #d28a4c resolve accent/default da instância mobile 15:5295. Correspondência visual e overrides dos demais usos pendentes.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "b77e84a1a7d8daef91f67b1b780d2c663de2aaeae2b414dd283747cd67556770"
+    },
+    {
+      "file": "arrow-right-2-figma.svg",
+      "nodeId": "4:393",
+      "detail": "Geometria de stroke 4:395 extraída do snapshot .fig; cor #f7f3ec da variável ligada à instância 4:392. Correspondência visual pendente.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "3ba937bce28ccf43a17265c470a92b978bc6f7a5e0f7f0dc01b956b5fb623e59"
+    },
+    {
+      "file": "arrow-down-2-figma.svg",
+      "nodeId": "4:153",
+      "detail": "Geometria de stroke 4:151 da definição aninhada 4:149, referenciada por 4:154; cor #f7f3ec da variável ligada à instância 4:152. Correspondência visual pendente.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "26cc85869ccb0a1c025193b9f0ed3a91fe36a99751e3f1aa9d4f366ae02e0899"
+    },
+    {
+      "file": "facebook-desktop-figma.svg",
+      "nodeId": "70483:259",
+      "detail": "Exportação SVG direta da cópia Figma para o grupo facebook 1 da definição desktop Provider=Facebook; clipping incluído. Comparação da instância final pendente.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "39fd8ae9bb565efc08dcc9cb7d785c5a176a7d23ea2fd2038fa901656a2f1746"
+    },
+    {
+      "file": "google-desktop-244.svg",
+      "nodeId": "70483:244",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        15.0117,
+        8.46484
+      ],
+      "sha256": "c293e9ddf51016e74411ffa71aae83a04cee53060bdd0624623b913f5cd4b4bb"
+    },
+    {
+      "file": "google-desktop-245.svg",
+      "nodeId": "70483:245",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        6.43358,
+        5.73436
+      ],
+      "sha256": "a0ac95235f757b6f820778c7641b4dfcbea6b86b3007feebb1ea88d9b9728d6c"
+    },
+    {
+      "file": "google-desktop-249.svg",
+      "nodeId": "70483:249",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        4.94922,
+        10.125
+      ],
+      "sha256": "502d5067f7550430197c65c62645d2513e83f88337a42f2e9008fe4a4eadae6e"
+    },
+    {
+      "file": "google-desktop-251.svg",
+      "nodeId": "70483:251",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        10.5859,
+        9.94921
+      ],
+      "sha256": "d8d5466e16c1fba7a46fe895157f51f31029390f256bb7c20b832edb753d8553"
+    },
+    {
+      "file": "google-desktop-252.svg",
+      "nodeId": "70483:252",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        10,
+        9.94921
+      ],
+      "sha256": "74177b5f0bc699619fa0299cc25077fc38864199d99ad1da481b89e41e4001d5"
+    },
+    {
+      "file": "google-desktop-253.svg",
+      "nodeId": "70483:253",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        15.1771,
+        8.46484
+      ],
+      "sha256": "e6e795dfe25a3d9d5ad477efea06552c8b8423b2ef5a3d500b9548472b9f0957"
+    },
+    {
+      "file": "google-desktop-254.svg",
+      "nodeId": "70483:254",
+      "detail": "SVG exportado diretamente via get_design_context da instância Google 70484:260 na cópia Figma; posição e recorte são definidos pela hierarquia do grupo 70483:242.",
+      "size": [
+        6.59891,
+        5.89858
+      ],
+      "sha256": "73208a6a28f1b0e60cfe67f071bfccf6c7fe9e314f5e88a6869c3b00408c60be"
+    },
+    {
+      "file": "filter-slider-thumb.svg",
+      "nodeId": "70485:361",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        21,
+        21
+      ],
+      "sha256": "a7ad54496d2bd2bc6f21f5b3964c0c093e246676cac971ae0306b99a988482c7"
+    },
+    {
+      "file": "filter-slider-line-selected.svg",
+      "nodeId": "70485:362",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        161,
+        4
+      ],
+      "sha256": "5038c8f668fcaf3512709e7b583ffa0bf686c21513b0cac9ebf0e6d80a3ea778"
+    },
+    {
+      "file": "filter-slider-line-rest.svg",
+      "nodeId": "70485:364",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        55,
+        4
+      ],
+      "sha256": "95733611bc777f8a07ea79a472c7ef3cc38e2a2fa31e822a480dc0aa03d578e0"
+    },
+    {
+      "file": "footer-facebook-figma.svg",
+      "nodeId": "70491:1269",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "6a984b7eeb4d8b6f88561c31ca45cbdf22f77c536dc85e5cd7bb10a7b45d1688"
+    },
+    {
+      "file": "footer-instagram-figma.svg",
+      "nodeId": "70491:1271",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "129783e293beb8f856fa0117b3806bd98c1a61455812671fe0faa1d34b92ea59"
+    },
+    {
+      "file": "footer-twitter-figma.svg",
+      "nodeId": "70491:1273",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "90ac152d2c8ad501109137db7ee03baf7493122d1afc6ee0fb435ed1835e2d94"
+    },
+    {
+      "file": "footer-linkedin-figma.svg",
+      "nodeId": "70491:1275",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "be57d179a85ed75bb0d1d221979eb71d6516c99ab892343420c84dc5921bb71e"
+    },
+    {
+      "file": "footer-youtube-figma.svg",
+      "nodeId": "70491:1277",
+      "detail": "SVG exportado diretamente por get_design_context da cópia Figma; dimensões incluem o inset visual indicado no contexto.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "211a63e3208bb23a6c336ae1b47721797f1ce8fb184a04f9d3e9b47066997d22"
+    },
+    {
+      "file": "profile-nav-user-figma.svg",
+      "nodeId": "70420:4541",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "82dad8db63f10f7239ff4494436c95bfbfea62c7fb8bff442c8744699286097c"
+    },
+    {
+      "file": "profile-nav-wallet-figma.svg",
+      "nodeId": "70420:4544",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        13.7497,
+        16.2502
+      ],
+      "sha256": "655486a1eed0d325c7c25906abadd2b50c67f395a80eb25aab90ea0f31e52c92"
+    },
+    {
+      "file": "profile-nav-activity-figma.svg",
+      "nodeId": "70420:4547",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "90c610853ba0b5467a80fb352516e547a5b44c7d793bf2bafed61e2e7876399b"
+    },
+    {
+      "file": "profile-nav-heart-figma.svg",
+      "nodeId": "70420:4551",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "d3b60820cc91342d7a0921434a30d5c18ac05df8a91bc88769a16667a967c169"
+    },
+    {
+      "file": "profile-nav-offers-figma.svg",
+      "nodeId": "70420:4555",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.8547,
+        15.9022
+      ],
+      "sha256": "d102cc0ed827fc20138ad559e2499aaec69cbd182a583fd71cf7918b491b5556"
+    },
+    {
+      "file": "profile-nav-download-figma.svg",
+      "nodeId": "70420:4558",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.375,
+        15.4565
+      ],
+      "sha256": "20457f1ab9ab66289a4feecbca17e0dad534c3b7e0cab48b6357e71ea2552c1b"
+    },
+    {
+      "file": "profile-nav-support-figma.svg",
+      "nodeId": "70420:4561",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.7499,
+        15
+      ],
+      "sha256": "8b04700608134c5c2135eb7905dcee4fd0b3d4baed6c062e11f2277e7fcc98be"
+    },
+    {
+      "file": "profile-nav-logout-figma.svg",
+      "nodeId": "70420:4565",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        17.7779,
+        16.9167
+      ],
+      "sha256": "479a567f079a032606e21820202255fbcd4588fbdc45d1195d0a2d159c4abd43"
+    },
+    {
+      "file": "profile-hide-figma.svg",
+      "nodeId": "70504:2972",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        16.6667,
+        14.3942
+      ],
+      "sha256": "906f499a566a4e2ad96baf6e7b40f6c86e8fe6b2c1bab93af77dff44a73c6048"
+    },
+    {
+      "file": "profile-avatar-figma.svg",
+      "nodeId": "9:1560",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1238 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "6e8937ac4f14f41c17ab0a738c1083d5b82d863b7b978d5b7cbe15fd20c2ae13"
+    },
+    {
+      "file": "wallet-nav-user-figma.svg",
+      "nodeId": "70420:4599",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "bdb499e7f8a91304bc89e6692c0c9bb99a2811d29ea5188e818adb7e91288a44"
+    },
+    {
+      "file": "wallet-nav-wallet-figma.svg",
+      "nodeId": "70420:4602",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        13.7497,
+        16.2502
+      ],
+      "sha256": "a61067d5138c0b60b63cee291b3c4f589a6738224aeaee2f62d9f25dff9930a0"
+    },
+    {
+      "file": "wallet-nav-activity-figma.svg",
+      "nodeId": "70420:4605",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "97a7adbd6c896b348dc4b6933561b13349cb0d8ceab83f897940a86eb97e1194"
+    },
+    {
+      "file": "wallet-nav-heart-figma.svg",
+      "nodeId": "70420:4609",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "d3b60820cc91342d7a0921434a30d5c18ac05df8a91bc88769a16667a967c169"
+    },
+    {
+      "file": "wallet-nav-offers-figma.svg",
+      "nodeId": "70420:4613",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.8547,
+        15.9022
+      ],
+      "sha256": "d102cc0ed827fc20138ad559e2499aaec69cbd182a583fd71cf7918b491b5556"
+    },
+    {
+      "file": "wallet-nav-download-figma.svg",
+      "nodeId": "70420:4616",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.375,
+        15.4565
+      ],
+      "sha256": "20457f1ab9ab66289a4feecbca17e0dad534c3b7e0cab48b6357e71ea2552c1b"
+    },
+    {
+      "file": "wallet-nav-support-figma.svg",
+      "nodeId": "70420:4619",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        15.7499,
+        15
+      ],
+      "sha256": "8b04700608134c5c2135eb7905dcee4fd0b3d4baed6c062e11f2277e7fcc98be"
+    },
+    {
+      "file": "wallet-nav-logout-figma.svg",
+      "nodeId": "70420:4623",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        17.7779,
+        16.9167
+      ],
+      "sha256": "479a567f079a032606e21820202255fbcd4588fbdc45d1195d0a2d159c4abd43"
+    },
+    {
+      "file": "wallet-select-arrow-figma.svg",
+      "nodeId": "9:1837",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "489bd4c61287603cbec765d03549baa46f6e6f09c9ad8cda14152a9c22d6ba21"
+    },
+    {
+      "file": "wallet-secondary-toggle-figma.svg",
+      "nodeId": "9:1867",
+      "detail": "SVG exportado diretamente por get_design_context do frame 9:1670 na cópia Figma; consultar posição e inset da instância correspondente.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "08f4c145aacca2086193ae9ff416b97ce2f29de6865a6d9def4899a46dd8a26b"
+    },
+    {
+      "file": "home-hero-desktop-figma.svg",
+      "nodeId": "2:104",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "7794c68c7090f9e0ef137f544699c583a9f8b2de1b293f504631caec71863c4d"
+    },
+    {
+      "file": "home-hero-dots-figma.svg",
+      "nodeId": "3:131",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        40,
+        8
+      ],
+      "sha256": "0ff55c193b808afd4687bbe57909e205132df46d8d4fd37e2ce9547da6237377"
+    },
+    {
+      "file": "home-sort-chevron-figma.svg",
+      "nodeId": "4:152",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        10.8333,
+        6.16667
+      ],
+      "sha256": "1c90b2616e3e03d9463f045add3315b5c87de690cc69251122f1102230061aba"
+    },
+    {
+      "file": "home-tab-line-figma.svg",
+      "nodeId": "4:146",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        101,
+        2
+      ],
+      "sha256": "ae1600c325d7b0183acec9b5b048d426959e69f92851f9aaa8d77311fc06bb2c"
+    },
+    {
+      "file": "home-page-next-figma.svg",
+      "nodeId": "4:392",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        12.0002,
+        6.75012
+      ],
+      "sha256": "b3542159d4936332fe1ef98342f796451426e4898b1d4f457817ebac7e1b32e7"
+    },
+    {
+      "file": "home-promo-arrow-figma.svg",
+      "nodeId": "5:99",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        10.537,
+        12.75
+      ],
+      "sha256": "35f08d7598b8fdea032f5ec34e788ca9413d427d8ddfdd92f1908bc4d02b9758"
+    },
+    {
+      "file": "home-promo-mask-figma.svg",
+      "nodeId": "5:134",
+      "detail": "SVG exportado diretamente por get_design_context do frame 2:2 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        586,
+        250
+      ],
+      "sha256": "311d5a7032b9d800a920f1428f6c3f766ee96dcd0090e3ba906ba6cacda0f504"
+    },
+    {
+      "file": "detail-zoom-figma.svg",
+      "nodeId": "70380:2856",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        30,
+        30
+      ],
+      "sha256": "014b44cf6c3629ddc2581fbeed92714841fce707fcf4e1f93b958317e28fef15"
+    },
+    {
+      "file": "detail-star-selected-figma.svg",
+      "nodeId": "11:1195",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        12.5017,
+        11.8758
+      ],
+      "sha256": "2825eb7248e6d55fa34c3c85a38529746cc6437791e1f7860c2321a3ce0ac453"
+    },
+    {
+      "file": "detail-star-inactive-figma.svg",
+      "nodeId": "11:1207",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        12.5017,
+        11.8758
+      ],
+      "sha256": "385da0b35478b0ed92054eacb545ace8d11977f50fb342327632dc01b3596561"
+    },
+    {
+      "file": "detail-edition-one-figma.svg",
+      "nodeId": "11:1217",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        36,
+        28
+      ],
+      "sha256": "c4895a03a25710db14ab6ecaaae1b988d0cda576a631834db218364d357ef2f2"
+    },
+    {
+      "file": "detail-plus-figma.svg",
+      "nodeId": "70410:4191",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        26.4,
+        26.4
+      ],
+      "sha256": "3c3b68b7be3648b5a5cf1f3cf8442ae0a29174b87a02e24e0f806def1d0b4e83"
+    },
+    {
+      "file": "detail-minus-figma.svg",
+      "nodeId": "70410:4195",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        26.4,
+        26.4
+      ],
+      "sha256": "a59305fbc255cd7493223c7677d6a3acd4b076522ff5ba77dfd78132863ed917"
+    },
+    {
+      "file": "detail-carousel-dots-figma.svg",
+      "nodeId": "70364:240",
+      "detail": "SVG exportado diretamente por get_design_context do frame 10:244 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        52,
+        12
+      ],
+      "sha256": "6deb89d6dad322ba24432799c97e8f0da097e5dc9612d2c482063583918d0416"
+    },
+    {
+      "file": "home-mobile-hero-dots-figma.svg",
+      "nodeId": "15:5300",
+      "detail": "SVG exportado diretamente por get_design_context do frame 14:5226 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        33,
+        7
+      ],
+      "sha256": "9243a5140bc3a208bf7c002a6fda07d8d7f8e5ac2442a494a1a1b943935a736f"
+    },
+    {
+      "file": "home-mobile-favorite-figma.svg",
+      "nodeId": "70410:4134",
+      "detail": "SVG exportado diretamente por get_design_context do frame 14:5226 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        28,
+        28
+      ],
+      "sha256": "3c3dc151493f0b8add40af0b0b2bfa955ade927ca7ccb4e077a35ea17819916a"
+    },
+    {
+      "file": "home-mobile-card-favorite-figma.svg",
+      "nodeId": "15:5465",
+      "detail": "SVG exportado diretamente por get_design_context do frame 14:5226 na cópia Figma; geometria e insets devem ser aplicados no contexto do nó.",
+      "size": [
+        28,
+        28
+      ],
+      "sha256": "e5cd6f43676492095d18826cb6a9d3c1999249540d8b5f83d1c3a169f40f7ef5"
+    },
+    {
+      "file": "cart-desktop-stepper-a-figma.svg",
+      "nodeId": "70402:3304",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:1278 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "0b504b1508310c2a10af08dd071b3daf44df8826d2e54deb8d2e3e6884e07af9"
+    },
+    {
+      "file": "cart-desktop-stepper-b-figma.svg",
+      "nodeId": "70402:3308",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:1278 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "5727571b6801480b34da01eb9144cfbdf9b9889a59a00e0f6e53327c1a56d174"
+    },
+    {
+      "file": "cart-desktop-delete-figma.svg",
+      "nodeId": "11:2029",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:1278 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        17.6505,
+        19.9838
+      ],
+      "sha256": "ee4358bcb2278e59f6c01199b2b24e7feed4298fe232eb58f85ad89fdbfd5749"
+    },
+    {
+      "file": "cart-carousel-dots-figma.svg",
+      "nodeId": "70371:249",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:1278 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        52,
+        12
+      ],
+      "sha256": "beeb6d9dfad9ef3f7dc7caeb5eaee0fc5328c3df1ef96373f90536cd685e66dc"
+    },
+    {
+      "file": "checkout-desktop-arrow-a-figma.svg",
+      "nodeId": "70504:3064",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:2862 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "60d5d9aebbf5cd7e5abd6e0cc8f642d56fe56f038a4796ad0964d6da1e1e8c56"
+    },
+    {
+      "file": "checkout-desktop-arrow-b-figma.svg",
+      "nodeId": "70504:3110",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:2862 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "4373c8391935271d4d6de11877337be7c65fd66bf4f1f565db079fdeaca1d197"
+    },
+    {
+      "file": "checkout-desktop-radio-a-figma.svg",
+      "nodeId": "70504:3112",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:2862 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        15,
+        15
+      ],
+      "sha256": "b3602dc9e9420e3bfa34221e919e8aac29acb86fefbfb134a63260df5ad3213a"
+    },
+    {
+      "file": "checkout-desktop-radio-b-figma.svg",
+      "nodeId": "70504:3175",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:2862 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "96e51a214e55e19807221accd94017444a41b4bdcad21aa448b8b826b4d58af4"
+    },
+    {
+      "file": "checkout-desktop-provider-figma.svg",
+      "nodeId": "70504:3184",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:2862 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        39,
+        16
+      ],
+      "sha256": "d3db0b08e8609049dd555aa7b5763d898f1baf41a035e4b7a1ad5fba824ae48a"
+    },
+    {
+      "file": "order-thankyou-figma.svg",
+      "nodeId": "11:5151",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:4385 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        65.1639,
+        80
+      ],
+      "sha256": "2abdea35aa83b26b060de908e5e9714e49ffdaa3c2bf2c93930e141367dbb69e"
+    },
+    {
+      "file": "order-close-figma.svg",
+      "nodeId": "12:5223",
+      "detail": "SVG exportado diretamente por get_design_context do frame 11:4385 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        18,
+        17.3451
+      ],
+      "sha256": "6434dc289eab154a742c48c6a4942b40bb2bf0ab38c93c10fb79682e4b4eeb80"
+    },
+    {
+      "file": "detail-mobile-dots-figma.svg",
+      "nodeId": "15:5657",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        56,
+        7
+      ],
+      "sha256": "50feb8619fadac3f6031988ac9d918ed76e9947f27f83acd028aaf5a54fcf314"
+    },
+    {
+      "file": "detail-mobile-back-arrow-figma.svg",
+      "nodeId": "15:5745",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        13.1669,
+        7.33345
+      ],
+      "sha256": "66aea4dd7e0e227a5cbb167fb376767ac27655d30f65c7a53b2205cfce3d976e"
+    },
+    {
+      "file": "detail-mobile-heart-figma.svg",
+      "nodeId": "15:5642",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        14.2349
+      ],
+      "sha256": "7ff44d980c5750f1c5b36890670b201cc1d52e31ed4febeade1c079e292f70cc"
+    },
+    {
+      "file": "detail-mobile-star-figma.svg",
+      "nodeId": "15:5663",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        11.6682,
+        11.0843
+      ],
+      "sha256": "a707499d73b16690d029df6070f372ddee12e700884fdbaae4d68ad1e00733dd"
+    },
+    {
+      "file": "detail-mobile-stepper-a-figma.svg",
+      "nodeId": "70410:4203",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "47af0f9b2bbb018a225118b4ba0f1ccc2a5887cb9d90efd09ada691ea34deb56"
+    },
+    {
+      "file": "detail-mobile-stepper-b-figma.svg",
+      "nodeId": "70410:4207",
+      "detail": "SVG exportado diretamente por get_design_context do frame 15:5536 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "5727571b6801480b34da01eb9144cfbdf9b9889a59a00e0f6e53327c1a56d174"
+    },
+    {
+      "file": "cart-mobile-back-circle-figma.svg",
+      "nodeId": "16:394",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:360 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        35,
+        35
+      ],
+      "sha256": "b90365adfbf2dd93f3de1a06564372c1b4f45433cb6ccc34244318d6aeaeb16b"
+    },
+    {
+      "file": "cart-mobile-stepper-disabled-figma.svg",
+      "nodeId": "16:399",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:360 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "5fe599b9ce48edb9f19ee984c7c60233f80201a8d7bb01cec3ef503bd3e83850"
+    },
+    {
+      "file": "cart-mobile-stepper-active-figma.svg",
+      "nodeId": "16:540",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:360 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        24,
+        24
+      ],
+      "sha256": "336b52d3d40c926c201d058e943b9afde5fcde5b72eb9abc846f8e64578cf4e5"
+    },
+    {
+      "file": "cart-mobile-delete-figma.svg",
+      "nodeId": "16:463",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:360 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        17.6505,
+        19.9838
+      ],
+      "sha256": "a938b1089c500bd72b242e25ee5e6b34057ab7dfc86a8f3ab7f5c659dc86370c"
+    },
+    {
+      "file": "checkout-mobile-back-circle-figma.svg",
+      "nodeId": "16:758",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        35,
+        35
+      ],
+      "sha256": "b90365adfbf2dd93f3de1a06564372c1b4f45433cb6ccc34244318d6aeaeb16b"
+    },
+    {
+      "file": "checkout-mobile-options-figma.svg",
+      "nodeId": "16:990",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        3,
+        15
+      ],
+      "sha256": "00b69ee0eacaaacbbc474a9724df7a7f35d0949d5856e427385d1233c41b554d"
+    },
+    {
+      "file": "checkout-mobile-radio-selected-figma.svg",
+      "nodeId": "16:998",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "97666ab8acffb9e6c20ce60a7d02e3c6c9bfe22fec4f7b708e22015c82f01875"
+    },
+    {
+      "file": "checkout-mobile-radio-figma.svg",
+      "nodeId": "16:1001",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "5a2a327d2240b6312c20f7d887fde33933003499c3ac12c378619a89406f732c"
+    },
+    {
+      "file": "checkout-mobile-provider-circle-figma.svg",
+      "nodeId": "16:893",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        40,
+        40
+      ],
+      "sha256": "c9441a1b1db7b411ed6b553ce28a6571da2eb1b04dd626c34a6be3b9fe7e55e3"
+    },
+    {
+      "file": "checkout-mobile-wallet-figma.svg",
+      "nodeId": "23:1379",
+      "detail": "SVG exportado diretamente por get_design_context do frame 16:748 na cópia Figma; aplicar dimensões e insets da instância conforme o contexto.",
+      "size": [
+        20.101,
+        18.5781
+      ],
+      "sha256": "3f641924aee47acbf153a59bff3e84780dd6c05910ccd29195e2a58f5f1894c1"
+    },
+    {
+      "file": "auth-desktop-close-figma.svg",
+      "nodeId": "9:947",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "a434085336d2581c34cc1e853dc35399644244590ec7d3751f884cbaf62d4dfa"
+    },
+    {
+      "file": "auth-desktop-login-hide-figma.svg",
+      "nodeId": "9:963",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        18.9814,
+        14.645
+      ],
+      "sha256": "7ca97961ae6f9812bb4bf157c085f6539ceacad412b62310db70afac063ed567"
+    },
+    {
+      "file": "auth-background-cart-figma.svg",
+      "nodeId": "70504:3284",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "87c1891c989d13761042b7eafed139d7791e9c95fa8bd91062682bf5a4396052"
+    },
+    {
+      "file": "auth-background-heart-figma.svg",
+      "nodeId": "70504:3286",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "5e54b72e7dad45e8eb429734267be70e8edd9ce5a2a250c86fc908c0bf729553"
+    },
+    {
+      "file": "auth-background-search-figma.svg",
+      "nodeId": "70504:3288",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        19.9913,
+        20
+      ],
+      "sha256": "7e74c795d766357b6b5a82fa6c79cf512dc1813b4751d9570ad45bbc6ca1d808"
+    },
+    {
+      "file": "auth-background-dots-figma.svg",
+      "nodeId": "70504:3232",
+      "detail": "SVG exportado por get_design_context do frame 9:115 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        40,
+        8
+      ],
+      "sha256": "0ff55c193b808afd4687bbe57909e205132df46d8d4fd37e2ce9547da6237377"
+    },
+    {
+      "file": "auth-desktop-signup-hide-figma.svg",
+      "nodeId": "9:1167",
+      "detail": "SVG exportado por get_design_context do frame 9:1022 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        18.9814,
+        14.645
+      ],
+      "sha256": "7ca97961ae6f9812bb4bf157c085f6539ceacad412b62310db70afac063ed567"
+    },
+    {
+      "file": "auth-mobile-login-hide-figma.svg",
+      "nodeId": "16:1191",
+      "detail": "SVG exportado por get_design_context do frame 16:1022 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        15.3823,
+        13.3305
+      ],
+      "sha256": "07aba54d50501f9249a3b1b208d27c06b5bc9f49a9d43b2991448174c5848fed"
+    },
+    {
+      "file": "auth-mobile-signup-hide-figma.svg",
+      "nodeId": "16:1292",
+      "detail": "SVG exportado por get_design_context do frame 16:1228 na cópia Figma; respeitar a posição e os insets do contexto.",
+      "size": [
+        15.3823,
+        13.3305
+      ],
+      "sha256": "07aba54d50501f9249a3b1b208d27c06b5bc9f49a9d43b2991448174c5848fed"
+    },
+    {
+      "file": "context-e8f2fd36a1514c39.svg",
+      "nodeId": "70486:514",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgActiveUnderline, F06/imgActiveUnderline, F07/imgActiveUnderline, F08/imgActiveUnderline, F09/imgActiveUnderline. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        58,
+        3
+      ],
+      "sha256": "e8f2fd36a1514c39c5124f4899284cf3adeea857e9cf90c98529a85b6c628413"
+    },
+    {
+      "file": "context-43663fd7c3c84d7b.svg",
+      "nodeId": "70486:519",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgSearchIcon, F02/imgSearchIcon, F03/imgSearchIcon, F04/imgSearchIcon, F05/imgSearchIcon, F06/imgSearchIcon, F07/imgSearchIcon, F08/imgSearchIcon, F09/imgSearchIcon. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20.0009,
+        20
+      ],
+      "sha256": "43663fd7c3c84d7bfa66ffdd358cb5ae9baf57d2be516ff25b06e1fb89d0e388"
+    },
+    {
+      "file": "context-5e2917db4f8f9463.svg",
+      "nodeId": "70486:521",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgCartIcon, F02/imgCartIcon, F03/imgCartIcon, F04/imgCartIcon, F05/imgCartIcon, F06/imgCartIcon, F07/imgCartIcon, F08/imgCartIcon, F09/imgCartIcon. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        24.0042,
+        24
+      ],
+      "sha256": "5e2917db4f8f9463a648666c7d78030791e7b24347d68476a342492088adf031"
+    },
+    {
+      "file": "context-dfa5e8cc745f17e8.svg",
+      "nodeId": "70486:522",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgBadge, F02/imgBadge, F03/imgBadge, F04/imgBadge, F05/imgBadge, F06/imgBadge, F07/imgBadge, F08/imgBadge, F09/imgBadge. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "dfa5e8cc745f17e8a08cca78ff36cf1eff4a5e2d88903bc0f27c9ee2ae555fa7"
+    },
+    {
+      "file": "context-400348ca0c418c61.svg",
+      "nodeId": "70486:527",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgLogout, F02/imgLogout, F03/imgLogout, F04/imgLogout, F05/imgLogout, F06/imgLogout, F07/imgLogout, F08/imgLogout, F09/imgLogout. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        17.7779,
+        16.9167
+      ],
+      "sha256": "400348ca0c418c6142cffed0fee38c7753ee589c268f03be4cd8ebf20543de3c"
+    },
+    {
+      "file": "context-d34e83dadb55777d.svg",
+      "nodeId": "70504:3016",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F01/imgLine1, F06/imgLine1, F07/imgLine1, F08/imgLine1, F09/imgLine1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        1200,
+        0.3
+      ],
+      "sha256": "d34e83dadb55777dcb8e127a3985b83cdfd73629724b14b47a2b7e4eb2cdaaff"
+    },
+    {
+      "file": "context-3b1d83e85ce80e2c.svg",
+      "nodeId": "11:1248",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgMessage. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        18,
+        18
+      ],
+      "sha256": "3b1d83e85ce80e2c0398926f8031ff9566af60e334c68a72ecc910e75794d382"
+    },
+    {
+      "file": "context-90ad892336e56017.svg",
+      "nodeId": "70486:541",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgActiveUnderline, F03/imgActiveUnderline, F04/imgActiveUnderline, F05/imgActiveUnderline. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        68,
+        3
+      ],
+      "sha256": "90ad892336e5601740d792409f5610bc8a892c022a669d52248fb21c838c0ab7"
+    },
+    {
+      "file": "context-5b75976d2c5ae125.svg",
+      "nodeId": "11:1211",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgLine2. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        573,
+        0.3
+      ],
+      "sha256": "5b75976d2c5ae12509e955a4a89f9671cfd354f7cecd96b8f32e40af5998271f"
+    },
+    {
+      "file": "context-a072391f79c1558f.svg",
+      "nodeId": "11:1220",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgEllipse25. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        42,
+        28
+      ],
+      "sha256": "a072391f79c1558f6de5efc2e59b2e298c9e13b3e755b0b8d97075af5e823306"
+    },
+    {
+      "file": "context-ef7f60c27e69b94b.svg",
+      "nodeId": "11:1222",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgEllipse26. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        46,
+        28
+      ],
+      "sha256": "ef7f60c27e69b94ba2387a21da3c2a644887b3c714d6d43086eaa8b940d07936"
+    },
+    {
+      "file": "context-c1af46bba8e994ff.svg",
+      "nodeId": "11:1224",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgEllipse27. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        66,
+        28
+      ],
+      "sha256": "c1af46bba8e994ff13ca34f3a336c04998f120309638baed0ed12324a1dd9c82"
+    },
+    {
+      "file": "context-0fa90a80e18e338a.svg",
+      "nodeId": "70410:3940",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgHeart1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "0fa90a80e18e338a71170d39584b98127fe12e317d6cdd72c59f89fb65ed8be0"
+    },
+    {
+      "file": "context-ff3cb7cf633dbe6f.svg",
+      "nodeId": "11:1245",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgLinkedin. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        15,
+        14.375
+      ],
+      "sha256": "ff3cb7cf633dbe6fa43f7d47c7d3c2f358b4318d0418804405947d7344d76ae3"
+    },
+    {
+      "file": "context-6c4b682b4ed5eb78.svg",
+      "nodeId": "11:1247",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgTwitter. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        15.9657,
+        12.1908
+      ],
+      "sha256": "6c4b682b4ed5eb78efe0be927a88dcaa91bd65cbd8cfe7fc8e4914f06c195257"
+    },
+    {
+      "file": "context-d2dee6dbb4797d15.svg",
+      "nodeId": "11:1252",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgLine6. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        161,
+        3
+      ],
+      "sha256": "d2dee6dbb4797d152e94cc2fb224385d08d7df4c31c26dd61d089df4a6201341"
+    },
+    {
+      "file": "context-5720dc3915d58568.svg",
+      "nodeId": "11:1250",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F02/imgLine5. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        1200,
+        0.3
+      ],
+      "sha256": "5720dc3915d58568d6d2671bac7dc30498591f4cb3e110e8fcb06fb43b38ac66"
+    },
+    {
+      "file": "context-db0ffe0bdb329e35.svg",
+      "nodeId": "11:1919",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F03/imgLine2. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        782,
+        0.3
+      ],
+      "sha256": "db0ffe0bdb329e35aae7eccca6a96cfd36d76b3f361b197736fb2f118fb9121a"
+    },
+    {
+      "file": "context-302db3a02437cee0.svg",
+      "nodeId": "11:2856",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F03/imgLine3. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        332,
+        0.3
+      ],
+      "sha256": "302db3a02437cee0ad4c1618de06c0dfe642c94737d5669192781edf78e784d5"
+    },
+    {
+      "file": "context-307dabdc450c6b53.svg",
+      "nodeId": "11:1962",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F03/imgLine7. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        1200,
+        0.3
+      ],
+      "sha256": "307dabdc450c6b535abcddff73316ea97a69c4eb0a9012dcb87c361441b82846"
+    },
+    {
+      "file": "context-4bdbc18f053fa7ef.svg",
+      "nodeId": "70504:3124",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F04/imgLine2, F05/imgLine2. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        405,
+        0.3
+      ],
+      "sha256": "4bdbc18f053fa7efd0fa76257076486ed257205ad7d1623da340b97dc6906a4e"
+    },
+    {
+      "file": "context-0b1eefd4cd20cf5d.svg",
+      "nodeId": "70504:3165",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F04/imgLine3, F05/imgLine3. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        405,
+        0.3
+      ],
+      "sha256": "0b1eefd4cd20cf5d625006854ef2981b5721fed9c1584df78cef6eb0b17849cf"
+    },
+    {
+      "file": "context-5a9dc781c38b60b5.svg",
+      "nodeId": "11:5145",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F05/imgLine10. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        31,
+        1
+      ],
+      "sha256": "5a9dc781c38b60b5bdb3c6c1e630fba7f42e649f6c61ce5d7d70b0f7d34816d8"
+    },
+    {
+      "file": "context-ec867e18aa6cdbb6.svg",
+      "nodeId": "11:5195",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F05/imgLine4. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        490,
+        0.3
+      ],
+      "sha256": "ec867e18aa6cdbb659f1b35ccb7ad1eac30f75995d38283d91c88135c8da90b1"
+    },
+    {
+      "file": "context-989807e1d00ec515.svg",
+      "nodeId": "70483:259",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F06/imgFacebook1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "989807e1d00ec515d541e0c737162ef3c086d676e06fcf40225d78b85cb23e6f"
+    },
+    {
+      "file": "context-26553206cb96630e.svg",
+      "nodeId": "70504:3242",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F06/imgLine3, F07/imgLine3. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        104,
+        2
+      ],
+      "sha256": "26553206cb96630ee07bf127eb0efba5402b1e6e065d785a150f8af5ed0ca447"
+    },
+    {
+      "file": "context-4ae11a696d33dac8.svg",
+      "nodeId": "70504:3277",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F06/imgLine4, F07/imgLine4. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        65,
+        1
+      ],
+      "sha256": "4ae11a696d33dac86c3d31b454b7225a7cf5b026a7f34c9cb32f765cf6b9542a"
+    },
+    {
+      "file": "context-a3cbcbf3189627cc.svg",
+      "nodeId": "9:1169",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F06/imgLine7, F07/imgLine7. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        179,
+        1
+      ],
+      "sha256": "a3cbcbf3189627cc40c282719dfc2890b0d7a6c10cc639a431ea7888a581657e"
+    },
+    {
+      "file": "context-b94f607d6df7479f.svg",
+      "nodeId": "9:1170",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F06/imgLine8, F07/imgLine8. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        179,
+        1
+      ],
+      "sha256": "b94f607d6df7479f9ef84377b6eb9356f37daf902be137f8bfc510de7609d4bb"
+    },
+    {
+      "file": "context-434d15ce624cf881.svg",
+      "nodeId": "70483:259",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F07/imgFacebook1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "434d15ce624cf8819a38c076c532185e771ea1eda1cb5ecaf80bcfe8bc6dc77d"
+    },
+    {
+      "file": "context-a755611d9a1d6753.svg",
+      "nodeId": "70504:3284",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F07/imgShopping1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "a755611d9a1d6753872d853588d80679a87297a888b208f70526887db2766b0f"
+    },
+    {
+      "file": "context-bb7dee15114b3007.svg",
+      "nodeId": "70504:3288",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F07/imgFrame. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        19.9913,
+        20
+      ],
+      "sha256": "bb7dee15114b3007714aa6ae08ee7f8be1a6e0caca3267344442df9f692d5034"
+    },
+    {
+      "file": "context-bd200d44e9af2433.svg",
+      "nodeId": "9:1589",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F08/imgArrowDown, F09/imgArrowDown. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "bd200d44e9af2433fa96e52678a740df8824c614d594438b56a9b05489f92fb9"
+    },
+    {
+      "file": "context-9f32c2b8af7f1b17.svg",
+      "nodeId": "70420:4621",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F08/imgLine2, F09/imgLine2. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        310,
+        0.3
+      ],
+      "sha256": "9f32c2b8af7f1b175b669a1484b692735781563f2118eeaf5c30a5f244a71b22"
+    },
+    {
+      "file": "context-b139c41ef0e3cd55.svg",
+      "nodeId": "15:5524",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgShop. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "b139c41ef0e3cd55a37bc5e6c59a1d12397edea0bc673a68d14ee0e27ede4847"
+    },
+    {
+      "file": "context-685a52bee52914a2.svg",
+      "nodeId": "15:5522",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgUser. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "685a52bee52914a28fa470d693af74235322f879e4ce77c823c6357b7de114a7"
+    },
+    {
+      "file": "context-4c37bff9a264e486.svg",
+      "nodeId": "15:5331",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgSearch. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        22,
+        22
+      ],
+      "sha256": "4c37bff9a264e486854cbd355ad3e5ee90c5f8e956dd495013effa1a2fcc87ec"
+    },
+    {
+      "file": "context-626a33e9cf87b011.svg",
+      "nodeId": "15:5488",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgFilter. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        16.1463,
+        16.1066
+      ],
+      "sha256": "626a33e9cf87b0114eb7d76f30b3215e3ea50d6b6dafebce66f47c262ac268af"
+    },
+    {
+      "file": "context-81e705a5e521900c.svg",
+      "nodeId": "14:5290",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgMaskGroup. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        366,
+        190
+      ],
+      "sha256": "81e705a5e521900cc42861cd468f817ae73541f7286caf942716e543df6173f0"
+    },
+    {
+      "file": "context-c52fe7279962435f.svg",
+      "nodeId": "15:5295",
+      "detail": "SVG exportado por get_design_context; instância identificada na hierarquia do frame. Aplicação de escala, rotação e inset requer conferência.",
+      "size": [
+        9.53296,
+        11.5
+      ],
+      "sha256": "c52fe7279962435f332d481e23e18d2024017e241408e404cf73e51cc85bc3d7"
+    },
+    {
+      "file": "context-c4608a9dd20da1ff.svg",
+      "nodeId": "15:5366",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgLine3. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        110,
+        2
+      ],
+      "sha256": "c4608a9dd20da1ff0792960a1dcfea1ef08a759b77846e8fd3cc3ee449ad8d3d"
+    },
+    {
+      "file": "context-5e4a0cdcc3779485.svg",
+      "nodeId": "15:5504",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        474,
+        154.95
+      ],
+      "sha256": "5e4a0cdcc377948550b28d2aae6c5709b7e27ebf1ebdbe41be06393fb42623e7"
+    },
+    {
+      "file": "context-88966ba04e689606.svg",
+      "nodeId": "15:5507",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgEllipse39. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        65,
+        65
+      ],
+      "sha256": "88966ba04e6896065dbf8e98a615fea2c41adcd49f1f25ae7c02a577965d3ed6"
+    },
+    {
+      "file": "context-817217a0fb3c14a9.svg",
+      "nodeId": "15:5517",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgHome. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        15.8333,
+        16.6668
+      ],
+      "sha256": "817217a0fb3c14a94ec579cacd868fb46c74815085c5bec20571fcbff5a3fd1d"
+    },
+    {
+      "file": "context-fd0bba2847544e3d.svg",
+      "nodeId": "15:5527",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        17.7936
+      ],
+      "sha256": "fd0bba2847544e3defee9d845af26b2e6cd1242bbeda89dc1a7efd95f492dd05"
+    },
+    {
+      "file": "context-6e762edf1dfd8e8f.svg",
+      "nodeId": "15:5530",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector2. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        26.8227,
+        1.78827
+      ],
+      "sha256": "6e762edf1dfd8e8fe482370cb42bab8a0aa34e96dd1d8c1aca5b06cd926463cb"
+    },
+    {
+      "file": "context-f374805f6712c71c.svg",
+      "nodeId": "15:5531",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector3. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        10.3456,
+        10.3127
+      ],
+      "sha256": "f374805f6712c71c467df0230cadcb997b4054530b577e6466a3d9b8b41207c9"
+    },
+    {
+      "file": "context-225ff31a985101fd.svg",
+      "nodeId": "15:5532",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector4. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        10.3856,
+        10.2993
+      ],
+      "sha256": "225ff31a985101fd13f10ba6b7554b8b1f200de5e42f5995380fdfd2502cd672"
+    },
+    {
+      "file": "context-cf24e892c1ecce9c.svg",
+      "nodeId": "15:5533",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector5. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        10.3167,
+        10.2514
+      ],
+      "sha256": "cf24e892c1ecce9c16ff0ea5a731fb6a72834a101622f64dcb862bbb0ec1f1a0"
+    },
+    {
+      "file": "context-287fb8dff06b629a.svg",
+      "nodeId": "15:5534",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F10/imgVector6. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        10.39,
+        10.3063
+      ],
+      "sha256": "287fb8dff06b629aaccc32646223bd568543613e31a72b75a460963686f0293f"
+    },
+    {
+      "file": "context-2d6fbd07c215a1b7.svg",
+      "nodeId": "15:5670",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F11/imgEllipse25. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        42,
+        28
+      ],
+      "sha256": "2d6fbd07c215a1b7f227996dddea8fdf7d5deb36058dd7f10f1626c69032f331"
+    },
+    {
+      "file": "context-7fc52a6e0e11a701.svg",
+      "nodeId": "15:5671",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F11/imgEllipse26. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        46,
+        28
+      ],
+      "sha256": "7fc52a6e0e11a701eb6f7f8d9d99c3000965054bf10bfca8dfe89d8dad110122"
+    },
+    {
+      "file": "context-42a22f798ce1948d.svg",
+      "nodeId": "15:5672",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F11/imgEllipse27. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        66,
+        28
+      ],
+      "sha256": "42a22f798ce1948dbede58dffb2aa5354a8fd7196245ed25e0398b7d7f4dc2b4"
+    },
+    {
+      "file": "context-2445ac9651089fba.svg",
+      "nodeId": "16:357",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F11/imgShop. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "2445ac9651089fbab54fc0c49f293f15046e8fdb98218abf1bb92fba47ffc361"
+    },
+    {
+      "file": "context-bfdac5f3714203b5.svg",
+      "nodeId": "16:395",
+      "detail": "SVG exportado por get_design_context; instância identificada na hierarquia do frame. Aplicação de escala, rotação e inset requer conferência.",
+      "size": [
+        13.1669,
+        7.33345
+      ],
+      "sha256": "bfdac5f3714203b54490a6ac7dc331bae684590860c0d78705918f4f6e3cdc82"
+    },
+    {
+      "file": "context-0445e8ea7de3d164.svg",
+      "nodeId": "70483:259",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F14/imgFacebook1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "0445e8ea7de3d164caf154b3b19f583277c8b0906fa88abe5977701031e4841d"
+    },
+    {
+      "file": "context-392cbf844f0d1e69.svg",
+      "nodeId": "70504:2988",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F14/imgLine7, F15/imgLine7. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        110,
+        1
+      ],
+      "sha256": "392cbf844f0d1e69ec53eb356dbc4c72b8212a5632b6902af30a6b78609278a7"
+    },
+    {
+      "file": "context-96a93ad0e8b8aa42.svg",
+      "nodeId": "70483:259",
+      "detail": "SVG retornado pelo get_design_context da cópia Figma; referências F15/imgFacebook1. Nó associado automaticamente ao trecho gerado e requer revisão.",
+      "size": [
+        20,
+        20
+      ],
+      "sha256": "96a93ad0e8b8aa426089c8486d15937582d67a65a903c17e5e4dc9448094cb6a"
+    }
+  ]
+}

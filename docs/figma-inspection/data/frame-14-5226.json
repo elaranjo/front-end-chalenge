@@ -1,0 +1,418 @@
+{
+  "id": "14:5226",
+  "name": "Mobile / Início",
+  "rawNodeIds": [
+    "14:5226",
+    "70395:239",
+    "70410:4124",
+    "70410:4123",
+    "15:5331",
+    "15:5332",
+    "15:5485",
+    "70410:4122",
+    "15:5488",
+    "70395:240",
+    "14:5290",
+    "14:5291",
+    "14:5235",
+    "23:1385",
+    "23:1386",
+    "70410:4130",
+    "70410:4129",
+    "70410:4128",
+    "15:5292",
+    "14:5288",
+    "14:5234",
+    "14:5289",
+    "15:5299",
+    "15:5294",
+    "15:5295",
+    "70410:4127",
+    "14:5238",
+    "14:5239",
+    "15:5300",
+    "15:5303",
+    "15:5301",
+    "15:5302",
+    "70395:241",
+    "70410:4133",
+    "70410:4132",
+    "15:5361",
+    "15:5366",
+    "70367:2847",
+    "15:5362",
+    "15:5363",
+    "70395:242",
+    "70395:243",
+    "15:5497",
+    "70410:4139",
+    "70410:4136",
+    "70410:4135",
+    "15:5464",
+    "70410:4134",
+    "15:5427",
+    "70410:4137",
+    "15:5385",
+    "15:5394",
+    "15:5499",
+    "70410:4143",
+    "15:5471",
+    "15:5472",
+    "70410:4149",
+    "70410:4150",
+    "15:5416",
+    "15:5496",
+    "15:5418",
+    "15:5419",
+    "70395:244",
+    "15:5498",
+    "15:5465",
+    "15:5466",
+    "15:5467",
+    "70410:4142",
+    "70410:4141",
+    "15:5415",
+    "70410:4140",
+    "15:5462",
+    "15:5463",
+    "15:5500",
+    "15:5477",
+    "15:5478",
+    "15:5479",
+    "70410:4153",
+    "70410:4145",
+    "15:5431",
+    "70410:4144",
+    "15:5480",
+    "15:5481",
+    "70395:245",
+    "15:5504",
+    "15:5507",
+    "15:5519",
+    "15:5522",
+    "15:5523",
+    "15:5524",
+    "15:5525",
+    "15:5527",
+    "15:5529",
+    "15:5530",
+    "15:5531",
+    "15:5532",
+    "15:5533",
+    "15:5534"
+  ],
+  "componentReferences": [
+    "15:5313",
+    "15:5516",
+    "5:100"
+  ],
+  "directTexts": [
+    {
+      "id": "15:5485",
+      "text": "Explorar coleções",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "14:5288",
+      "text": "Bem-vindo à Kurio",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "14:5234",
+      "text": "SEJA DONO DA\nCULTURA DIGITAL",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 29,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "14:5289",
+      "text": "Descubra NFTs selecionados de criadores do mundo todo.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 18,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5294",
+      "text": "EXPLORAR",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 14,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5361",
+      "text": "Todos os NFTs",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5362",
+      "text": "Novos lançamentos",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5363",
+      "text": "Em alta",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5385",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5394",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5471",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5472",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5419",
+      "text": "RARO",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 13,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5462",
+      "text": "Sage Nomad #009",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5463",
+      "text": "1.69 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5480",
+      "text": "Sage Nomad #009",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "15:5481",
+      "text": "1.69 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": []
+}

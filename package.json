@@ -1,0 +1,68 @@
+{
+  "name": "frontend-challenge-vite-scaffold",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:mock": "VITE_ENABLE_MOCKS=true vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json",
+    "test": "node --test tests/*.test.ts",
+    "test:e2e": "npm run build && playwright test",
+    "check:figma-assets": "node scripts/check-figma-assets.mjs",
+    "check:figma-geometry": "node scripts/verify-figma-arrow-geometry.mjs",
+    "check:figma-typography": "node scripts/check-figma-typography.mjs",
+    "capture:visual": "playwright test -g 'desktop home includes|detail tabs show|desktop cart shows|three-item confirmed|desktop auth is modal|profile validates an atomic|wallets require login|mobile home renders|detail adds the selected|cart updates quantities|mobile reference state|mobile login authenticates|mobile signup checks' && node scripts/compare-frames.mjs",
+    "test:visual": "npm run build && playwright test tests/e2e/visual-regression.spec.ts",
+    "audit:accessibility": "node scripts/audit-accessibility.mjs",
+    "audit:lighthouse": "node scripts/lighthouse.mjs",
+    "audit:resource-timing": "node scripts/resource-timing.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/roboto-mono": "5.3.0",
+    "@mswjs/interceptors": "0.44.0",
+    "@mswjs/socket.io-binding": "0.2.0",
+    "@tailwindcss/vite": "4.3.4",
+    "@tanstack/react-query": "5.106.1",
+    "@tanstack/react-router": "1.170.46",
+    "axios": "1.21.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "cn": "0.5.2",
+    "msw": "2.15.0",
+    "radix-ui": "1.8.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "socket.io-client": "4.8.4",
+    "tailwind-merge": "3.7.0",
+    "tailwindcss": "4.3.4",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "axe-core": "4.14.0",
+    "fake-indexeddb": "6.2.7",
+    "kiwi-schema": "0.5.0",
+    "lighthouse": "13.6.0",
+    "oxlint": "1.91.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.6"
+  },
+  "engines": {
+    "node": "24.x",
+    "npm": "11.19.1"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  },
+  "packageManager": "npm@11.19.1"
+}

@@ -1,0 +1,1599 @@
+{
+  "id": "2:2",
+  "name": "Desktop / Início",
+  "rawNodeIds": [
+    "2:2",
+    "70353:242",
+    "70522:3240",
+    "70347:239",
+    "2:104",
+    "70342:2674",
+    "70342:2672",
+    "70342:2671",
+    "70342:2670",
+    "70342:2669",
+    "3:113",
+    "3:107",
+    "3:114",
+    "70342:2667",
+    "3:127",
+    "3:131",
+    "3:128",
+    "3:129",
+    "3:130",
+    "70342:2673",
+    "70342:2831",
+    "70410:3725",
+    "70485:382",
+    "70410:3791",
+    "70410:3792",
+    "70410:3793",
+    "70410:3794",
+    "70410:3795",
+    "70410:3796",
+    "70410:3797",
+    "70410:3798",
+    "70410:3799",
+    "70410:3800",
+    "70410:3801",
+    "70342:2830",
+    "70342:2829",
+    "70351:239",
+    "70351:240",
+    "4:138",
+    "4:144",
+    "4:145",
+    "70351:241",
+    "4:147",
+    "4:148",
+    "4:152",
+    "4:146",
+    "70342:2828",
+    "70342:2802",
+    "70342:2678",
+    "3:133",
+    "4:165",
+    "4:166",
+    "4:137",
+    "70342:2679",
+    "3:134",
+    "4:167",
+    "4:168",
+    "4:162",
+    "70342:2681",
+    "3:135",
+    "4:169",
+    "70342:2680",
+    "4:170",
+    "4:171",
+    "4:164",
+    "70342:2826",
+    "70342:2805",
+    "70342:2803",
+    "4:280",
+    "70342:2804",
+    "4:224",
+    "4:227",
+    "70342:2808",
+    "70342:2807",
+    "4:282",
+    "70342:2806",
+    "4:225",
+    "4:228",
+    "70342:2811",
+    "70342:2810",
+    "4:284",
+    "70342:2809",
+    "4:226",
+    "4:229",
+    "70342:2827",
+    "70342:2814",
+    "70342:2812",
+    "4:286",
+    "70342:2813",
+    "4:251",
+    "4:254",
+    "70342:2816",
+    "4:289",
+    "70342:2819",
+    "70342:2817",
+    "4:291",
+    "70342:2818",
+    "4:253",
+    "4:256",
+    "70342:2825",
+    "70342:2820",
+    "4:388",
+    "70342:2821",
+    "4:389",
+    "70342:2822",
+    "4:390",
+    "70342:2823",
+    "4:391",
+    "70342:2824",
+    "4:392",
+    "70353:241",
+    "70353:239",
+    "4:431",
+    "4:406",
+    "4:425",
+    "4:428",
+    "5:112",
+    "4:416",
+    "5:107",
+    "5:111",
+    "4:417",
+    "5:99",
+    "5:134",
+    "5:135",
+    "5:136",
+    "5:137",
+    "70353:240",
+    "4:419",
+    "4:420",
+    "4:423",
+    "4:426",
+    "5:113",
+    "5:114",
+    "70304:390",
+    "70304:391",
+    "70304:392",
+    "70304:393",
+    "5:130",
+    "5:131",
+    "5:132",
+    "5:133",
+    "70343:253",
+    "70343:254",
+    "70343:255",
+    "70343:256",
+    "70343:257",
+    "70343:258",
+    "70343:259",
+    "70343:260",
+    "70343:261",
+    "70343:262",
+    "70343:263",
+    "70343:264",
+    "70343:265",
+    "70343:266",
+    "70343:267",
+    "70343:268",
+    "70343:269",
+    "70343:270",
+    "70343:271",
+    "70343:272",
+    "70343:273",
+    "70343:274",
+    "70343:275",
+    "70343:276",
+    "70343:277",
+    "70343:278",
+    "70343:279",
+    "70343:280",
+    "70343:281",
+    "70343:282",
+    "70343:283",
+    "70343:284",
+    "70343:285",
+    "70343:286",
+    "70343:287",
+    "70343:288",
+    "70343:289",
+    "70343:290",
+    "70343:291",
+    "70343:292",
+    "70343:293",
+    "70492:696"
+  ],
+  "componentReferences": [
+    "2:36",
+    "4:149",
+    "4:153",
+    "4:393",
+    "5:100",
+    "70485:381",
+    "70486:529",
+    "70491:1286",
+    "70504:3017"
+  ],
+  "directTexts": [
+    {
+      "id": "3:113",
+      "text": "Bem-vindo à Kurio",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 10,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "3:107",
+      "text": "SEJA DONO DO FUTURO\nDA ARTE DIGITAL",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 43,
+      "lineHeight": {
+        "value": 70,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "3:114",
+      "text": "Descubra NFTs selecionados de criadores emergentes e consagrados. Colecione arte digital rara, apoie artistas e tenha uma parte da cultura da internet.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "3:127",
+      "text": "EXPLORAR",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70410:3795",
+      "text": "NFT EM DESTAQUE",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 24,
+      "lineHeight": {
+        "value": 32,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70410:3797",
+      "text": "OFERTA LIMITADA",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:138",
+      "text": "Todos os NFTs",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:144",
+      "text": "Novos lançamentos",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:145",
+      "text": "Em alta",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:147",
+      "text": "Ordenar por:",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:148",
+      "text": "Listados recentemente",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:165",
+      "text": "Emerald Ape #042",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:166",
+      "text": "1.19 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:167",
+      "text": "Sage Nomad #009",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:168",
+      "text": "1.69 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:169",
+      "text": "Neon Vessel #552",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:170",
+      "text": "1.99 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:171",
+      "text": "2.29 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:224",
+      "text": "Cosmic Bloom #118",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:227",
+      "text": "1.29 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:225",
+      "text": "Violet Nomad #314",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:228",
+      "text": "1.39 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:226",
+      "text": "Ivory Baron #088",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:229",
+      "text": "1.79 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:251",
+      "text": "Golden Beat #207",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:254",
+      "text": "0.99 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:253",
+      "text": "Golden Signal #160",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:256",
+      "text": "0.39 ETH",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:388",
+      "text": "1",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:389",
+      "text": "2",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:390",
+      "text": "3",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:391",
+      "text": "4",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:406",
+      "text": "Lançamentos gênesis\nde edição limitada",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:425",
+      "text": "Colecione edições escassas diretamente dos criadores antes da revelação pública.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:417",
+      "text": "Explorar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:420",
+      "text": "Arte digital selecionada\ne muito mais",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "4:426",
+      "text": "Explore novos artistas, coleções verificadas e obras digitais que definem a cultura.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 24,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70304:392",
+      "text": "Explorar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 20,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:255",
+      "text": "Diário da Cunhagem",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 28,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:256",
+      "text": "Histórias, guias e insights para colecionadores sobre o universo da propriedade digital.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:261",
+      "text": "12 de setembro  |  Leitura de 6 min",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:262",
+      "text": "Como funciona a propriedade de NFTs",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:263",
+      "text": "Aprenda a colecionar, negociar e verificar ativos digitais.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:265",
+      "text": "Ler mais",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:266",
+      "text": "→",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:270",
+      "text": "13 de setembro  |  Leitura de 2 min",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:271",
+      "text": "10 artistas digitais para acompanhar",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:272",
+      "text": "Conheça criadores que moldam a cultura digital.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:274",
+      "text": "Ler mais",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:275",
+      "text": "→",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:279",
+      "text": "15 de setembro  |  Leitura de 3 min",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:280",
+      "text": "Raridade, atributos e procedência",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:281",
+      "text": "Entenda raridade, procedência, direitos autorais e utilidade.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:283",
+      "text": "Ler mais",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:284",
+      "text": "→",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:288",
+      "text": "15 de setembro  |  Leitura de 2 min",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:289",
+      "text": "Como proteger sua carteira",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:290",
+      "text": "Proteja sua carteira, seus ativos e sua identidade.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": "RobotoMono-Medium"
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:292",
+      "text": "Ler mais",
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70343:293",
+      "text": "→",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 12,
+      "lineHeight": {
+        "value": 100,
+        "units": "PERCENT"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70486:529",
+      "id": "70486:510",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:513",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:515",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:516",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:517",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:523",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:528",
+      "text": "Entrar"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:796",
+      "text": "W"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:797",
+      "text": "Segurança da carteira"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:798",
+      "text": "Proteja sua carteira e colecione arte digital verificada com confiança."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:845",
+      "text": "C"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:846",
+      "text": "Criadores em destaque"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:847",
+      "text": "Conheça artistas, estúdios e comunidades que moldam a cultura digital na rede."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:963",
+      "text": "D"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:964",
+      "text": "Alertas de lançamentos"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:965",
+      "text": "Receba calendários de cunhagem, novidades de listas de acesso e análises do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1235",
+      "text": "Antecipe-se ao próximo lançamento"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1238",
+      "text": "digite seu e-mail..."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1240",
+      "text": "Enviar"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1241",
+      "text": "Receba lançamentos selecionados, histórias de criadores e novidades do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1246",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1248",
+      "text": "Feito para colecionadores,\ncriadores e cultura"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1250",
+      "text": "contato@email.com"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1252",
+      "text": "+55 11 4002 8922"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1257",
+      "text": "Meu perfil"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1258",
+      "text": "Meu perfil\nMinha coleção\nAtividade\nEstúdio do criador\nLista de interesse"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1260",
+      "text": "Central de ajuda"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1261",
+      "text": "Central de ajuda\nComo comprar NFTs\nCarteira e segurança\nPolítica do mercado\nDenunciar item"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1263",
+      "text": "Coleções"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1264",
+      "text": "Arte digital\nFotografia\nMúsica\nArte 3D\nUtilidade"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1267",
+      "text": "Redes sociais"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1282",
+      "text": "Carteiras compatíveis"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1284",
+      "text": "METAMASK  •  WALLETCONNECT  •  COINBASE"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1285",
+      "text": "© 2026 Kurio. Propriedade digital para todos."
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:319",
+      "text": "Coleções"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:323",
+      "text": "Arte digital"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:324",
+      "text": "(33)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:327",
+      "text": "Fotografia"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:328",
+      "text": "(12)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:331",
+      "text": "Música"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:332",
+      "text": "(65)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:335",
+      "text": "Arte 3D"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:336",
+      "text": "(39)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:339",
+      "text": "Colecionáveis"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:340",
+      "text": "(23)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:343",
+      "text": "Generativa"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:344",
+      "text": "(17)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:347",
+      "text": "Jogos"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:348",
+      "text": "(19)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:351",
+      "text": "Assinaturas"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:352",
+      "text": "(13)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:355",
+      "text": "Utilidade"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:356",
+      "text": "(18)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:358",
+      "text": "Faixa de preço"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:366",
+      "text": "Preço: 0,02 - 12,30 ETH"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:368",
+      "text": "Aplicar"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:370",
+      "text": "Rede"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:373",
+      "text": "Ethereum"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:374",
+      "text": "(119)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:376",
+      "text": "Polygon"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:377",
+      "text": "(78)"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:379",
+      "text": "Solana"
+    },
+    {
+      "componentId": "70485:381",
+      "id": "70485:380",
+      "text": "(86)"
+    }
+  ]
+}

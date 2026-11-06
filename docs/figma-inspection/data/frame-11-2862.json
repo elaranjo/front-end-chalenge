@@ -1,0 +1,474 @@
+{
+  "id": "11:2862",
+  "name": "Desktop / Pagamento",
+  "rawNodeIds": [
+    "11:2862",
+    "70522:3321",
+    "70493:2063"
+  ],
+  "componentReferences": [
+    "2:36",
+    "70486:555",
+    "70491:1286",
+    "70504:3190",
+    "9:1589"
+  ],
+  "directTexts": [],
+  "componentTextDefaults": [
+    {
+      "componentId": "70491:1286",
+      "id": "70491:796",
+      "text": "W"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:797",
+      "text": "Segurança da carteira"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:798",
+      "text": "Proteja sua carteira e colecione arte digital verificada com confiança."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:845",
+      "text": "C"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:846",
+      "text": "Criadores em destaque"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:847",
+      "text": "Conheça artistas, estúdios e comunidades que moldam a cultura digital na rede."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:963",
+      "text": "D"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:964",
+      "text": "Alertas de lançamentos"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:965",
+      "text": "Receba calendários de cunhagem, novidades de listas de acesso e análises do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1235",
+      "text": "Antecipe-se ao próximo lançamento"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1238",
+      "text": "digite seu e-mail..."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1240",
+      "text": "Enviar"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1241",
+      "text": "Receba lançamentos selecionados, histórias de criadores e novidades do mercado."
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1246",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1248",
+      "text": "Feito para colecionadores,\ncriadores e cultura"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1250",
+      "text": "contato@email.com"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1252",
+      "text": "+55 11 4002 8922"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1257",
+      "text": "Meu perfil"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1258",
+      "text": "Meu perfil\nMinha coleção\nAtividade\nEstúdio do criador\nLista de interesse"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1260",
+      "text": "Central de ajuda"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1261",
+      "text": "Central de ajuda\nComo comprar NFTs\nCarteira e segurança\nPolítica do mercado\nDenunciar item"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1263",
+      "text": "Coleções"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1264",
+      "text": "Arte digital\nFotografia\nMúsica\nArte 3D\nUtilidade"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1267",
+      "text": "Redes sociais"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1282",
+      "text": "Carteiras compatíveis"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1284",
+      "text": "METAMASK  •  WALLETCONNECT  •  COINBASE"
+    },
+    {
+      "componentId": "70491:1286",
+      "id": "70491:1285",
+      "text": "© 2026 Kurio. Propriedade digital para todos."
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3045",
+      "text": "Início / Mercado / Pagamento"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3048",
+      "text": "Perfil do colecionador"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3054",
+      "text": "Nome de exibição"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3055",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3059",
+      "text": "Rede"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3060",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3063",
+      "text": "Selecione uma rede"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3067",
+      "text": "Endereço da carteira"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3068",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3070",
+      "text": "Endereço 0x da carteira"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3073",
+      "text": "Tipo de carteira"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3074",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3077",
+      "text": "Selecione uma carteira"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3081",
+      "text": "E-mail"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3082",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3087",
+      "text": "Nome de usuário"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3088",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3092",
+      "text": "Nome do perfil"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3093",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3097",
+      "text": "ENS ou carteira secundária (opcional)"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3100",
+      "text": "Código de indicação"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3101",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3105",
+      "text": "Nome ENS"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3106",
+      "text": "*"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3109",
+      "text": ".eth"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3113",
+      "text": "Usar outra carteira?"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3115",
+      "text": "Observação do colecionador (opcional)"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3118",
+      "text": "Seus NFTs"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3122",
+      "text": "NFTs"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3123",
+      "text": "Subtotal"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3130",
+      "text": "Emerald Ape #042"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3131",
+      "text": "ID do token: #0042"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3133",
+      "text": "(x 2)"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3134",
+      "text": "2.38 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3139",
+      "text": "Violet Nomad #314"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3140",
+      "text": "ID do token: #0314"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3142",
+      "text": "(x 6)"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3143",
+      "text": "8.34 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3148",
+      "text": "Ivory Baron #088"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3149",
+      "text": "ID do token: #0088"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3151",
+      "text": "(x 9)"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3152",
+      "text": "16.11 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3154",
+      "text": "Tem um código promocional? Aplique aqui"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3156",
+      "text": "Subtotal"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3157",
+      "text": "26.83 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3159",
+      "text": "Desconto do lançamento"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3160",
+      "text": "(-) 00.00"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3162",
+      "text": "Taxa de rede"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3163",
+      "text": "0.016 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3164",
+      "text": "Taxa estimada"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3167",
+      "text": "Total"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3168",
+      "text": "26.846 ETH"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3170",
+      "text": "Carteira e rede"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3177",
+      "text": "METAMASK  •  WALLETCONNECT  •  COINBASE"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3181",
+      "text": "MetaMask"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3187",
+      "text": "Coinbase Wallet"
+    },
+    {
+      "componentId": "70504:3190",
+      "id": "70504:3189",
+      "text": "Confirmar compra"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:536",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:538",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:540",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:542",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:543",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:549",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:555",
+      "id": "70486:554",
+      "text": "Entrar"
+    }
+  ]
+}

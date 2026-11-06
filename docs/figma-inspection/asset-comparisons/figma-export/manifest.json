@@ -1,0 +1,58 @@
+{
+  "source": "Figma copy kChvpMLrhHxfKHjyzqWV3B",
+  "parentNodeId": "70483:242",
+  "description": "Sete SVGs retornados pelo conector para o grupo Google desktop; associação candidata por dimensões, cor e geometria. Composição e rasterização pendentes.",
+  "files": [
+    {
+      "file": "figma-social-0-1.svg",
+      "sha256": "a0ac95235f757b6f820778c7641b4dfcbea6b86b3007feebb1ea88d9b9728d6c",
+      "candidateNodeId": "70483:245"
+    },
+    {
+      "file": "figma-social-0-2.svg",
+      "sha256": "502d5067f7550430197c65c62645d2513e83f88337a42f2e9008fe4a4eadae6e",
+      "candidateNodeId": "70483:250"
+    },
+    {
+      "file": "figma-social-0-3.svg",
+      "sha256": "d8d5466e16c1fba7a46fe895157f51f31029390f256bb7c20b832edb753d8553",
+      "candidateNodeId": "70483:251"
+    },
+    {
+      "file": "figma-social-0-4.svg",
+      "sha256": "c293e9ddf51016e74411ffa71aae83a04cee53060bdd0624623b913f5cd4b4bb",
+      "candidateNodeId": "70483:244"
+    },
+    {
+      "file": "figma-social-0-5.svg",
+      "sha256": "e6e795dfe25a3d9d5ad477efea06552c8b8423b2ef5a3d500b9548472b9f0957",
+      "candidateNodeId": "70483:253"
+    },
+    {
+      "file": "figma-social-0-6.svg",
+      "sha256": "74177b5f0bc699619fa0299cc25077fc38864199d99ad1da481b89e41e4001d5",
+      "candidateNodeId": "70483:252"
+    },
+    {
+      "file": "figma-social-0-7.svg",
+      "sha256": "e97ec91ad93bf0e756547500eb622dcc5d6041b1a943c3deab483048ba48b330",
+      "candidateNodeId": "70483:254"
+    }
+  ],
+  "instanceScreenshots": [
+    {
+      "file": "google-button.png",
+      "nodeId": "70484:260",
+      "width": 340,
+      "height": 40,
+      "sha256": "be607f78de43bb4879fb0e832d8db340ff9d31edbe02b5f4e17c39287c5a7a9b"
+    },
+    {
+      "file": "facebook-button.png",
+      "nodeId": "70484:240",
+      "width": 340,
+      "height": 40,
+      "sha256": "321f6dbfe52fe4bc5dcf8365fa4666d1bd7555286fd252d144a1c725f4f589f1"
+    }
+  ]
+}

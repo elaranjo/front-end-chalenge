@@ -1,0 +1,5 @@
+# Fonte local
+
+A inspeção do Figma identificou Roboto Mono como família principal (`font/family`, nó `70320:302`). A aplicação inclui `@fontsource-variable/roboto-mono` 5.3.0, com pesos normais de 100 a 700 e arquivos WOFF2 distribuídos no build. A licença OFL acompanha o pacote em `node_modules/@fontsource-variable/roboto-mono/LICENSE` e também é distribuída em `public/assets/fonts/roboto-mono-OFL.txt`. A verificação de integridade compara os hashes das duas cópias.
+
+A família é carregada localmente pela aplicação; o teste `tests/e2e/local-fonts.spec.ts` verifica os pesos 400, 500 e 700 e sua disponibilidade após o carregamento, sem serviço externo de fontes. As 15 referências e os SVGs recuperados estão preservados, com seus manifestos em `docs/figma-inspection/references/manifest.json` e `public/assets/icons/manifest.json`. A inclusão da fonte e a integridade dos arquivos não comprovam, por si só, a fidelidade das métricas, dos recortes ou do layout; a comparação por frame permanece pendente.

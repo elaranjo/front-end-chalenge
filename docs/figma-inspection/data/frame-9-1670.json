@@ -1,0 +1,893 @@
+{
+  "id": "9:1670",
+  "name": "Desktop / Carteiras",
+  "rawNodeIds": [
+    "9:1670",
+    "70390:267",
+    "70522:3294",
+    "70390:266",
+    "70420:4594",
+    "70420:4595",
+    "70420:4596",
+    "70420:4597",
+    "70420:4598",
+    "70420:4599",
+    "70420:4600",
+    "70420:4601",
+    "70420:4602",
+    "70420:4603",
+    "70420:4604",
+    "70420:4605",
+    "70420:4606",
+    "70420:4607",
+    "70420:4608",
+    "70420:4609",
+    "70420:4610",
+    "70420:4611",
+    "70420:4612",
+    "70420:4613",
+    "70420:4614",
+    "70420:4615",
+    "70420:4616",
+    "70420:4617",
+    "70420:4618",
+    "70420:4619",
+    "70420:4620",
+    "70420:4621",
+    "70420:4622",
+    "70420:4623",
+    "70420:4624",
+    "70390:239",
+    "70390:240",
+    "70390:241",
+    "9:1703",
+    "9:1833",
+    "9:1834",
+    "70390:242",
+    "70390:243",
+    "70390:244",
+    "70304:401",
+    "9:1857",
+    "9:1858",
+    "9:1861",
+    "70390:245",
+    "70304:409",
+    "9:1860",
+    "9:1859",
+    "9:1862",
+    "70390:246",
+    "70390:247",
+    "70304:402",
+    "9:1712",
+    "9:1716",
+    "70390:248",
+    "9:1731",
+    "9:1836",
+    "9:1837",
+    "70390:249",
+    "70304:408",
+    "9:1721",
+    "9:1719",
+    "9:1744",
+    "70390:250",
+    "70390:251",
+    "70304:403",
+    "9:1839",
+    "9:1841",
+    "70390:252",
+    "9:1842",
+    "9:1840",
+    "70390:253",
+    "9:1846",
+    "9:1845",
+    "70390:254",
+    "70390:255",
+    "70304:404",
+    "9:1847",
+    "9:1849",
+    "70390:256",
+    "9:1852",
+    "9:1848",
+    "9:1854",
+    "70390:257",
+    "70304:407",
+    "9:1851",
+    "9:1850",
+    "9:1853",
+    "70390:258",
+    "70390:259",
+    "70304:405",
+    "9:1715",
+    "9:1718",
+    "9:1743",
+    "70390:260",
+    "70304:406",
+    "9:1713",
+    "9:1717",
+    "70390:261",
+    "9:1742",
+    "9:1714",
+    "9:1758",
+    "9:1741",
+    "70390:262",
+    "9:1753",
+    "70390:263",
+    "70390:264",
+    "9:1863",
+    "70390:265",
+    "9:1867",
+    "9:1866",
+    "9:1864",
+    "9:1865"
+  ],
+  "componentReferences": [
+    "2:36",
+    "70486:529",
+    "70504:3017",
+    "9:1443",
+    "9:1467",
+    "9:1477",
+    "9:1487",
+    "9:1589",
+    "9:1651"
+  ],
+  "directTexts": [
+    {
+      "id": "70420:4596",
+      "text": "Meu perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 18,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4600",
+      "text": "Dados do perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4603",
+      "text": "Carteiras",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4607",
+      "text": "Atividade",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4611",
+      "text": "Lista de interesse",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4614",
+      "text": "Ofertas",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4617",
+      "text": "Arquivos baixados",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4620",
+      "text": "Suporte",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": "RobotoMono-Regular"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 45,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "70420:4624",
+      "text": "Sair",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": "RobotoMono-Bold"
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1703",
+      "text": "Carteira principal",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 17,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1833",
+      "text": "Adicionar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1834",
+      "text": "Estas carteiras ficam disponíveis no pagamento e para receber NFTs comprados.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1857",
+      "text": "Nome de exibição",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1858",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1860",
+      "text": "Apelido da carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1859",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1712",
+      "text": "Rede",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1716",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1836",
+      "text": "Selecione uma rede",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1721",
+      "text": "Nome do perfil",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1719",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1839",
+      "text": "Endereço da carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1841",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1840",
+      "text": "Endereço 0x da carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1845",
+      "text": "ENS ou carteira secundária (opcional)",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1847",
+      "text": "Tipo de carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1849",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1848",
+      "text": "Selecione uma carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1851",
+      "text": "Código de indicação",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1850",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1715",
+      "text": "E-mail",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1718",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1713",
+      "text": "Nome ENS",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1717",
+      "text": "*",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 22,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1714",
+      "text": ".eth",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 15,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1753",
+      "text": "Salvar carteira",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1863",
+      "text": "Carteira secundária",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Bold",
+        "postscript": ""
+      },
+      "size": 17,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1866",
+      "text": "Igual à carteira principal",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1864",
+      "text": "Adicionar",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Medium",
+        "postscript": ""
+      },
+      "size": 16,
+      "lineHeight": {
+        "value": 16,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    },
+    {
+      "id": "9:1865",
+      "text": "Você ainda não adicionou uma carteira secundária.",
+      "font": {
+        "family": "Roboto Mono",
+        "style": "Regular",
+        "postscript": ""
+      },
+      "size": 14,
+      "lineHeight": {
+        "value": 15,
+        "units": "PIXELS"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "units": "PERCENT"
+      }
+    }
+  ],
+  "componentTextDefaults": [
+    {
+      "componentId": "70486:529",
+      "id": "70486:510",
+      "text": "KURIO"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:513",
+      "text": "Início"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:515",
+      "text": "Mercado"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:516",
+      "text": "Criadores"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:517",
+      "text": "Aprenda"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:523",
+      "text": "6"
+    },
+    {
+      "componentId": "70486:529",
+      "id": "70486:528",
+      "text": "Entrar"
+    }
+  ]
+}
