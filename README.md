@@ -41,7 +41,35 @@ npm run audit:lighthouse
 
 O Playwright inicia os servidores de desenvolvimento e preview quando necessário; se já estiverem ativos nas portas configuradas, reutiliza-os. Reinicie-os após alterações para evitar testar um build ou processo anterior. A última suíte E2E integral registrada, executada com dois processos (`npm run test:e2e -- --workers=2`), teve 247 testes aprovados e três falhas de contraste do hero mobile, cujas cores foram mantidas por decisão do usuário. O relatório Playwright de cada execução fica em `playwright-report/`, com traces para falhas; uma cópia da execução integral está em [reports/e2e-html-20261106-1831/index.html](reports/e2e-html-20261106-1831/index.html). As auditorias sobrescrevem seus relatórios nas pastas `reports/accessibility/` e `reports/lighthouse/`. O procedimento e as condições das medições Lighthouse estão em [reports/lighthouse/README.md](reports/lighthouse/README.md). A cobertura, os resultados e as limitações atuais estão em [reports/e2e-coverage.md](reports/e2e-coverage.md) e [reports/accessibility/revisao-manual.md](reports/accessibility/revisao-manual.md).
 
-As contas fictícias são `colecionador.a@kurio.test` / `DemoA!2026` e `colecionador.b@kurio.test` / `DemoB!2026`; o cupom é `KURIO10`. Para selecionar um cenário, use, por exemplo, `/?mockScenario=empty`, `/?mockScenario=payment-declined` ou `/?mockScenario=timeout-after-order-create`. A lista completa e o comando para resetar a simulação estão nas [instruções de desenvolvimento](docs/desenvolvimento-em-andamento.md#contas-e-cenários-simulados). Essas instruções também explicam como reproduzir recusa, falha de rede e recuperação após timeout.
+As contas fictícias são `colecionador.a@kurio.test` / `DemoA!2026` e `colecionador.b@kurio.test` / `DemoB!2026`; o cupom é `KURIO10`. A [documentação complementar](docs/desenvolvimento-em-andamento.md) reúne detalhes adicionais das verificações.
+
+## Cenários e reset dos mocks
+
+Os dados simulados ficam no navegador. Acesse a aplicação com `?mockScenario=<cenário>` na URL, por exemplo `/?mockScenario=empty`. Alterar o cenário redefine a simulação; recarregar com o mesmo cenário preserva o estado. Não há painel de seleção na interface.
+
+Os cenários disponíveis são: `default`, `visual-desktop`, `visual-mobile`, `empty`, `slow`, `out-of-order`, `network-error`, `http-400`, `http-401`, `http-403`, `http-404`, `http-409`, `http-422`, `http-500`, `http-503`, `session-expired`, `signup-conflict`, `validation-errors`, `favorite-failure`, `coupon-invalid`, `coupon-expired`, `price-change`, `sold-out`, `fee-change`, `timeout-after-order-create`, `payment-confirmed`, `payment-declined`, `pending-disconnect` e `duplicate-old-events`.
+
+Para restaurar o cenário padrão, abra o console do navegador em uma página da aplicação já controlada pelo service worker e execute:
+
+```js
+await fetch('/api/v1/__mock/reset', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ scenario: 'default', clockMode: 'real' }),
+}).then((response) => response.json())
+```
+
+O reset recria o estado fictício e limpa a sessão, os caches e rascunhos associados à geração anterior. `GET /api/v1/__mock/state` informa o cenário atual.
+
+## Reproduzir falhas
+
+1. **Falha de rede ou servidor:** abra `/?mockScenario=network-error` ou `/?mockScenario=http-503` e acesse o carrinho. Observe a mensagem e tente novamente; para recuperar o cenário normal, execute o reset acima.
+2. **Pagamento recusado:** abra `/?mockScenario=payment-declined`, autentique-se com uma conta fictícia, adicione um NFT, cadastre e conecte uma carteira e confirme o pedido. A recusa é simulada e o carrinho permanece disponível.
+3. **Timeout após criação:** abra `/?mockScenario=timeout-after-order-create`, prepare e confirme uma compra. A resposta é omitida após a criação simulada; recarregue e autentique-se com a mesma conta para recuperar a tentativa existente sem criar outra compra.
+4. **Sessão expirada durante recuperação:** execute `npx playwright test tests/e2e/checkout-recovery-ui.spec.ts -g 'lost order response'`. O teste controla a expiração e verifica a retomada do mesmo pedido.
+5. **Eventos antigos ou duplicados:** execute `npx playwright test tests/e2e/realtime-replay-responsive.spec.ts`; o teste dispara eventos pelo transporte simulado e verifica que o preço não regride.
+
+Os controles e as credenciais acima existem apenas na simulação. As ações de carteira e pagamento não executam transações reais.
 
 Implemente o **NFT Marketplace** em React e TypeScript, seguindo o [layout no Figma](https://www.figma.com/design/Ff0SksUi7UFtPWUO8kyNtw/Frontend-Challenge?node-id=0-1).
 

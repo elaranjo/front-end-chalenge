@@ -8,17 +8,28 @@ Este documento descreve a base existente, não uma entrega concluída. As telas 
 
 O banco simulado mantém catálogo, usuários, sessões, carrinhos, cotações, carteiras, pedidos e registros auxiliares. Nos resets dos cenários visuais, o carrinho é criado atomicamente para o visitante da nova geração, preservando a fixture mesmo quando uma tentativa anterior termina atrasada. Mutações relacionadas usam transações IndexedDB. Uma falha no banco não é apresentada como uma persistência bem-sucedida em memória. Os dados de demonstração e o serviço não representam operações reais de blockchain ou de pagamento.
 
-Os contratos completos de rotas, campos, erros e cenários estão em [contracts.md](openspec/changes/implement-nft-marketplace-challenge/contracts.md). As operações principais são:
+Os contratos REST usados pela aplicação são os seguintes. Os caminhos têm prefixo `/api/v1`, os corpos são JSON salvo no envio de perfil com avatar, e os dados privados exigem `Authorization: Bearer <token>` fictício. O contrato detalhado também está em [contracts.md](openspec/changes/implement-nft-marketplace-challenge/contracts.md).
 
-| Recurso | Operações |
-| --- | --- |
-| Sessão | `POST /auth/signup`, `POST /auth/login`, `GET /auth/session` e `POST /auth/logout`. |
-| Catálogo e favoritos | `GET /nfts`, `GET /nfts/:id`, `GET /favorites` e `PUT`/`DELETE /favorites/:nftId`. |
-| Carrinho e cotação | `GET /cart`, mutações em `/cart/items` e `/cart/coupon`, `POST /cart/merge` e `POST /quotes`. |
-| Conta | `GET`/`PUT /profile`, `GET /profile/avatar`, `GET /wallets`, `PUT /wallets/:slot` e operações em `/wallet-connections`. |
-| Pedidos | `POST /orders`, `GET /orders/attempts/:key` e `GET /orders/:id`. |
+| Método e rota | Entrada principal | Resposta ou efeito |
+| --- | --- | --- |
+| `POST /auth/signup` | Nome de usuário, e-mail, senha e confirmação | Cria usuário e sessão; conflito de nome ou e-mail retorna 409. |
+| `POST /auth/login` | E-mail e senha | Retorna token, sessão, usuário, validade e perfil; credenciais inválidas retornam 401. |
+| `GET /auth/session`, `POST /auth/logout` | Token | Recupera a sessão ou a revoga com suas conexões. |
+| `GET /nfts`, `GET /nfts/:id` | Busca, filtros, ordenação, página e aba; ou ID | Lista paginada com facetas e versões, ou detalhe; item inexistente retorna 404. |
+| `GET /favorites`, `PUT` ou `DELETE /favorites/:nftId` | Sessão e, nas mutations, ID do NFT | Consulta ou altera favoritos privados e sua versão. |
+| `GET /cart` | Sessão ou `X-Visitor-Id` | Carrinho, linhas, revisão, cotação e ajustes. |
+| `POST /cart/items`, `PATCH` ou `DELETE /cart/items/:lineId` | NFT, edição e quantidade na inclusão; quantidade na edição; `If-Match` | Retorna o carrinho atualizado; conflitos de estoque ou revisão retornam 409. A inclusão usa `X-Mutation-Id`. |
+| `PUT` ou `DELETE /cart/coupon`, `POST /cart/merge` | Código e revisão; ou visitante e chave de merge | Aplica/remove cupom ou incorpora o carrinho visitante de forma idempotente. Cupom inválido/expirado retorna 422. |
+| `POST /quotes` | Revisão do carrinho, carteira, rede e provedor | Cotação com itens, subtotal, desconto, taxa, total, validade e fingerprint. |
+| `GET` ou `PUT /profile`, `GET /profile/avatar` | Sessão; dados, avatar e alteração de senha no PUT | Consulta ou atualiza perfil atomicamente; avatar é obtido por requisição autenticada. |
+| `GET /wallets`, `PUT /wallets/:slot` | Sessão; dados e revisão no PUT | Consulta ou grava carteira principal/secundária com validação. |
+| `POST /wallet-connections`, `DELETE /wallet-connections/:id` | Carteira, provedor e rede; ou ID da conexão | Simula conexão, eventual recusa e desconexão. |
+| `POST /orders` | `Idempotency-Key`, cotação/fingerprint, revisão, coletor, carteira e conexão | Cria ou recupera a mesma tentativa; mesma chave com conteúdo diferente retorna 409. |
+| `GET /orders/attempts/:key`, `GET /orders/:id` | Chave ou ID e sessão | Recupera a tentativa ou o estado/recibo do proprietário; tentativa inexistente retorna 404. |
 
-Todas as rotas têm prefixo `/api/v1`. Dados privados usam token fictício, e o carrinho visitante usa identificador próprio. Revisões usam `If-Match`; inclusão no carrinho e criação de pedido usam chaves de idempotência. Valores em ETH trafegam como strings decimais. Erros incluem código, mensagem, campos opcionais, indicação de retry e identificador da requisição.
+Dados privados usam token fictício, e o carrinho visitante usa identificador próprio. Revisões usam `If-Match`; inclusão no carrinho e criação de pedido usam chaves de idempotência. Valores em ETH trafegam como strings decimais não negativas, com até 18 casas, e os cálculos usam wei inteiro. Uma resposta de erro segue `{ error: { code, message, fieldErrors?, retryable }, requestId }`: 400 indica requisição ilegível; 401, sessão inválida; 403, acesso indevido; 404, recurso ausente; 409, conflito; 422, validação; e 500/503, falha transitória.
+
+As estruturas principais são `NFT` (identidade, arte, rede, versões e edições com preço/estoque), `Cart` (proprietário, revisão, linhas e cotação), `Quote` (linhas, versões, totais, validade e fingerprint) e `Order` (estado, versão e snapshot imutável da compra). O pedido preserva item, preço, carteira e totais mesmo após alterações posteriores no catálogo ou na conta.
 
 ## Sessão e isolamento
 
@@ -41,6 +52,17 @@ TanStack Query usa chaves com parâmetros normalizados e, em recursos privados, 
 O cliente Socket.IO conecta por WebSocket, vincula a identidade e assina recursos ativos. O outbox propaga eventos entre abas. `EventGate` valida identidade, deduplica eventos e mantém marcas de versão; eventos invalidam consultas, e o REST autoritativo determina o estado do pedido. Reconexão e retorno de foco suspendem a prontidão enquanto os recursos ativos são reconciliados. O runtime remove seus listeners ao parar.
 
 O cliente envia `session.bind` e `resources.subscribe`; recebe `session.ready` e `resources.subscribed` antes de tratar os recursos. `nft.updated` identifica NFT e versão de catálogo; `order.updated` inclui proprietário, sessão de destino, pedido e estado. Eventos duplicados, antigos ou de outra sessão não devem sobrepor o estado aceito. O transporte é simulado pelo MSW no navegador: não há servidor Socket.IO externo, replay confiável após desconexão nem garantia de segurança equivalente a um backend real.
+
+O contrato de eventos usa `session.bind { token?|visitorId?, nonce }` seguido de `session.ready { sessionId, nonce }`; `resources.subscribe { catalog, nftIds, orderIds }` substitui as inscrições autorizadas e recebe `resources.subscribed`. `nft.updated` carrega `eventId`, `type`, `resourceId`, `version`, `catalogVersion`, `occurredAt` e payload de NFT/edições. `order.updated` acrescenta proprietário, sessão de destino e payload com pedido/estado. Após reconectar, o cliente faz novo bind e consulta REST antes de liberar o checkout. O payload de evento não é tratado isoladamente como confirmação de compra.
+
+## Decisões de experiência e limites
+
+- Perfil, carteiras e recibo também funcionam em mobile, embora não exista frame específico para cada um; o checkout mobile divide dados e conexão em etapas e permite revisar os dados antes do envio.
+- O catálogo usa busca, filtros e paginação na URL; favoritos exigem sessão e atualizam otimisticamente com rollback quando a mutation falha.
+- O visitante mantém o carrinho ao autenticar; alterações de preço, estoque, cupom ou taxa exigem revisão e confirmação explícita da nova cotação.
+- O checkout usa carteiras cadastradas e representa conexão recusada, pedido pendente ou recusado e recuperação por chave após timeout. A confirmação exibe apenas o resultado confirmado pelo mock.
+- Ações sociais, recuperação de senha, newsletter e recursos fora do escopo não fingem integração. Links de transação e conexão de carteira são simulações; os dados ficam no navegador e não substituem segurança de um backend real.
+- Skeletons reservam espaço e respeitam movimento reduzido. Estados sem frame próprio seguem a identidade do projeto; as diferenças conhecidas dos frames estão descritas abaixo.
 
 ## Divergências visuais identificadas
 
