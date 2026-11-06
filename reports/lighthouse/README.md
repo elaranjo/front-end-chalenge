@@ -1,5 +1,7 @@
 # Auditoria Lighthouse local
 
+Esta pasta preserva as medições no preview local. A coleta posterior feita diretamente na Vercel, com seus 12 relatórios e medianas, está em [lighthouse-vercel-20261106](../lighthouse-vercel-20261106/README.md).
+
 ## Coleta mais recente
 
 Em 06/11/2026 às 20:15 UTC, o build local foi medido novamente, com três execuções por página/perfil. Os 12 arquivos HTML, 12 JSON e `summary.json` correspondem a esta coleta; não houve erros de execução nem avisos do Lighthouse. O SHA-256 do `index.html` servido no preview e do build local é `b02c79fbcc496f433f2730dcfa0ce65bf039cd55ef03f6e76ace5d105587090e`. As coletas das [17:08 UTC](../lighthouse-20261106-1708/README.md), [16:57 UTC](../lighthouse-20261106-1657/README.md), [16:37 UTC](../lighthouse-20261106-1637/README.md), [16:27 UTC](../lighthouse-20261106-1627/README.md) e [14:23 UTC](../lighthouse-20261106-anterior/README.md) foram preservadas; a tabela histórica abaixo descreve uma coleta ainda anterior. Ambiente: macOS arm64, Apple M2 Pro, Node 24.22.1, Chrome for Testing 156.0.8078.4 e Lighthouse 13.6.0, com perfis temporários e mocks ativos.

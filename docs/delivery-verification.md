@@ -4,6 +4,8 @@ Este documento registra evidências de preparação; não aprova a entrega nem o
 
 ## Publicação e verificações parciais de 06/11/2026
 
+- Posteriormente, o Lighthouse foi executado diretamente na URL pública, três vezes por página e perfil. As medianas de Performance foram 96 e 97 no mobile e 100 nas duas páginas no desktop; Acessibilidade, Boas práticas e SEO tiveram mediana 100 em todos os perfis. Os [12 relatórios e limites da coleta](../reports/lighthouse-vercel-20261106/README.md) estão preservados separadamente das medições locais.
+
 - Depois das verificações abaixo, o commit `f8dbe1f` foi enviado ao repositório de entrega e publicado no mesmo projeto Vercel; esse commit acrescentou testes e documentação, sem alterações no código da aplicação, assets ou configuração de build em relação a `d1810af`. Na nova publicação, a página inicial e o detalhe com refresh foram verificados. As observações a seguir identificam o commit efetivamente usado em cada teste anterior.
 
 - A pedido do usuário, o projeto existente `frontend-challenge` da equipe `elaranjo-1483` recebeu um deployment de produção a partir do commit `d1810afe72bffa7bc8d4cb61f12b2aaccaeda716` de [elaranjo/front-end-chalenge](https://github.com/elaranjo/front-end-chalenge). O deployment `dpl_Dp4RWdYbEvoCDrSSHuxSu4o8nTEk` ficou `READY` e sua metadata identificou esse repositório e commit. A URL [frontend-challenge-one-tau.vercel.app](https://frontend-challenge-one-tau.vercel.app/) respondeu HTTP 200 sem autenticação e exibiu a página inicial em português.

@@ -41,6 +41,19 @@ npm run audit:lighthouse
 
 O Playwright inicia os servidores de desenvolvimento e preview quando necessário; se já estiverem ativos nas portas configuradas, reutiliza-os. Reinicie-os após alterações para evitar testar um build ou processo anterior. A última suíte E2E integral registrada, executada com dois processos (`npm run test:e2e -- --workers=2`), teve 247 testes aprovados e três falhas de contraste do hero mobile, cujas cores foram mantidas por decisão do usuário. O relatório Playwright de cada execução fica em `playwright-report/`, com traces para falhas; uma cópia da execução integral está em [reports/e2e-html-20261106-1831/index.html](reports/e2e-html-20261106-1831/index.html). As auditorias sobrescrevem seus relatórios nas pastas `reports/accessibility/` e `reports/lighthouse/`. O procedimento e as condições das medições Lighthouse estão em [reports/lighthouse/README.md](reports/lighthouse/README.md). A cobertura, os resultados e as limitações atuais estão em [reports/e2e-coverage.md](reports/e2e-coverage.md) e [reports/accessibility/revisao-manual.md](reports/accessibility/revisao-manual.md).
 
+### Lighthouse no deploy da Vercel
+
+Em 06/11/2026, a URL pública foi auditada três vezes por página e perfil. As medianas foram:
+
+| Página | Perfil | Performance | Acessibilidade | Boas práticas | SEO |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Início | Mobile | 96 | 100 | 100 | 100 |
+| Início | Desktop | 100 | 100 | 100 | 100 |
+| Detalhe | Mobile | 97 | 100 | 100 | 100 |
+| Detalhe | Desktop | 100 | 100 | 100 | 100 |
+
+As 12 execuções atingiram as metas de pontuação e não tiveram erros ou avisos do Lighthouse. Os [relatórios individuais e o resumo](reports/lighthouse-vercel-20261106/README.md) incluem LCP, CLS, TBT, ambiente e limitações; os [resultados locais anteriores](reports/lighthouse/README.md) permanecem preservados. A nota automática de acessibilidade não substitui a revisão manual nem invalida a limitação conhecida de contraste do hero mobile.
+
 As contas fictícias são `colecionador.a@kurio.test` / `DemoA!2026` e `colecionador.b@kurio.test` / `DemoB!2026`; o cupom é `KURIO10`. A [documentação complementar](docs/desenvolvimento-em-andamento.md) reúne detalhes adicionais das verificações.
 
 ## Cenários e reset dos mocks

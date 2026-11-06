@@ -28,7 +28,7 @@ Posteriormente, um checkout isolado do commit `6c664d8` passou em `npm ci`, cóp
 
 Uma clonagem nova do repositório de entrega no commit publicado `d1810af` também passou em `npm ci`, typecheck, lint, build e 106 testes focados; no preview, detalhe direto e refresh, service worker e API simulada foram verificados. As limitações e a verificação da URL pública estão em [delivery-verification.md](delivery-verification.md).
 
-Para repetir as 12 medições Lighthouse em um preview de produção, siga o procedimento e consulte as limitações em [reports/lighthouse/README.md](../reports/lighthouse/README.md).
+As [12 medições Lighthouse da URL publicada](../reports/lighthouse-vercel-20261106/README.md) atingiram as metas em todas as medianas. Para repetir a coleta em um preview de produção e consultar o histórico local, siga o procedimento em [reports/lighthouse/README.md](../reports/lighthouse/README.md). O script aceita `LIGHTHOUSE_BASE_URL` para apontar à URL pública, mas sobrescreve os arquivos em `reports/lighthouse/`; preserve os relatórios existentes antes de executá-lo.
 
 Com o preview ativo na porta 4173, `npm run audit:accessibility` executa as regras automatizadas WCAG 2 A/AA e 2.1 A/AA do axe nas telas principais, incluindo erros de autenticação, carrinho vazio, revisão e recibo, em 390, 414, 768 e 1440 pixels, e grava `reports/accessibility/axe.json`. O comando retorna código de erro quando encontra violações; resultados inconclusivos exigem revisão manual. Essa coleta não substitui os testes manuais e a revisão dos estados adicionais.
 
