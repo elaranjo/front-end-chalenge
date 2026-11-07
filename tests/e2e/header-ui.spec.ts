@@ -1,5 +1,22 @@
 import { expect, test } from '@playwright/test'
 
+for (const path of ['/', '/nfts/emerald-ape-042']) {
+  test(`unavailable navigation options are disabled on ${path}`, async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 })
+    await page.goto(`http://127.0.0.1:5173${path}`)
+    const navigation = page.getByRole('navigation', { name: 'Navegação principal' })
+    for (const name of ['Criadores', 'Aprenda']) {
+      const button = navigation.getByRole('button', { name, exact: true })
+      await expect(button).toBeDisabled()
+      await button.hover()
+      await expect(button).toHaveCSS('cursor', 'not-allowed')
+      await button.evaluate((element: HTMLButtonElement) => element.click())
+      await expect(page.getByText('Esta opção não está disponível nesta demonstração.')).toHaveCount(0)
+    }
+    expect(new URL(page.url()).pathname).toBe(path)
+  })
+}
+
 test('desktop header shows cart quantity, accessible search and session entry', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 })
   await page.goto('http://127.0.0.1:5173/nfts/emerald-ape-042')

@@ -8,6 +8,7 @@
 .home-logo { font-weight: 700; letter-spacing: 1.4px; }
 .home-header nav { display: flex; align-items: center; gap: 40px; height: 100%; }
 .home-header nav a, .home-header nav button { display: flex; align-items: center; height: 100%; padding: 0; border: 0; background: none; color: #f5f1eb; cursor: pointer; }
+.home-header nav button:disabled { cursor: not-allowed; }
 .home-header nav a[aria-current] { color: #e89b55; border-bottom: 3px solid #d28a4c; font-weight: 700; }
 .home-login { display: flex; align-items: center; gap: 4px; padding: 6px 10px; border-radius: 5px; background: #d28a4c; color: #140d0a !important; }
 .home-login img { width: 21px; height: 20px; }

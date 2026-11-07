@@ -37,6 +37,7 @@
 @media (max-width: 767px) { .wallet-header { height: 56px; } .wallet-layout { display: block; margin-top: 20px; } .wallet-sidebar { margin-bottom: 24px; } .wallet-fields { grid-template-columns: 1fr; gap: 18px; } .wallet-heading { align-items: start; } .wallet-secondary > div { display: flex; flex-direction: column; align-items: end; } }
 .wallet-header nav { align-items: center; height: 100%; }
 .wallet-header nav a, .wallet-header nav button { display: flex; align-items: center; height: 100%; padding: 0; border: 0; background: none; color: #f5f1eb; }
+.wallet-header nav button:disabled { cursor: not-allowed; }
 .wallet-header nav a[aria-current] { color: #e89b55; border-bottom: 3px solid #d28a4c; font-weight: 700; }
 .account-header-actions { display: flex; align-items: center; gap: 28px; }
 .account-icon { display: grid; place-items: center; padding: 0; border: 0; background: none; }
@@ -54,7 +55,6 @@
 .account-search form { position: absolute; z-index: 4; top: 30px; right: 0; display: grid; gap: 8px; width: 260px; padding: 16px; background: #241612; box-shadow: 0 4px 20px #0008; }
 .account-search input { min-width: 0; padding: 8px; border: 1px solid #4a2a1d; background: transparent; color: #f5f1eb; }
 .account-search form button { padding: 8px; border: 0; background: #d28a4c; color: #140d0a; }
-.account-header-notice { width: min(1200px, calc(100% - 48px)); margin: 8px auto; }
 @media (max-width: 1279px) { .wallet-header nav { display: none; } }
 @media (min-width: 1280px) {
   .wallet-header { position: relative; }

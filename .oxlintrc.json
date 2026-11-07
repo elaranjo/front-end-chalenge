@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "ignorePatterns": ["reports/e2e-html/**"],
+  "ignorePatterns": ["reports/e2e-html/**", "reports/e2e-html-*/**"],
   "plugins": ["react", "typescript", "oxc"],
   "rules": {
     "react/rules-of-hooks": "error",
